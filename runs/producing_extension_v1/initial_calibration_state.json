@@ -1,0 +1,10 @@
+{
+  "score_pools": {},
+  "pending_forecasts": {},
+  "aci_initial_alpha": [
+    0.5,
+    0.2,
+    0.1
+  ],
+  "scope": "Each case starts with empty forecast/score state, followed by the declared January warmup."
+}

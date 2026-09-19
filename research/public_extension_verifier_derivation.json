@@ -1,0 +1,16 @@
+{
+  "status": "all original verifier function ASTs unchanged",
+  "parent_sha256": "77b4d4f12ada909c996bad8bfc720a92fa548c09252fdeb457b5e1316161b14a",
+  "public_verifier_sha256": "30c844a0996930b4d79a39b162bebbca2dfec312a55770a7bc28169e0bd9b415",
+  "unchanged_functions": [
+    "require",
+    "independently_score",
+    "expected_phases",
+    "expected_label_updates",
+    "verify"
+  ],
+  "new_functions": [
+    "prepare_public_context"
+  ],
+  "changes": "Explicit public protocol validator; CLI context/source snapshot creation needed by extension analysis; no arithmetic or receipt-check changes"
+}

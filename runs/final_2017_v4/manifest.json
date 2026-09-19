@@ -1,0 +1,2953 @@
+{
+  "status": "complete frozen evaluation",
+  "freeze_sha256": "b01f5fa92907e3967e61628d70a664ada8114398132aa32cea95e875e2151960",
+  "config_sha256": "e50a7a8a00370a91ebce4f789c8a037012ab0da8c34b1f6f496055f3e4e32f75",
+  "code_sha256": {
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/baselines_v3.py": "085b0bc745d255442a86e81fc882f875f2275c675697826873957299ca89fcc1",
+    "solar_recovery/baselines_v4.py": "b5b4b09269fe0d624045900aaa7e69af7fdb07791318b9f392076d41ed49e045",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/calibration_v2.py": "56d123ad876085a6959a1b4226f1da9d16398f13af9655904177e989f3949f8e",
+    "solar_recovery/calibration_v3.py": "c8c32355bc42e07e347ec62bbb571cf46a940b314265bc61dbcd94a7043b8176",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/data_v2.py": "2f143ad98b1b96b837a8f54f35e25696c9687c96016674914a2e3c0f500b499b",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/replay_v3.py": "01733635af651b62302904e82c691e0d7b6394c67d668584bc701397b85f0af3",
+    "solar_recovery/replay_v4.py": "a142ed60715c8c31e75a785eda8709890ac77687cd6fea0d424ffe2596f3f91f",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4",
+    "research/run_annual_baselines.py": "9bad4383e8ee17356e95903f09990f5f337d09bc5a1bae88c671bf2cb4d2203b",
+    "research/run_annual_calibration.py": "4f13cf83e218a60ab4925ac2ed92dcba11d9e1393d67d21b73f3bff43c958d0e",
+    "research/final_evaluation.py": "237316b2bc3c3d6b270ba82a198374c3c071aa25b8df5e7067e675013adaa338"
+  },
+  "python": "3.14.0",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "22.0.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "training": {
+    "nist/2016/primary/none": {
+      "model_sha256": "512034625b4fd8b24e2b6997f3346da9a328f64402567873ccce86e2c613db0d",
+      "quantile_counts": {
+        "1": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.16468065027276785,
+            0.20465222137074163,
+            0.23581492156134626,
+            0.24929598347105938,
+            0.2572313455668383,
+            0.25578052920154154,
+            0.2546475091513964
+          ],
+          "training_crossing_fraction": 0.4283310120705664,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "2": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.11871925786140954,
+            0.16904732789537869,
+            0.21692449538892916,
+            0.24474830663621078,
+            0.25197103896895273,
+            0.2534070882560309,
+            0.2563843282269663
+          ],
+          "training_crossing_fraction": 0.3918871866295265,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "3": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.08460120973682587,
+            0.1410340241496484,
+            0.20652131397702933,
+            0.23726755539812167,
+            0.24925003669133644,
+            0.2567070621603049,
+            0.2627233901128113
+          ],
+          "training_crossing_fraction": 0.3942664809656453,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "4": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.06463206259060907,
+            0.11980398851437067,
+            0.19001951205962347,
+            0.23264909710243284,
+            0.24773048802648062,
+            0.2604654968893332,
+            0.26419340265353397
+          ],
+          "training_crossing_fraction": 0.37941039925719594,
+          "training_target_zero_fraction": 0.031337047353760444
+        }
+      },
+      "donor_count": 8648,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T06:00:00+00:00"
+    },
+    "nist/2015/primary/none": {
+      "model_sha256": "3c3c73bc33d63bd37d028eea37636686da1f02d7010d8a4af6766d96010cf60e",
+      "quantile_counts": {
+        "1": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.11741537702936658,
+            0.1497927014354514,
+            0.23306965377959124,
+            0.2537117908832756,
+            0.26429468769246933,
+            0.2688026541970747,
+            0.26938093089097814
+          ],
+          "training_crossing_fraction": 0.5249742533470649,
+          "training_target_zero_fraction": 0.13851699279093718
+        },
+        "2": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.09248353150599622,
+            0.1516263944575934,
+            0.21158375707870217,
+            0.24895702101354256,
+            0.26304408413529595,
+            0.2660398093855076,
+            0.25652157092618383
+          ],
+          "training_crossing_fraction": 0.522399588053553,
+          "training_target_zero_fraction": 0.13851699279093718
+        },
+        "3": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.06452540674780533,
+            0.11991617966697349,
+            0.1972174422773451,
+            0.24354640699715108,
+            0.25880056668723633,
+            0.2626900848658099,
+            0.25726210213643846
+          ],
+          "training_crossing_fraction": 0.5076596292481977,
+          "training_target_zero_fraction": 0.13851699279093718
+        },
+        "4": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.06580770216024259,
+            0.1058176282735668,
+            0.18578023764523818,
+            0.2377179653210419,
+            0.25840264221865183,
+            0.2623297701619083,
+            0.26053379340641813
+          ],
+          "training_crossing_fraction": 0.4902806385169928,
+          "training_target_zero_fraction": 0.13851699279093718
+        }
+      },
+      "donor_count": 7319,
+      "latest_donor_end": "2016-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2015-01-01T06:00:00+00:00"
+    },
+    "nist/2016/primary/no_age": {
+      "model_sha256": "3d4a954a47d5e6404055044425e2bdc543995615f2513acd1bcbae3d032fdce8",
+      "quantile_counts": {
+        "1": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.16616415217444855,
+            0.20292379126199334,
+            0.2353631976540077,
+            0.24948055418846352,
+            0.25747075926520113,
+            0.25634481104803863,
+            0.25555466060951787
+          ],
+          "training_crossing_fraction": 0.4282149489322191,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "2": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.1195499854892542,
+            0.16728134481479812,
+            0.21762296233046294,
+            0.24497684179869642,
+            0.25206330352768447,
+            0.2534070882560309,
+            0.2562348230612314
+          ],
+          "training_crossing_fraction": 0.3925255338904364,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "3": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.08311085673681565,
+            0.1415048731210439,
+            0.20652131397702933,
+            0.23760038354856808,
+            0.24867636525307077,
+            0.2565510478286419,
+            0.2628482392962288
+          ],
+          "training_crossing_fraction": 0.3973421541318477,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "4": {
+          "rows": 17232,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.0681788167406021,
+            0.12153446841786252,
+            0.19001951205962347,
+            0.23264909710243284,
+            0.24773048802648062,
+            0.26088155410389735,
+            0.26480757874827576
+          ],
+          "training_crossing_fraction": 0.379236304549675,
+          "training_target_zero_fraction": 0.031337047353760444
+        }
+      },
+      "donor_count": 8648,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T06:00:00+00:00"
+    },
+    "nist/2016/primary/no_block": {
+      "model_sha256": "3d6b05c5976d2c8dd31b05e976b656bffca42b8ac7830916abfc0ab09101a334",
+      "quantile_counts": {
+        "1": {
+          "rows": 4308,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.1885264046226759,
+            0.21359965291405383,
+            0.2408574359897518,
+            0.25328043444951365,
+            0.25968535071684573,
+            0.2624177596349317,
+            0.2557453018827818
+          ],
+          "training_crossing_fraction": 0.473769730733519,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "2": {
+          "rows": 4308,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.15882470389891803,
+            0.18678305365563402,
+            0.22729559948988126,
+            0.2483895179297514,
+            0.2553188555969672,
+            0.25522141040196294,
+            0.25307694379578854
+          ],
+          "training_crossing_fraction": 0.4517177344475395,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "3": {
+          "rows": 4308,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.12307714690594744,
+            0.16533901141767998,
+            0.2162047847843587,
+            0.24095335051104153,
+            0.25037022621438876,
+            0.25616905804286694,
+            0.25873918853548356
+          ],
+          "training_crossing_fraction": 0.4180594243268338,
+          "training_target_zero_fraction": 0.031337047353760444
+        },
+        "4": {
+          "rows": 4308,
+          "unique_targets": 4308,
+          "quantile_prediction_std": [
+            0.11125762737984565,
+            0.1491168121693471,
+            0.20095597276724497,
+            0.2352314165705108,
+            0.24900214738296936,
+            0.2600169911543026,
+            0.2641697387058455
+          ],
+          "training_crossing_fraction": 0.3918291550603528,
+          "training_target_zero_fraction": 0.031337047353760444
+        }
+      },
+      "donor_count": 8648,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T06:00:00+00:00"
+    },
+    "colorado/2016/primary/none": {
+      "model_sha256": "7a4db3dafecec5c7f6e2b31f8f795131027cd9ab013ad47f8fc8d8605e705cd9",
+      "quantile_counts": {
+        "1": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.14257482912857708,
+            0.20703356722515767,
+            0.26087649519074047,
+            0.2777375138465427,
+            0.28355783585927136,
+            0.2868150550566134,
+            0.2812187603640666
+          ],
+          "training_crossing_fraction": 0.5248122012292283,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "2": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.07902769770821517,
+            0.16047205225576563,
+            0.24422621651996682,
+            0.27276170498534025,
+            0.2808860851741154,
+            0.282632076471306,
+            0.2743710489809838
+          ],
+          "training_crossing_fraction": 0.4787730480309583,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "3": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.06751099984899743,
+            0.13171411183602527,
+            0.2327186192650228,
+            0.2695695485389083,
+            0.28187308811167955,
+            0.28166510291946606,
+            0.2772587820418455
+          ],
+          "training_crossing_fraction": 0.47615524698383793,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "4": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.05765470034419657,
+            0.12238782829646248,
+            0.22546708222548262,
+            0.2680673483723257,
+            0.281218801199149,
+            0.2819535080177606,
+            0.27678530408721647
+          ],
+          "training_crossing_fraction": 0.5002276348736626,
+          "training_target_zero_fraction": 0.0015934441156385158
+        }
+      },
+      "donor_count": 8775,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T08:00:00+00:00"
+    },
+    "colorado/2016/narrow_quality/none": {
+      "model_sha256": "36e795c7dcf67c29c693bd86eb26a4dd53694276e4c453b3d5a9b18a4b358dc1",
+      "quantile_counts": {
+        "1": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.14034777704003382,
+            0.2086684934682798,
+            0.2627077382506406,
+            0.2778869121946903,
+            0.28386506967077235,
+            0.2856203735784259,
+            0.27961071528694664
+          ],
+          "training_crossing_fraction": 0.5294787161393125,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "2": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.07953511601203604,
+            0.15578970014002175,
+            0.24278633978395125,
+            0.272092236103169,
+            0.28103258580807405,
+            0.28319888450667857,
+            0.27584458643829834
+          ],
+          "training_crossing_fraction": 0.4772365126337355,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "3": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.0665870030964422,
+            0.13261567442232344,
+            0.23276324930407596,
+            0.26949955954383653,
+            0.28101019938316946,
+            0.2802759364614738,
+            0.2769811572012712
+          ],
+          "training_crossing_fraction": 0.46187115866150696,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "4": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.06158629264554373,
+            0.12233563788252179,
+            0.22511503675564912,
+            0.2672937131239122,
+            0.2820096362792299,
+            0.280778337944469,
+            0.27665668115340636
+          ],
+          "training_crossing_fraction": 0.4811063054860005,
+          "training_target_zero_fraction": 0.0015934441156385158
+        }
+      },
+      "donor_count": 8768,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T08:00:00+00:00"
+    },
+    "colorado/2016/right_aligned/none": {
+      "model_sha256": "7ddefc62156cf4d600d1a171216d7965755b0ddd3426303f4c9924accd7814f9",
+      "quantile_counts": {
+        "1": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.1386691535497659,
+            0.21067787617141168,
+            0.26322673269254815,
+            0.27780998029335036,
+            0.2832623080812653,
+            0.2864877247973582,
+            0.2809677547354527
+          ],
+          "training_crossing_fraction": 0.5306737992260414,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "2": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.08088047449952622,
+            0.15360949562926823,
+            0.24412145235641008,
+            0.2726478435827121,
+            0.28151163800628676,
+            0.2837629286608133,
+            0.2737544259456066
+          ],
+          "training_crossing_fraction": 0.4676189392214887,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "3": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.0641070495611117,
+            0.13169818940818143,
+            0.23141926586900421,
+            0.26846060136483313,
+            0.2810261355312308,
+            0.2820559782354988,
+            0.27828473168806017
+          ],
+          "training_crossing_fraction": 0.4701798315501935,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "4": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.06052074566600978,
+            0.12480116209996035,
+            0.22614312402926967,
+            0.2669031747187097,
+            0.281424776012941,
+            0.2823809611772205,
+            0.276922680893741
+          ],
+          "training_crossing_fraction": 0.48742317323013884,
+          "training_target_zero_fraction": 0.0015934441156385158
+        }
+      },
+      "donor_count": 8775,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T08:00:00+00:00"
+    },
+    "colorado/2015/primary/none": {
+      "model_sha256": "e7b09d1152e5996f05c715e998ce43e5e29bf49a6c060ac748c8fc04f386c3bc",
+      "quantile_counts": {
+        "1": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.14694480109305713,
+            0.2083547212222002,
+            0.25394296342894107,
+            0.27201407587153975,
+            0.2803397749575865,
+            0.2816270040345492,
+            0.27628763053731414
+          ],
+          "training_crossing_fraction": 0.489785437114814,
+          "training_target_zero_fraction": 0.0025108422734535494
+        },
+        "2": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.08858910160074544,
+            0.15586724876331332,
+            0.23707244111444223,
+            0.2669089829785402,
+            0.2774333620448537,
+            0.27600028956112227,
+            0.27636256382787483
+          ],
+          "training_crossing_fraction": 0.4468157954804839,
+          "training_target_zero_fraction": 0.0025108422734535494
+        },
+        "3": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.08674480038268773,
+            0.1377033561950867,
+            0.2227696001217612,
+            0.2620984191328831,
+            0.2745326737998194,
+            0.2763142541490289,
+            0.27704440619933707
+          ],
+          "training_crossing_fraction": 0.4294110933576809,
+          "training_target_zero_fraction": 0.0025108422734535494
+        },
+        "4": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.08077276483696341,
+            0.13145895770485694,
+            0.2162900528302494,
+            0.2587634476445288,
+            0.2733258778715178,
+            0.27809539931174876,
+            0.2753232896051064
+          ],
+          "training_crossing_fraction": 0.45280757817849804,
+          "training_target_zero_fraction": 0.0025108422734535494
+        }
+      },
+      "donor_count": 8753,
+      "latest_donor_end": "2016-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2015-01-01T08:00:00+00:00"
+    },
+    "colorado/2016/primary/no_age": {
+      "model_sha256": "fce2eb0bd9b955a3b6c5bd61cb19cf2b844a14e5736aab06c1ed95b154dd3044",
+      "quantile_counts": {
+        "1": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.14155206713274057,
+            0.2076104277889004,
+            0.26087649519074047,
+            0.2777375138465427,
+            0.28355783585927136,
+            0.2868150550566134,
+            0.28066569830499355
+          ],
+          "training_crossing_fraction": 0.5265763715001138,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "2": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.08000547711264161,
+            0.15614331072227486,
+            0.24422621651996682,
+            0.27276170498534025,
+            0.2808860851741154,
+            0.282632076471306,
+            0.274579133088238
+          ],
+          "training_crossing_fraction": 0.4697245618028682,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "3": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.06751099984899743,
+            0.13171411183602527,
+            0.23159317931267678,
+            0.2695695485389083,
+            0.28187308811167955,
+            0.28166510291946606,
+            0.2772587820418455
+          ],
+          "training_crossing_fraction": 0.47786250853630774,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "4": {
+          "rows": 17572,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.05765470034419657,
+            0.12238782829646248,
+            0.22546708222548262,
+            0.2680673483723257,
+            0.281218801199149,
+            0.2819535080177606,
+            0.2764271808165284
+          ],
+          "training_crossing_fraction": 0.4989187343501024,
+          "training_target_zero_fraction": 0.0015934441156385158
+        }
+      },
+      "donor_count": 8775,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T08:00:00+00:00"
+    },
+    "colorado/2016/primary/no_block": {
+      "model_sha256": "e7ae8feef98133e340de1766f369a3d69a6370c9023c7c1bf6b43fe572cbd330",
+      "quantile_counts": {
+        "1": {
+          "rows": 4393,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.18172274636240848,
+            0.2261275186324501,
+            0.2689042900093067,
+            0.28226959630603027,
+            0.28712310871767216,
+            0.28776817580450303,
+            0.2735715894601085
+          ],
+          "training_crossing_fraction": 0.58433872069201,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "2": {
+          "rows": 4393,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.14004687868635968,
+            0.18758529124248832,
+            0.25144076606794785,
+            0.27638367902052174,
+            0.2828848534738803,
+            0.2882740469959113,
+            0.2756513450248316
+          ],
+          "training_crossing_fraction": 0.5363077623491919,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "3": {
+          "rows": 4393,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.11322031513929434,
+            0.1592889962841987,
+            0.23841489711131397,
+            0.27210404763516777,
+            0.28421705132712416,
+            0.2845960870364282,
+            0.2724405429004786
+          ],
+          "training_crossing_fraction": 0.5253812884133849,
+          "training_target_zero_fraction": 0.0015934441156385158
+        },
+        "4": {
+          "rows": 4393,
+          "unique_targets": 4393,
+          "quantile_prediction_std": [
+            0.09600254952932362,
+            0.14966661442112802,
+            0.2309573922487857,
+            0.27014707283206546,
+            0.28523020483179323,
+            0.2848319917031057,
+            0.27467339062189083
+          ],
+          "training_crossing_fraction": 0.5221944001821079,
+          "training_target_zero_fraction": 0.0015934441156385158
+        }
+      },
+      "donor_count": 8775,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T08:00:00+00:00"
+    }
+  },
+  "cases": {
+    "nist/clean": {
+      "site": "nist",
+      "case_id": "clean",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 382.71941233301186,
+      "forecasts_sha256": "4aed690871d22704b20c43b4a1aa9135f055b9c3264dcccc426b28b503b4c5f2",
+      "features_sha256": "2cbbfb5dccbbed9b4f98f63fa7f4cc475a0ba48259018e4a61e8267614abb747",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mask50": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "aci_bounded": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mi_recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/pv_only": {
+      "site": "nist",
+      "case_id": "pv_only",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 225.943107375002,
+      "forecasts_sha256": "250bfed5d61d9be08486aba85c39a053702bf49429efc468979c90fe4a90accd",
+      "features_sha256": "339e384803e61c42418be2bc053d73c6badfa0afbd48d0c8a5496ee25192aeaf",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mask50": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "aci_bounded": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mi_recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/irradiance_only": {
+      "site": "nist",
+      "case_id": "irradiance_only",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 263.30555395799456,
+      "forecasts_sha256": "ea3be4d2adc656dc41c70f4a5d000e9dbd95c529bcb5bc3ab1ba06537edf95d0",
+      "features_sha256": "f456cdd78d3be023bd12574da5d59d1107f49c6a76d7f7274c64fd1a38ff37c8",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mask50": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "aci_bounded": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mi_recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/joint_immediate": {
+      "site": "nist",
+      "case_id": "joint_immediate",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 461.7364337499894,
+      "forecasts_sha256": "edf6cae2635987030851217f06ada7d3114ff0f9577627a73f30f6aefa21e9d1",
+      "features_sha256": "3a53df71395c8e5e346f5e22602943a3588de29d6f382d905f697516ea287421",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mask50": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "aci_bounded": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mi_recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/joint_gradual": {
+      "site": "nist",
+      "case_id": "joint_gradual",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 424.7211950419878,
+      "forecasts_sha256": "5e7ffeb4366a9d476cc18af362e734623d87dd7ae08960cbdc39e659ff257236",
+      "features_sha256": "1dfafe8cca49c6558eaee4f12760e3093b45f2f353a545896dc281b263210955",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mask50": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "aci_bounded": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mi_recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/joint_none": {
+      "site": "nist",
+      "case_id": "joint_none",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 262.0565808750107,
+      "forecasts_sha256": "67c7dcb905604664c2d57ab71307d70e6978ec4588aa2fd5fa74c8d15cadc808",
+      "features_sha256": "19cab8e2b4ae978da9817b9f6901476ac60edc410faabd00459cfbcd696301fc",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "recency": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "physical": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "physical_availability": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "physical_recovery": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "mask50": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "aci_bounded": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "mi_recency": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        }
+      }
+    },
+    "nist/irradiance_first": {
+      "site": "nist",
+      "case_id": "irradiance_first",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 270.42697175001376,
+      "forecasts_sha256": "986ab7f98645adf84e414f615171acbc6b540158f670b4354913e502f221881f",
+      "features_sha256": "590a555211d4c052c4a47f0ec583a6af3eedf4f43730f605ce814788a39ba1bb",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mask50": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "aci_bounded": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mi_recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/pv_first": {
+      "site": "nist",
+      "case_id": "pv_first",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 12000,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 282.07631637499435,
+      "forecasts_sha256": "8bb53c73b04624b91f2985a2f452d29f6989696da9773cea3c9b0e65fbc44f9a",
+      "features_sha256": "a931b9ac6016859c47b6f72e710c2164b36a59f9f24b0ecb38c2d1665c239f86",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mask50": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "aci_bounded": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "mi_recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/duration_6h": {
+      "site": "nist",
+      "case_id": "duration_6h",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 109.46711045797565,
+      "forecasts_sha256": "9526a1cbc95515288839c424cc979a3a6f979310e510790affe024676450606f",
+      "features_sha256": "eadf4b382ba1ab04e2dc30109d2f49e71dcf7a8a67f090614582524979713a76",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/duration_24h": {
+      "site": "nist",
+      "case_id": "duration_24h",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 128.88538195798174,
+      "forecasts_sha256": "bf539e2e11ca58deedbe806cd4c95bbffb913307f685276b9d2f92b220387c5d",
+      "features_sha256": "22301fe4c4c79d15d890f553a73c3572dcedbbbcc96f4ce3230359f0bc09b2b3",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/backfill_60min": {
+      "site": "nist",
+      "case_id": "backfill_60min",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 165.8983049580129,
+      "forecasts_sha256": "ed84633cff3335b1b469193739cd886cb4b24f88c0c46cc41d9f8d7b97c4d439",
+      "features_sha256": "ad3a7e0b272f04edd1be051d312a3554617101acce075dab2af0b9511cadf958",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/channel_gap_6h": {
+      "site": "nist",
+      "case_id": "channel_gap_6h",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 114.13312883299659,
+      "forecasts_sha256": "c9bc4ac8fa6bf9e882fbb7aa4194e479ad1a5c3157e438f5c5320724a01e7280",
+      "features_sha256": "b333e6ada2e952021f00d41bfca6398975b789d3c99d48dae51b9ef5178ea147",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/schedule_seed_2": {
+      "site": "nist",
+      "case_id": "schedule_seed_2",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 134.58964383401326,
+      "forecasts_sha256": "34172a8d508065c3da1ae34b3d8dc47301340a7effdc031b3458e3c9bd26576f",
+      "features_sha256": "273596333ce1994ddbe25803c172d63df3bb5dccdf0e2b528ad9f79c019ca39e",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/schedule_seed_3": {
+      "site": "nist",
+      "case_id": "schedule_seed_3",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 102.52646770898718,
+      "forecasts_sha256": "2c55a2fe935ca1e6840d0c52e15d9ff255579ff23730254a6e1fef8c27fec60d",
+      "features_sha256": "83d0d62c13241f9cf22a63a5b52265c79959cf583e7c6319dbf7a13b7001cb56",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/narrow_quality": {
+      "site": "nist",
+      "case_id": "narrow_quality",
+      "case_group": "sensitivity",
+      "data_variant": "narrow_quality",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 100.55522016601753,
+      "forecasts_sha256": "ac964ad9ad9511fe30f7ec74e283f6b63821e3ad8b28995bc4d4c1664687fe6d",
+      "features_sha256": "1dfafe8cca49c6558eaee4f12760e3093b45f2f353a545896dc281b263210955",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/training_2015": {
+      "site": "nist",
+      "case_id": "training_2015",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2015",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 84.7427301669959,
+      "forecasts_sha256": "056dcbc11bfa2fc363b2fdd76119f09e4e0dc599b0e7f0d1515d813d963a2114",
+      "features_sha256": "1dfafe8cca49c6558eaee4f12760e3093b45f2f353a545896dc281b263210955",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/receipt_5min": {
+      "site": "nist",
+      "case_id": "receipt_5min",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 66.85325516600278,
+      "forecasts_sha256": "f8d7e3bbe01fc1a8ba4e62334bfbdb4d4b2cfa31ba7c031160774803d74aa9d9",
+      "features_sha256": "7d95ab79ddecd5f6ce82cc8a21633498ed0523ff920050e4f4f3ea9dd66df871",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/schedule_seed_4": {
+      "site": "nist",
+      "case_id": "schedule_seed_4",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 93.9369290000177,
+      "forecasts_sha256": "ac3766f8da25018bdadaf56f63298f84b16189af0558e484ce70f84c19cee76b",
+      "features_sha256": "b97315fa46915e75ce0e232bd198078695af35570cfdeb1ac5b48075b52d524c",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/schedule_seed_5": {
+      "site": "nist",
+      "case_id": "schedule_seed_5",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 81.16916699998546,
+      "forecasts_sha256": "40994ef18638a9eef3a2fd072a4aa4e54cabc5ecefad9cab33751794cda6b92d",
+      "features_sha256": "4b6042ce277b684d5d86243f51f3e44cec003fa39cb473dcf229d550efb72f68",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/no_input_age": {
+      "site": "nist",
+      "case_id": "no_input_age",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "no_age",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 226.9675606250239,
+      "forecasts_sha256": "e04e24c8f3529d112aa51e2323f443c5a75ef8d616b74583c67a1ffd4c34a3d2",
+      "features_sha256": "85677e56303461c9b2395e6345f09273f890e6cf3049f7edea0570799b8d1bdd",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/no_block_augmentation": {
+      "site": "nist",
+      "case_id": "no_block_augmentation",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "no_block",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 252.16378545801854,
+      "forecasts_sha256": "7cb7e285d50f6bc1a3640864173fd19e8e5c4958822d4e7cc46bca525c9e8867",
+      "features_sha256": "1dfafe8cca49c6558eaee4f12760e3093b45f2f353a545896dc281b263210955",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/privileged_labels": {
+      "site": "nist",
+      "case_id": "privileged_labels",
+      "case_group": "diagnostic",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": true,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 230.69921866600635,
+      "forecasts_sha256": "88a845d6143886fc794f08a6977a6a12e0635f40df9e427f7bb90f324d228e22",
+      "features_sha256": "1dfafe8cca49c6558eaee4f12760e3093b45f2f353a545896dc281b263210955",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/cross_site_weights": {
+      "site": "nist",
+      "case_id": "cross_site_weights",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "other_site",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 346.28719533298863,
+      "forecasts_sha256": "429b3cbf0710ab26f6df97b289161c9b635948d62f9f80810f800919b5b74149",
+      "features_sha256": "1dfafe8cca49c6558eaee4f12760e3093b45f2f353a545896dc281b263210955",
+      "calibration_updates": {
+        "recency": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 17000,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "nist/stale_transport": {
+      "site": "nist",
+      "case_id": "stale_transport",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 4000,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 192.1302157920145,
+      "forecasts_sha256": "c0677db2922ae600c6ed64b229b714d2772cbb5f5d3f3b92a10bbc5f1b761a6d",
+      "features_sha256": "fcddce83651a61c14ffac289934f2c98fd8b2b082a467b9e51368d1793a2ee86",
+      "calibration_updates": {
+        "recency": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "physical": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "physical_availability": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        },
+        "physical_recovery": {
+          "updates": 15688,
+          "alpha_clips": 0,
+          "pending_forecasts": 1856
+        }
+      }
+    },
+    "colorado/clean": {
+      "site": "colorado",
+      "case_id": "clean",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 163.83094479198917,
+      "forecasts_sha256": "0d05d5d4401927baa219ebe2856b423131d5559fc75a50128637530cd02d35a2",
+      "features_sha256": "3a04f4753f63c7941f5d1411ffcfd5f8a3463db0a3f67d3bf47d0ea80024103d",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mask50": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "aci_bounded": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mi_recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/pv_only": {
+      "site": "colorado",
+      "case_id": "pv_only",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 237.91927095901337,
+      "forecasts_sha256": "36780cab8d248afa380c8fe11c8c38ad370f57ae07bd6a0c6139a1c95f14ffae",
+      "features_sha256": "d2eab2168ba332e4e8bdf0910f668dd6d7670c9bf46fe00a7db54d891b174473",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mask50": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "aci_bounded": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mi_recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/irradiance_only": {
+      "site": "colorado",
+      "case_id": "irradiance_only",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 350.131819000002,
+      "forecasts_sha256": "65b54025eea85cbf21372321963c1a094636dd124ec6a4303acbdf440966d800",
+      "features_sha256": "2e9027c5253e51a2ac7e46174b556358840ac1227061fd081524987afd756254",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mask50": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "aci_bounded": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mi_recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/joint_immediate": {
+      "site": "colorado",
+      "case_id": "joint_immediate",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 262.85118029199657,
+      "forecasts_sha256": "92347d0997171ba40e3bad191f4803e67aa19db546c44c8871ed86bc3631a373",
+      "features_sha256": "6ec231b7a21e08814c8d2349e90dcfaa9faff1c730e00c326ef0dba6b4f2e44b",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mask50": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "aci_bounded": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mi_recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/joint_gradual": {
+      "site": "colorado",
+      "case_id": "joint_gradual",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 258.8799802499998,
+      "forecasts_sha256": "1f300f5c9298b25b242ddf4e63329670f44a17dc53d7da2251b7e1043e3139ef",
+      "features_sha256": "d7fdbd74514bd871a8827a19b49b74bcfd6769121f62008455196e80615dc83c",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mask50": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "aci_bounded": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mi_recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/joint_none": {
+      "site": "colorado",
+      "case_id": "joint_none",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 278.65622466700734,
+      "forecasts_sha256": "b85e62025f8d23f17c1703419cd7d23c5dd8c07767a9fc6bb76dd7cf50981c83",
+      "features_sha256": "b076a498fd3040eef30241e19bf9aaa5dc5f48761e274c0db1d0b920e87b18dc",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "recency": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "physical": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "physical_availability": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "physical_recovery": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "mask50": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "aci_bounded": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "mi_recency": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        }
+      }
+    },
+    "colorado/irradiance_first": {
+      "site": "colorado",
+      "case_id": "irradiance_first",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 248.77735333400778,
+      "forecasts_sha256": "c21e7a316d4a77e5a129eec381cd40949387e90e6694612e9eb517238d293c7a",
+      "features_sha256": "0c3aeac9d9d24a38147be4ec7901576b39d603005d6295bc9bb74af98d8ee026",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mask50": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "aci_bounded": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mi_recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/pv_first": {
+      "site": "colorado",
+      "case_id": "pv_first",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 18960,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 235.56312354200054,
+      "forecasts_sha256": "c17ad38feb5ece5bd1bee79463ee826d4999da7d6015898efd02d09e065a8e01",
+      "features_sha256": "91985fc1a3545dadafb20c0eb0bfb23b0ca577369a59ab9e55f44e0c2aeb2d43",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mask50": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "aci_bounded": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "mi_recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/duration_6h": {
+      "site": "colorado",
+      "case_id": "duration_6h",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 179.0940713339951,
+      "forecasts_sha256": "5bedba43ad3a74bb5772ec0cf556439d69f93af161ff65429954d62ef8534dba",
+      "features_sha256": "92d25833f1939366e73f1fd174491889d918df88ef31ad496d64c4ff0f9f9882",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/duration_24h": {
+      "site": "colorado",
+      "case_id": "duration_24h",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 168.82455991700408,
+      "forecasts_sha256": "ab7632cfb93c4955e24feeb2aa558b57a5aff5ec251887d873f840e740789ed8",
+      "features_sha256": "a69cc8db0d85d8ba0759650ca46a56a0c3c34c17a6a7e69b43f95632c5d01acd",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/backfill_60min": {
+      "site": "colorado",
+      "case_id": "backfill_60min",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 175.9339766660123,
+      "forecasts_sha256": "c1043b379ffde3340ba94e5cba3aaee5c111389956fc7fa33752523a7e9f5700",
+      "features_sha256": "7a80250bd2e9210a6dc91c5d2fcaef96c2f39c5eb2b4709e83e535eff18696a4",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/channel_gap_6h": {
+      "site": "colorado",
+      "case_id": "channel_gap_6h",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 196.83485949999886,
+      "forecasts_sha256": "21405e9bbf4f2b69bf55e9bf1ef9fb7a28d8c78dc2b6ac6e7dca72b62a537528",
+      "features_sha256": "107652d9e4e6dce5e9f7c8aab2f815ecd606e1a39cc2ac1cd83d0ee16863b95f",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/schedule_seed_2": {
+      "site": "colorado",
+      "case_id": "schedule_seed_2",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 252.15289783399203,
+      "forecasts_sha256": "7bea43ce9bb6fead3ad8c827ff3e924bea6f76c4fc789569e1cd1e187f5aa308",
+      "features_sha256": "4ab3ee324938f23b5e0acff861f39fc481aa2f8b8cd842a4b753446286b44616",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/schedule_seed_3": {
+      "site": "colorado",
+      "case_id": "schedule_seed_3",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 166.14175379098742,
+      "forecasts_sha256": "270254dd92e32595d69bc0c00ac2b11bbea80381bbf87214902615be96348a52",
+      "features_sha256": "77955a1f60ae9524e0edf37d6d279e62778fdff748a942db5a10366a1dd53776",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/narrow_quality": {
+      "site": "colorado",
+      "case_id": "narrow_quality",
+      "case_group": "sensitivity",
+      "data_variant": "narrow_quality",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": false,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 471.00661812498583,
+      "forecasts_sha256": "73fb5afcbb8327801e1dacf50239bca381daccd479ac68ac35b0e60c04f8b56f",
+      "features_sha256": "8a08032f8af70d740b35a67b8349f25a6027823a8885a4e7087ca8aaa77dd867",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/right_aligned": {
+      "site": "colorado",
+      "case_id": "right_aligned",
+      "case_group": "sensitivity",
+      "data_variant": "right_aligned",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": false,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 460.4856289169984,
+      "forecasts_sha256": "edc724928304af3fdba4369b9b2335769b110d7407c53af40ce5d9f85d2e4329",
+      "features_sha256": "2dd9a3a05feefa6ded0698761923ff7056bc41e502a349b81152987b2ae7b72e",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/training_2015": {
+      "site": "colorado",
+      "case_id": "training_2015",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2015",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 202.53664491701056,
+      "forecasts_sha256": "19f5f68339a1e7bd6f14056ff685a8bc2d8ab579c06b31a561a10635be3a41ed",
+      "features_sha256": "d7fdbd74514bd871a8827a19b49b74bcfd6769121f62008455196e80615dc83c",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/receipt_5min": {
+      "site": "colorado",
+      "case_id": "receipt_5min",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 211.15130058399518,
+      "forecasts_sha256": "82d93bba098028c5890268228b04d4045ab8b6390559ece59c5d96269d30d860",
+      "features_sha256": "aca45a461d9858265c500433493791e70f508071f0759ac59895b264c1727154",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/schedule_seed_4": {
+      "site": "colorado",
+      "case_id": "schedule_seed_4",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 145.63292574998923,
+      "forecasts_sha256": "c60d2db9a466e553748bfc48d66cc09b10f852d788ad154f970535d4c07bcd7f",
+      "features_sha256": "fa001132410021338c0d4d5ef0e4a01cacc52b39ba92213f2e76912ddf5f2aad",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/schedule_seed_5": {
+      "site": "colorado",
+      "case_id": "schedule_seed_5",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 130.60978329202044,
+      "forecasts_sha256": "ef60dd6a8fb12201230b18bc2c02de7744c431df74d45b4340296d1ecdbecc83",
+      "features_sha256": "95499efb83f2b8a2153ba3f64e5ed24ec8f752a308605ebd90f200ead4df3c9c",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/no_input_age": {
+      "site": "colorado",
+      "case_id": "no_input_age",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "no_age",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 394.8832401249965,
+      "forecasts_sha256": "57d81dc1dd2192eb7c14aa52cd6473406103116c641e05f654763628db15998c",
+      "features_sha256": "1644dae16168640929f60e23a73b93e6f530782c2c2bbac91472848d992877a5",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/no_block_augmentation": {
+      "site": "colorado",
+      "case_id": "no_block_augmentation",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "no_block",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 297.87148841598537,
+      "forecasts_sha256": "8a4740ff4415f67124f1ad4a4e9a73d18d24180d21f006417fc5267c6eb40ccd",
+      "features_sha256": "d7fdbd74514bd871a8827a19b49b74bcfd6769121f62008455196e80615dc83c",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/privileged_labels": {
+      "site": "colorado",
+      "case_id": "privileged_labels",
+      "case_group": "diagnostic",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": true,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 167.59838479198515,
+      "forecasts_sha256": "a0f34f6d60500f7b9ebd567c971e4cfd30a31424419eaf948187c299480b756f",
+      "features_sha256": "d7fdbd74514bd871a8827a19b49b74bcfd6769121f62008455196e80615dc83c",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/cross_site_weights": {
+      "site": "colorado",
+      "case_id": "cross_site_weights",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "other_site",
+      "model_site": "nist",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 83.51012812499539,
+      "forecasts_sha256": "9bba5aabbfecd7377d62b8141b5de9d2f1c13fb6b503cf0f2f902461cabf1ae8",
+      "features_sha256": "d7fdbd74514bd871a8827a19b49b74bcfd6769121f62008455196e80615dc83c",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_availability": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        },
+        "physical_recovery": {
+          "updates": 16984,
+          "alpha_clips": 0,
+          "pending_forecasts": 540
+        }
+      }
+    },
+    "colorado/stale_transport": {
+      "site": "colorado",
+      "case_id": "stale_transport",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "colorado",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 6320,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 65.53191858399077,
+      "forecasts_sha256": "39e30a7a9e61aebe9bccd7261a7b1e8e9e7c46647b22eb553b6ca97d2e90523c",
+      "features_sha256": "64d1f02b971a72f810e172f9ff25c7911c8e45974847b42df8007d721f6e0946",
+      "calibration_updates": {
+        "recency": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "physical": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "physical_availability": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        },
+        "physical_recovery": {
+          "updates": 15664,
+          "alpha_clips": 0,
+          "pending_forecasts": 1860
+        }
+      }
+    }
+  },
+  "total_forecasts": 14106960,
+  "elapsed_seconds": 10816.536349375005,
+  "interpretation": "Predeclared fixed-site evaluation and sensitivities; no distribution-free guarantee or population generalization. Wall time is shared-machine end-to-end time, not a latency benchmark."
+}

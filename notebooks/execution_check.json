@@ -1,0 +1,6 @@
+{
+  "status": "all code cells executed successfully",
+  "code_cells": 4,
+  "stdout": "Entirely synthetic demonstration, not paper performance evidence\n               method  horizon   n     nwis\nphysical_availability        1 193 0.027319\nphysical_availability        4 194 0.031911\n    physical_recovery        1 193 0.027290\n    physical_recovery        4 194 0.031964\n                  raw        1 193 0.027537\n                  raw        4 194 0.032271\n              recency        1 193 0.027505\n              recency        4 194 0.032267\nFinal analysis is not complete; no result is asserted.\n",
+  "scope": "Headless sequential code-cell execution against verified synthetic artifacts; not a saved interactive-kernel session"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "admitted for separately frozen recorded-AC replication with explicit alignment assumptions",
+  "forecast_performance_inspected": false,
+  "coverage_check": "pass; every month >=70%",
+  "near_idle_check": "pass; every annual/monthly bright fraction <=10%",
+  "timestamp": "fixed MST inferred; operator confirmation absent",
+  "target": "nonnegative mean of 60 recorded minute values in a declared bin; not physical-energy certification",
+  "required_sensitivities": [
+    "full minute-end alignment train/replay",
+    "five-minute receipt margin"
+  ],
+  "new_independent_climate": false,
+  "evidence_sha256": {
+    "research/reserve_10_qualification_v1/manifest.json": "440285c7fbadcf6714eeef18f3511a6689efe09603354295fa8ab68db227feb8",
+    "research/reserve_10_qualification_v1/FINDINGS.md": "03a388fa9757493e5692040a49f26931475ae04152ced86ed6ea4be299a88a41",
+    "research/RESERVE_SOURCE_10_PLAN.md": "4b2ea822d7cb0fddc9df0cd72ea3ac010856c49d8478312af2627357a2c63748",
+    "research/PRODUCING_SYSTEM_EXTENSION_PROTOCOL.md": "4f4b662ddc9a7f95d97d0f0a903804fe2b39aa027dfc1310910c72ba2c1fc77f"
+  }
+}

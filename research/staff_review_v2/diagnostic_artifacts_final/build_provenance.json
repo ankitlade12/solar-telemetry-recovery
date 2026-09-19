@@ -1,0 +1,15 @@
+{
+  "code_sha256": "769bae627444148b04940ae437bf261ccfb738f1ad2cb246fc83beb120f2b4ac",
+  "source_csv_sha256": {
+    "monthly_source_power.csv": "72d85f174e09aed40065fc5571b9386d2a328ef30f7a0e5303e67134ddf8fdd2",
+    "source_power_summary.csv": "0f7a79f8d83ff9b6056af0cded4e9875b1abd136ffc4f387c33c1e2c0db70f54",
+    "unique_scored_target_audit.csv": "1236df598dae02c72a15b7b3695031064746a087a0d62303cbb6e6eb957bb7e4",
+    "existing_summary_rows.csv": "71541ff379d8170475d75dd80b0ebd65118c21bf5304b64330becda9cf4fb41b"
+  },
+  "outputs_sha256": {
+    "Staff_Review_Diagnostics.xlsx": "41f98687f46106da2df0d772fd1fc29bbd4301b1a01f3d89e01d441fec396630",
+    "raw_hour_check.json": "035980e5ba9f138ebae9fc512e5b420f0bd4f164e39daf6f64276f7e92a23789",
+    "recorded_power_regime.pdf": "3c444c90b7305b49dc62e1e0c3e8d18941bc2dc87847192073a4ff9abda24ee2",
+    "recorded_power_regime.png": "976c00f010848c890ceaea90ae3441912f8d5d6cecb0251d4aaedcc0158e3e6c"
+  }
+}

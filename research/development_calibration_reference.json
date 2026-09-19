@@ -1,0 +1,10 @@
+{
+  "purpose": "Post-freeze verification of the already-fixed development reference, not a new final-result-dependent selection",
+  "source": "runs/annual_ac_calibration_v3/overall_metrics.csv",
+  "source_sha256": "7bb9b31a3e7ce731838f3fb44bd97e33a57c0efa266d7611eb98a2637e1b518d",
+  "period": "2016 validation",
+  "weighting": "Equal clean/joint-gradual scenario and horizon cells",
+  "eligible": "All non-recovery calibration outputs in the archived comparison",
+  "finding": "Physical context has the lowest validation NWIS among these eligible calibration controls at both sites.",
+  "limits": "Previous-day and carry-forward models were added to the final grid; this historical rank does not claim that every final baseline was compared during validation."
+}

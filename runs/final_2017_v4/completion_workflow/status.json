@@ -1,0 +1,27 @@
+{
+  "stage": "complete verified analysis; manuscript synthesis remains",
+  "producer_pid": 77168,
+  "started_at_utc": "2026-09-12T15:41:01.644361+00:00",
+  "stages": [
+    {
+      "module": "research.verify_final_evaluation",
+      "source_sha256": "77b4d4f12ada909c996bad8bfc720a92fa548c09252fdeb457b5e1316161b14a",
+      "began_at_utc": "2026-09-13T15:21:08.208572+00:00",
+      "returncode": 0,
+      "log_sha256": "e9d9821aa486b9598619c37bce5c9f1c566549b80c6f4fdc1304724af77157bb",
+      "ended_at_utc": "2026-09-13T15:25:41.817014+00:00"
+    },
+    {
+      "module": "research.analyze_final_evaluation",
+      "source_sha256": "39c0c87ac4f3c45d01f304d47849c7063a5c8e3a4c73d8984a409226ab0b77ca",
+      "began_at_utc": "2026-09-13T15:25:41.820324+00:00",
+      "returncode": 0,
+      "log_sha256": "b43470c03faa777bb3189256e3c9f53c0472485ee19805323fe5cc2c18854437",
+      "ended_at_utc": "2026-09-13T15:26:49.263423+00:00"
+    }
+  ],
+  "workflow_code_sha256": "3a88ec1e7795e8d6facbcfe5e6679882f432f6fc7cc528139700fed25d58191e",
+  "updated_at_utc": "2026-09-13T15:26:49.263493+00:00",
+  "completed_cases": 49,
+  "forecast_records": 14106960
+}

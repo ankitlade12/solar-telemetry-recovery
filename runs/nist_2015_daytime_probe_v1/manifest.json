@@ -1,0 +1,318 @@
+{
+  "status": "post-inspection exploratory diagnostic, not confirmatory",
+  "parent": "runs/nist_2015_pilot_v1",
+  "parent_model_sha256": "1c0b56c1ab62d3ae93ee9b3022abe28bbd0e4a7368155ab6c5fd563b88f2409c",
+  "parent_config": {
+    "status": "development pilot; not a preregistered final experiment",
+    "system_id": 4902,
+    "data_directory": "data/processed/nist_2015",
+    "train_end": "2015-07-01T00:00:00Z",
+    "calibration_end": "2015-08-15T00:00:00Z",
+    "validation_end": "2015-10-01T00:00:00Z",
+    "evaluation_end": "2016-01-01T00:00:00Z",
+    "horizons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "seed": 20260911,
+    "normal_receipt_lag_minutes": 0,
+    "outage_hours": 12,
+    "restoration_gap_hours": 3,
+    "event_spacing_days": 7,
+    "recovery_window_hours": 24,
+    "training_block_augmentation": true,
+    "max_iter": 60,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 30,
+    "learning_rate": 0.08,
+    "calibration_window_hours": 720,
+    "calibration_tau_hours": 336,
+    "calibration_shrinkage": 50,
+    "context_bandwidth": 1.0
+  },
+  "hourly_sha256": "64674f757bdc60cf857f40df2209b30a2bbd58ad49f0a03c2b8ec50ccf4de78d",
+  "code_sha256": {
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4"
+  },
+  "probe_script_sha256": "69b7041890d1d8fa26710af5948793f03dfaf70f5e45ff3b27c50a42cadd94d7",
+  "schedule_change": "subtract twelve hours from each original start and restoration",
+  "total_forecasts": 88320,
+  "scheduled_events": 52,
+  "daytime_full_restorations": 52,
+  "checks_passed": [
+    "source hash",
+    "finite ordered quantiles",
+    "unique forecast keys"
+  ],
+  "events": [
+    {
+      "start": "2015-01-05T02:00:00+00:00",
+      "irradiance_return": "2015-01-05T11:00:00+00:00",
+      "pv_return": "2015-01-05T14:00:00+00:00"
+    },
+    {
+      "start": "2015-01-12T05:00:00+00:00",
+      "irradiance_return": "2015-01-12T14:00:00+00:00",
+      "pv_return": "2015-01-12T17:00:00+00:00"
+    },
+    {
+      "start": "2015-01-19T05:00:00+00:00",
+      "irradiance_return": "2015-01-19T14:00:00+00:00",
+      "pv_return": "2015-01-19T17:00:00+00:00"
+    },
+    {
+      "start": "2015-01-26T04:00:00+00:00",
+      "irradiance_return": "2015-01-26T13:00:00+00:00",
+      "pv_return": "2015-01-26T16:00:00+00:00"
+    },
+    {
+      "start": "2015-02-02T02:00:00+00:00",
+      "irradiance_return": "2015-02-02T11:00:00+00:00",
+      "pv_return": "2015-02-02T14:00:00+00:00"
+    },
+    {
+      "start": "2015-02-09T04:00:00+00:00",
+      "irradiance_return": "2015-02-09T13:00:00+00:00",
+      "pv_return": "2015-02-09T16:00:00+00:00"
+    },
+    {
+      "start": "2015-02-16T03:00:00+00:00",
+      "irradiance_return": "2015-02-16T12:00:00+00:00",
+      "pv_return": "2015-02-16T15:00:00+00:00"
+    },
+    {
+      "start": "2015-02-23T06:00:00+00:00",
+      "irradiance_return": "2015-02-23T15:00:00+00:00",
+      "pv_return": "2015-02-23T18:00:00+00:00"
+    },
+    {
+      "start": "2015-03-02T02:00:00+00:00",
+      "irradiance_return": "2015-03-02T11:00:00+00:00",
+      "pv_return": "2015-03-02T14:00:00+00:00"
+    },
+    {
+      "start": "2015-03-09T05:00:00+00:00",
+      "irradiance_return": "2015-03-09T14:00:00+00:00",
+      "pv_return": "2015-03-09T17:00:00+00:00"
+    },
+    {
+      "start": "2015-03-16T06:00:00+00:00",
+      "irradiance_return": "2015-03-16T15:00:00+00:00",
+      "pv_return": "2015-03-16T18:00:00+00:00"
+    },
+    {
+      "start": "2015-03-23T04:00:00+00:00",
+      "irradiance_return": "2015-03-23T13:00:00+00:00",
+      "pv_return": "2015-03-23T16:00:00+00:00"
+    },
+    {
+      "start": "2015-03-30T04:00:00+00:00",
+      "irradiance_return": "2015-03-30T13:00:00+00:00",
+      "pv_return": "2015-03-30T16:00:00+00:00"
+    },
+    {
+      "start": "2015-04-06T05:00:00+00:00",
+      "irradiance_return": "2015-04-06T14:00:00+00:00",
+      "pv_return": "2015-04-06T17:00:00+00:00"
+    },
+    {
+      "start": "2015-04-13T05:00:00+00:00",
+      "irradiance_return": "2015-04-13T14:00:00+00:00",
+      "pv_return": "2015-04-13T17:00:00+00:00"
+    },
+    {
+      "start": "2015-04-20T03:00:00+00:00",
+      "irradiance_return": "2015-04-20T12:00:00+00:00",
+      "pv_return": "2015-04-20T15:00:00+00:00"
+    },
+    {
+      "start": "2015-04-27T05:00:00+00:00",
+      "irradiance_return": "2015-04-27T14:00:00+00:00",
+      "pv_return": "2015-04-27T17:00:00+00:00"
+    },
+    {
+      "start": "2015-05-04T03:00:00+00:00",
+      "irradiance_return": "2015-05-04T12:00:00+00:00",
+      "pv_return": "2015-05-04T15:00:00+00:00"
+    },
+    {
+      "start": "2015-05-11T02:00:00+00:00",
+      "irradiance_return": "2015-05-11T11:00:00+00:00",
+      "pv_return": "2015-05-11T14:00:00+00:00"
+    },
+    {
+      "start": "2015-05-18T02:00:00+00:00",
+      "irradiance_return": "2015-05-18T11:00:00+00:00",
+      "pv_return": "2015-05-18T14:00:00+00:00"
+    },
+    {
+      "start": "2015-05-25T03:00:00+00:00",
+      "irradiance_return": "2015-05-25T12:00:00+00:00",
+      "pv_return": "2015-05-25T15:00:00+00:00"
+    },
+    {
+      "start": "2015-06-01T06:00:00+00:00",
+      "irradiance_return": "2015-06-01T15:00:00+00:00",
+      "pv_return": "2015-06-01T18:00:00+00:00"
+    },
+    {
+      "start": "2015-06-08T05:00:00+00:00",
+      "irradiance_return": "2015-06-08T14:00:00+00:00",
+      "pv_return": "2015-06-08T17:00:00+00:00"
+    },
+    {
+      "start": "2015-06-15T05:00:00+00:00",
+      "irradiance_return": "2015-06-15T14:00:00+00:00",
+      "pv_return": "2015-06-15T17:00:00+00:00"
+    },
+    {
+      "start": "2015-06-22T03:00:00+00:00",
+      "irradiance_return": "2015-06-22T12:00:00+00:00",
+      "pv_return": "2015-06-22T15:00:00+00:00"
+    },
+    {
+      "start": "2015-06-29T04:00:00+00:00",
+      "irradiance_return": "2015-06-29T13:00:00+00:00",
+      "pv_return": "2015-06-29T16:00:00+00:00"
+    },
+    {
+      "start": "2015-07-06T02:00:00+00:00",
+      "irradiance_return": "2015-07-06T11:00:00+00:00",
+      "pv_return": "2015-07-06T14:00:00+00:00"
+    },
+    {
+      "start": "2015-07-13T04:00:00+00:00",
+      "irradiance_return": "2015-07-13T13:00:00+00:00",
+      "pv_return": "2015-07-13T16:00:00+00:00"
+    },
+    {
+      "start": "2015-07-20T04:00:00+00:00",
+      "irradiance_return": "2015-07-20T13:00:00+00:00",
+      "pv_return": "2015-07-20T16:00:00+00:00"
+    },
+    {
+      "start": "2015-07-27T06:00:00+00:00",
+      "irradiance_return": "2015-07-27T15:00:00+00:00",
+      "pv_return": "2015-07-27T18:00:00+00:00"
+    },
+    {
+      "start": "2015-08-03T04:00:00+00:00",
+      "irradiance_return": "2015-08-03T13:00:00+00:00",
+      "pv_return": "2015-08-03T16:00:00+00:00"
+    },
+    {
+      "start": "2015-08-10T03:00:00+00:00",
+      "irradiance_return": "2015-08-10T12:00:00+00:00",
+      "pv_return": "2015-08-10T15:00:00+00:00"
+    },
+    {
+      "start": "2015-08-17T03:00:00+00:00",
+      "irradiance_return": "2015-08-17T12:00:00+00:00",
+      "pv_return": "2015-08-17T15:00:00+00:00"
+    },
+    {
+      "start": "2015-08-24T06:00:00+00:00",
+      "irradiance_return": "2015-08-24T15:00:00+00:00",
+      "pv_return": "2015-08-24T18:00:00+00:00"
+    },
+    {
+      "start": "2015-08-31T05:00:00+00:00",
+      "irradiance_return": "2015-08-31T14:00:00+00:00",
+      "pv_return": "2015-08-31T17:00:00+00:00"
+    },
+    {
+      "start": "2015-09-07T05:00:00+00:00",
+      "irradiance_return": "2015-09-07T14:00:00+00:00",
+      "pv_return": "2015-09-07T17:00:00+00:00"
+    },
+    {
+      "start": "2015-09-14T02:00:00+00:00",
+      "irradiance_return": "2015-09-14T11:00:00+00:00",
+      "pv_return": "2015-09-14T14:00:00+00:00"
+    },
+    {
+      "start": "2015-09-21T02:00:00+00:00",
+      "irradiance_return": "2015-09-21T11:00:00+00:00",
+      "pv_return": "2015-09-21T14:00:00+00:00"
+    },
+    {
+      "start": "2015-09-28T02:00:00+00:00",
+      "irradiance_return": "2015-09-28T11:00:00+00:00",
+      "pv_return": "2015-09-28T14:00:00+00:00"
+    },
+    {
+      "start": "2015-10-05T03:00:00+00:00",
+      "irradiance_return": "2015-10-05T12:00:00+00:00",
+      "pv_return": "2015-10-05T15:00:00+00:00"
+    },
+    {
+      "start": "2015-10-12T05:00:00+00:00",
+      "irradiance_return": "2015-10-12T14:00:00+00:00",
+      "pv_return": "2015-10-12T17:00:00+00:00"
+    },
+    {
+      "start": "2015-10-19T06:00:00+00:00",
+      "irradiance_return": "2015-10-19T15:00:00+00:00",
+      "pv_return": "2015-10-19T18:00:00+00:00"
+    },
+    {
+      "start": "2015-10-26T05:00:00+00:00",
+      "irradiance_return": "2015-10-26T14:00:00+00:00",
+      "pv_return": "2015-10-26T17:00:00+00:00"
+    },
+    {
+      "start": "2015-11-02T05:00:00+00:00",
+      "irradiance_return": "2015-11-02T14:00:00+00:00",
+      "pv_return": "2015-11-02T17:00:00+00:00"
+    },
+    {
+      "start": "2015-11-09T02:00:00+00:00",
+      "irradiance_return": "2015-11-09T11:00:00+00:00",
+      "pv_return": "2015-11-09T14:00:00+00:00"
+    },
+    {
+      "start": "2015-11-16T02:00:00+00:00",
+      "irradiance_return": "2015-11-16T11:00:00+00:00",
+      "pv_return": "2015-11-16T14:00:00+00:00"
+    },
+    {
+      "start": "2015-11-23T05:00:00+00:00",
+      "irradiance_return": "2015-11-23T14:00:00+00:00",
+      "pv_return": "2015-11-23T17:00:00+00:00"
+    },
+    {
+      "start": "2015-11-30T03:00:00+00:00",
+      "irradiance_return": "2015-11-30T12:00:00+00:00",
+      "pv_return": "2015-11-30T15:00:00+00:00"
+    },
+    {
+      "start": "2015-12-07T04:00:00+00:00",
+      "irradiance_return": "2015-12-07T13:00:00+00:00",
+      "pv_return": "2015-12-07T16:00:00+00:00"
+    },
+    {
+      "start": "2015-12-14T06:00:00+00:00",
+      "irradiance_return": "2015-12-14T15:00:00+00:00",
+      "pv_return": "2015-12-14T18:00:00+00:00"
+    },
+    {
+      "start": "2015-12-21T03:00:00+00:00",
+      "irradiance_return": "2015-12-21T12:00:00+00:00",
+      "pv_return": "2015-12-21T15:00:00+00:00"
+    },
+    {
+      "start": "2015-12-28T03:00:00+00:00",
+      "irradiance_return": "2015-12-28T12:00:00+00:00",
+      "pv_return": "2015-12-28T15:00:00+00:00"
+    }
+  ]
+}

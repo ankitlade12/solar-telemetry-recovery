@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-09-12T16:44:07.687509+00:00",
+  "status": "passed release selection, dependency-view, verification and packaging checks",
+  "command": "MPLCONFIGDIR=/private/tmp/solar-final-test-mpl python3 -m pytest -q tests/test_public_release_selection.py tests/test_release_protocol.py tests/test_final_verifier.py tests/test_package_submission.py",
+  "test_sources_sha256": {
+    "tests/test_public_release_selection.py": "1e54fa70f17db4819f59a245076d8e5b96cb7797bad8c1d15b746745e7617650",
+    "tests/test_release_protocol.py": "959ab780977825dc6ada63fcbe1b08d2fdfda252f075d04069e248bb5de2caa9",
+    "tests/test_final_verifier.py": "4d412a7e404cb6f9decc1bb9905d1d698a45c619a7ad3b25e9496ee5ea8667cd",
+    "tests/test_package_submission.py": "10ad3e44485c54efe82342f33ff4507c2576f95260a115b2bdf4d873c8436be7"
+  },
+  "scope": "File selection uses synthetic placeholders; real assembled-candidate checks are pending. The scientific dependency-view test checks the actual frozen workspace. A subsequent scope-text clarification changed no verification behavior.",
+  "passed": 7,
+  "seconds": 3.78
+}

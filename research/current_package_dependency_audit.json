@@ -1,0 +1,49 @@
+{
+  "status": "dependency audit of historical public selector against current revision; not a package",
+  "checked_at_utc": "2026-09-13T22:01:44.037045+00:00",
+  "selector_sha256": "dad7d37c485470cbc864c0400c2804b5e532f7468068e22df7bbced0c4c33ce3",
+  "selected_files": 593,
+  "claim_ledgers": {
+    "paper/claim_evidence.json": {
+      "claims": 159,
+      "source_files": 10,
+      "missing_sources": []
+    },
+    "paper/claim_evidence_posthoc_v2.json": {
+      "claims": 19,
+      "source_files": 3,
+      "missing_sources": [
+        "research/staff_review_v2/diagnostics/monthly_source_power.csv",
+        "research/staff_review_v2/diagnostics/source_power_summary.csv",
+        "research/staff_review_v2/diagnostics/unique_scored_target_audit.csv"
+      ]
+    }
+  },
+  "extension_nonprivate_dependencies_missing": [
+    "data/raw/extension_v1/pvdaq_10_2016/manifest.json",
+    "data/raw/extension_v1/pvdaq_10_2017/manifest.json",
+    "research/EXTENSION_SOURCE_QUALIFICATION_PLAN.md",
+    "research/PRODUCING_SYSTEM_EXTENSION_PROTOCOL.md",
+    "research/RESERVE_SOURCE_10_PLAN.md",
+    "research/producing_extension_test_record.json",
+    "research/reserve_10_qualification_v1/FINDINGS.md",
+    "research/reserve_10_qualification_v1/clock_diagnostics.csv",
+    "research/reserve_10_qualification_v1/code_snapshot.py",
+    "research/reserve_10_qualification_v1/decision.json",
+    "research/reserve_10_qualification_v1/excluded_records.csv",
+    "research/reserve_10_qualification_v1/grid_audit.csv",
+    "research/reserve_10_qualification_v1/hourly_diagnostic_2016_left.parquet",
+    "research/reserve_10_qualification_v1/hourly_diagnostic_2016_right.parquet",
+    "research/reserve_10_qualification_v1/hourly_diagnostic_2017_left.parquet",
+    "research/reserve_10_qualification_v1/hourly_diagnostic_2017_right.parquet",
+    "research/reserve_10_qualification_v1/manifest.json",
+    "research/reserve_10_qualification_v1/minute_2016.parquet",
+    "research/reserve_10_qualification_v1/minute_2017.parquet",
+    "research/reserve_10_qualification_v1/monthly_inventory.csv",
+    "research/reserve_10_qualification_v1/quality.csv"
+  ],
+  "expected_private_omission": "Solar_Forecasting_Research_PRD.docx",
+  "current_extension_run_in_selection": false,
+  "forecast_performance_inspected": false,
+  "decision": "Do not use historical selector as evidence that the revised package is complete"
+}

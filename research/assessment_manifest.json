@@ -1,0 +1,28 @@
+{
+  "assessment_date": "2026-09-11",
+  "original_document_sha256": "75b6e28dda396d72162ef5c8f5750426336eae7997b099573ef256ff729a2a6c",
+  "research_word_count": 6850,
+  "source_count": 30,
+  "forecast_experiments_run": false,
+  "checks": [
+    "Pinned source hashes verified",
+    "Structural audit reproduced byte-identically",
+    "All Markdown reference definitions used and resolved",
+    "DOCX XML and relationships parse",
+    "30 distinct DOCX footnotes resolve"
+  ],
+  "limitations": [
+    "No Word layout rendering verified; Quick Look failed in sandbox",
+    "Specific PVDAQ systems not acquired",
+    "Full texts unavailable or pending for sources explicitly labeled in report"
+  ],
+  "python_docx_version": "1.2.0",
+  "artifacts": {
+    "CCWC_Research_Assessment.md": "a8324e0c1fff2493d834faa38503062fa09e4aa8e8153e138787b220941e0807",
+    "audit_gridouble.py": "ca3329209e1e0ff98124c17ba29db4306e88f79b9e13b9b1690b336c971c3f67",
+    "gridouble_audit.json": "ae65381d17af6bde957dd12e1815be40a0bf0e55fa04261e00ff40244dc05bd4",
+    "build_report.py": "8d387f7547f13fc278f2dd447d972f295e439ad5691ce646fe1b360b40adf815",
+    "README.md": "b148d3446d025ee318050eb6fbd96c4f7acb559e48dfbcb2091de62b9bda6547",
+    "CCWC_Research_Assessment.docx": "812595d9a3b151ad826eae6416343bf4130c4a4836450624c8507654cf1e7e1a"
+  }
+}

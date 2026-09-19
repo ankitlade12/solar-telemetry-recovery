@@ -1,0 +1,11 @@
+{
+  "status": "one deterministic raw-hour normalization spot check; not a physical-cause diagnosis",
+  "source": "data/raw/pvdaq_4_2017/system_4__date_2017_06_15.snappy.000.parquet",
+  "source_sha256": "3be66b2cc158c6078b70db0e6b5f46315cb7dce320c57635804ceb11417a63ab",
+  "native_hour": "2017-06-15 12:00 to 12:59",
+  "normalized_interval_end": "2017-06-15T20:00:00Z",
+  "raw_ac_mean_w": 3.1559297666666666,
+  "raw_poa_mean_w_m2": 977.0528333333333,
+  "normalized_ac_kw": 0.003155929766666667,
+  "samples_per_channel": 60
+}

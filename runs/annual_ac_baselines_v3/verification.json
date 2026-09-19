@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "forecasts": 4497408,
+  "independently_checked_receipt_slots": 80000,
+  "archived_source_files": 13,
+  "forecast_sha256": {
+    "nist/forecasts_clean.parquet": "b4acbffc9c9334829170a042cef4e2649f535e5442b0a6f274147de2e9db9426",
+    "nist/forecasts_pv_only.parquet": "fb169637cbb3ab9f99da92f9b34d5b2511fa4dd0a24385cddd62241bf3b023ce",
+    "nist/forecasts_irradiance_only.parquet": "0ee09782dd221bf69d7fe1847ec6d63c443b0b16669b817b2854591e5f1a4dd2",
+    "nist/forecasts_joint_immediate.parquet": "d488fdd1a74f4172ebe691b7d99cd6d255f82d767a9242fdaedb1fa5ac35ad79",
+    "nist/forecasts_joint_gradual.parquet": "df9562ad0c840f4f8bdb47145b9b7b70c79b4e0524f9bc586969d1431794a195",
+    "nist/forecasts_joint_none.parquet": "3060f239c5a3015749006f05a92c44fdac03c5babff355ec9fbbc60fb78fa573",
+    "nist/forecasts_irradiance_first.parquet": "f4286c68632469e6a27b8a371c947544e3f9e75d06f4fcb65b8ea845c73a9db9",
+    "nist/forecasts_pv_first.parquet": "4933cd0c89e6f5086b6364bd937b52e5ae3a9f5e16f9c4f72236fbc68ec281a0",
+    "colorado/forecasts_clean.parquet": "4340b1d5bd4d1285a47ef6d029d682c62058f7b2431b1da6b1fdacae7e6e9a96",
+    "colorado/forecasts_pv_only.parquet": "2fedb33ecc6278556bcab23d56f80c534523ad069c4a4ab1132b1deb27edb52f",
+    "colorado/forecasts_irradiance_only.parquet": "eb6f79627c1c8741e0b874080d8fc6c930d4bf8565cbcc38dd7a1f2f56cc6d84",
+    "colorado/forecasts_joint_immediate.parquet": "c868485a2837502833d59d89dd7eb8d7c9a3019fa2e70bd5c475f8dfd0ff7244",
+    "colorado/forecasts_joint_gradual.parquet": "339f9e4370d76078339878d2f843d8d0238587e035e2c3cf24d000cf053eacb8",
+    "colorado/forecasts_joint_none.parquet": "70e76b1ae2e40f5052b9dbf30605518190c5d1f8b39603421fd61d316b39e116",
+    "colorado/forecasts_irradiance_first.parquet": "be6654cccdda163216c24f8f8227015d7c2e2d8ccc62c4fa7fc40c9447e15d43",
+    "colorado/forecasts_pv_first.parquet": "e05dc419aa30eed2e713e262b9d28ff817e9021dba5468b107ca227e31ba0097"
+  },
+  "verifier_sha256": "9395e56ad7f442a10a8baeb7b920ee638977afcee898fea6e3572ab2cbbd4bbf",
+  "limits": "Structural/data integrity only; does not establish forecast quality or statistical generalization."
+}

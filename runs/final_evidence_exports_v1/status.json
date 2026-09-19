@@ -1,0 +1,56 @@
+{
+  "stage": "complete exports, table reproduction and latency; manuscript synthesis remains",
+  "stages": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-u",
+        "-m",
+        "research.export_paper_tables",
+        "runs/final_2017_v4",
+        "--output",
+        "paper/generated"
+      ],
+      "source_sha256": "0c87d8790b6547a590f3bb3ec275d8c79f078c109151f15ffda0fb08cee400fd",
+      "began_at_utc": "2026-09-13T15:26:59.922692+00:00",
+      "returncode": 0,
+      "log_sha256": "bb5606c4f6f6fc356e8c5ced6dabc0fa2b329d3f8f412b2cde423f14777af055",
+      "ended_at_utc": "2026-09-13T15:27:01.670101+00:00"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-u",
+        "-m",
+        "research.analyze_final_evaluation",
+        "runs/final_2017_v4",
+        "--output",
+        "runs/final_evidence_exports_v1/reproduced_tables"
+      ],
+      "source_sha256": "39c0c87ac4f3c45d01f304d47849c7063a5c8e3a4c73d8984a409226ab0b77ca",
+      "began_at_utc": "2026-09-13T15:27:01.671703+00:00",
+      "returncode": 0,
+      "log_sha256": "1dea6e2f8b1fc17f9c217e488900a68e2088f4f3a52af3f00dfc1f24d127fe0f",
+      "ended_at_utc": "2026-09-13T15:31:45.609043+00:00"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-u",
+        "-m",
+        "research.benchmark_inference",
+        "runs/final_2017_v4",
+        "--output",
+        "runs/inference_benchmark_v1"
+      ],
+      "source_sha256": "d740512828ac45a17a261fba8b2d05a0c1fa1cd83348ce6d96b492b30ca6997c",
+      "began_at_utc": "2026-09-13T15:31:45.612133+00:00",
+      "returncode": 0,
+      "log_sha256": "32a05337b3679eb13cd70a99e5ac35a8db054a91e22111fecf289bfa8acd7d94",
+      "ended_at_utc": "2026-09-13T19:36:46.618345+00:00"
+    }
+  ],
+  "workflow_sha256": "bc41f392363657dcecd87cbf1e523ef4c02e59cd3337a4b381e36ee793269481",
+  "run": "runs/final_2017_v4",
+  "updated_at_utc": "2026-09-13T19:36:46.618392+00:00"
+}

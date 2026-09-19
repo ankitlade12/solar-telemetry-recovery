@@ -1,0 +1,17 @@
+{
+  "status": "passed public-extension protocol and context tests",
+  "command": "python3 -m pytest -q tests/test_public_extension_context.py tests/test_extension_release_protocol.py",
+  "returncode": 0,
+  "stdout": ".........                                                                [100%]\n9 passed in 3.02s\n",
+  "recorded_at_utc": "2026-09-13T22:12:14.799790+00:00",
+  "scope": "Exact scientific dependency preservation, rejected modifications, and public analysis-context wiring; no full public refit or result verification",
+  "files_sha256": {
+    "research/extension_release_protocol.py": "316fd8ea44c3f95795eb0ffe651f40c7d8de3c57e10879b97cc9b179f1cf932b",
+    "research/reproduce_public_extension.py": "514b4104323832cf7545275a62982c326c000733318dccd7de0ec2e894359f82",
+    "research/verify_public_extension.py": "30c844a0996930b4d79a39b162bebbca2dfec312a55770a7bc28169e0bd9b415",
+    "tests/test_public_extension_context.py": "c1cf3878b4b269e0c9b078d8ae03bae7260f4dfa14f27701228d0876cdb27db6",
+    "tests/test_extension_release_protocol.py": "6a68cf62c9a54a5e7c9bb6571f48740fafebb3dd59eb330c0887fd0536384e0c",
+    "research/public_extension_verifier_derivation.json": "5c5c8e7e492c3b16eaedc4024d1d50b8b8014434840abb597fce0cacd265e839",
+    "runs/public_extension_dependency_check_v3/manifest.json": "83d640203611ecce58b9071de88ada6588394c1d4363cd67a151cfad009ec631"
+  }
+}

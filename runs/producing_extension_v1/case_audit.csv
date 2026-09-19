@@ -1,0 +1,12 @@
+site,case_id,case_group,data_variant,model_training_source,model_site,model_ablation,privileged_labels,inputs_equal_primary,forecasts,invalid_targets,outside_period_targets,elapsed_seconds
+reserve10,clean,primary,primary,2016,reserve10,none,False,True,522480,15120,90,731.832714832999
+reserve10,pv_only,primary,primary,2016,reserve10,none,False,True,522480,15120,90,404.17318645800697
+reserve10,irradiance_only,primary,primary,2016,reserve10,none,False,True,522480,15120,90,128.08690516700153
+reserve10,joint_immediate,primary,primary,2016,reserve10,none,False,True,522480,15120,90,148.17738504198496
+reserve10,joint_gradual,primary,primary,2016,reserve10,none,False,True,522480,15120,90,199.95544266700745
+reserve10,joint_none,primary,primary,2016,reserve10,none,False,True,522480,15120,90,192.43794674999663
+reserve10,irradiance_first,primary,primary,2016,reserve10,none,False,True,522480,15120,90,249.29159400000935
+reserve10,pv_first,primary,primary,2016,reserve10,none,False,True,522480,15120,90,397.11320754198823
+reserve10,right_aligned,sensitivity,right_aligned,2016,reserve10,none,False,False,174160,5020,30,608.3023681659834
+reserve10,receipt_5min,sensitivity,primary,2016,reserve10,none,False,True,174160,5040,30,220.00285258400254
+reserve10,privileged_labels,diagnostic,primary,2016,reserve10,none,True,True,174160,5040,30,169.909664582985

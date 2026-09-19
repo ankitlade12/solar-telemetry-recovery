@@ -1,0 +1,72 @@
+{
+  "status": "exploratory completeness only; target semantics and meter sign convention unresolved",
+  "used_in_pilot": "82610 inverter DC only",
+  "metrics": {
+    "82610": {
+      "label": "inverter_dc",
+      "valid_nonnegative_hours": 6272,
+      "valid_daylight_hours": 3077,
+      "geometric_daylight_hours": 4404,
+      "max_hourly_kw": 282.18,
+      "monthly_valid_hours": {
+        "2015-01": 738,
+        "2015-02": 669,
+        "2015-03": 741,
+        "2015-04": 635,
+        "2015-05": 143,
+        "2015-06": 0,
+        "2015-07": 719,
+        "2015-08": 612,
+        "2015-09": 642,
+        "2015-10": 673,
+        "2015-11": 42,
+        "2015-12": 652,
+        "2016-01": 6
+      }
+    },
+    "82607": {
+      "label": "inverter_ac",
+      "valid_nonnegative_hours": 6272,
+      "valid_daylight_hours": 3077,
+      "geometric_daylight_hours": 4404,
+      "max_hourly_kw": 253.55166666666668,
+      "monthly_valid_hours": {
+        "2015-01": 738,
+        "2015-02": 669,
+        "2015-03": 741,
+        "2015-04": 635,
+        "2015-05": 143,
+        "2015-06": 0,
+        "2015-07": 719,
+        "2015-08": 612,
+        "2015-09": 642,
+        "2015-10": 673,
+        "2015-11": 42,
+        "2015-12": 652,
+        "2016-01": 6
+      }
+    },
+    "82633": {
+      "label": "meter_ac",
+      "valid_nonnegative_hours": 7088,
+      "valid_daylight_hours": 3460,
+      "geometric_daylight_hours": 4404,
+      "max_hourly_kw": 253.46166666666667,
+      "monthly_valid_hours": {
+        "2015-01": 644,
+        "2015-02": 594,
+        "2015-03": 646,
+        "2015-04": 567,
+        "2015-05": 126,
+        "2015-06": 607,
+        "2015-07": 660,
+        "2015-08": 653,
+        "2015-09": 615,
+        "2015-10": 617,
+        "2015-11": 699,
+        "2015-12": 654,
+        "2016-01": 6
+      }
+    }
+  }
+}

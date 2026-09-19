@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "forecasts": 4497408,
+  "independently_checked_receipt_slots": 80000,
+  "archived_source_files": 13,
+  "forecast_sha256": {
+    "nist/forecasts_clean.parquet": "afb5b92cb8843b2c40f1084111f234d919f6cf287cbf1e21336e67b73e05b06a",
+    "nist/forecasts_pv_only.parquet": "a892d5326143f12396625e9170664351c65ead9c55a036441d69c6e837e41dd7",
+    "nist/forecasts_irradiance_only.parquet": "ccf8706efb1b232f62078e1c96cdb7ce655f2195e734a72dce061a3ae27f955d",
+    "nist/forecasts_joint_immediate.parquet": "8db31333a974e911a46cfdedf5ee7d1df66c2eb5d5b2cf076c96ce16108bccf4",
+    "nist/forecasts_joint_gradual.parquet": "f661b52cd90e504de4a24694c646aa53056d067c59c1f64133d481ad4933c070",
+    "nist/forecasts_joint_none.parquet": "25e885b1169b8b552afbc64db0b714950883c923a7a7803cccf5a53e5db45c7c",
+    "nist/forecasts_irradiance_first.parquet": "0442aa7341733d166012de22b3f4fb7230eef7f4ccb047080967839b5131d170",
+    "nist/forecasts_pv_first.parquet": "21813f944bc5d6fcb0643acdf3e3752b5d7596d9479b72eb89bd2e7b6358da62",
+    "colorado/forecasts_clean.parquet": "a4e5785cb8328ab0bbfc7f451b217186a27918ed0aa96aeaae92108733dfa902",
+    "colorado/forecasts_pv_only.parquet": "3f93f2a93551026433303b02dca5df3fbaf64f808d3abb8855e0f3dc10b64c65",
+    "colorado/forecasts_irradiance_only.parquet": "75f6b2c55536eb5006499e57dd04b87a2226c520cd25e163bbe7b9f45b2e8fd4",
+    "colorado/forecasts_joint_immediate.parquet": "def0961fac08504fb97592d2481d154f0cfb7f5d82d9362c5722d8b29f425ef2",
+    "colorado/forecasts_joint_gradual.parquet": "8e1b54352cea5b52478dac99dccec1e22443352109eaaa778f36f9d6fd42d7d1",
+    "colorado/forecasts_joint_none.parquet": "a68894199896a6cfbafcad497fd817617cd78638bc59f8758a0d4144c5683eef",
+    "colorado/forecasts_irradiance_first.parquet": "784a16b3f04b9174d93acdeefd62afabf91c94ea8249ba5b1001990cb5f6cee2",
+    "colorado/forecasts_pv_first.parquet": "a14a81d92094883e734dec1fcc1fd542e3485070dc6ee342f2a637ac08ebbc1c"
+  },
+  "non_mi_forecasts_identical_to_training_source": false,
+  "verifier_sha256": "3cccf4df455093f8d929ddc3c69e548daea06ea751e7b778718b5ae8d20205e1",
+  "limits": "Structural/data integrity only; does not establish forecast quality or statistical generalization."
+}

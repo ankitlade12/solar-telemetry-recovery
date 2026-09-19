@@ -1,0 +1,6 @@
+{
+  "cause": "Isolated staging omitted the full extension parent lock, which cannot list itself among its own scientific dependencies",
+  "correction": "Include the authentic full extension parent lock as an additional provenance artifact; use a fresh staging/output version",
+  "scientific_contract_changed": false,
+  "executed_script_sha256": "fe21bf7b9cf83537a8f882251b9fd985057c21f79a8ea5bff439c66811c40ccd"
+}

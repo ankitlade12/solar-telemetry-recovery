@@ -1,0 +1,53 @@
+{
+  "status": "complete loaded-model latency benchmark",
+  "hardware": {
+    "observed_date": "2026-09-12",
+    "cpu": "Apple M4",
+    "hardware_model": "Mac16,12",
+    "logical_cpu_count": 10,
+    "physical_cpu_count": 10,
+    "installed_memory_bytes": 17179869184,
+    "installed_memory_gib": 16,
+    "source_command": "/usr/sbin/sysctl hw.model hw.ncpu hw.physicalcpu hw.memsize machdep.cpu.brand_string",
+    "scope": "Host hardware observed through read-only system queries; no claim that all cores or installed RAM were used by a run. Forecasting constrains supported thread pools to one thread."
+  },
+  "hardware_source_sha256": "0dda29f973e9551ba925f3b5796acecf3cb30b23981dc18ce56a38144bacfd4f",
+  "source_manifest_sha256": "fa3e7ec4ed06ad2a1330efa6c0e55d626d6f30f84fac5447e2bfd7b99a4e5297",
+  "sources_sha256": {
+    "runs/final_2017_v4/nist/models_2016_primary_none.pkl": "512034625b4fd8b24e2b6997f3346da9a328f64402567873ccce86e2c613db0d",
+    "runs/final_2017_v4/nist/features_clean.parquet": "2cbbfb5dccbbed9b4f98f63fa7f4cc475a0ba48259018e4a61e8267614abb747",
+    "runs/final_2017_v4/nist/features_joint_gradual.parquet": "1dfafe8cca49c6558eaee4f12760e3093b45f2f353a545896dc281b263210955",
+    "runs/final_2017_v4/colorado/models_2016_primary_none.pkl": "7a4db3dafecec5c7f6e2b31f8f795131027cd9ab013ad47f8fc8d8605e705cd9",
+    "runs/final_2017_v4/colorado/features_clean.parquet": "3a04f4753f63c7941f5d1411ffcfd5f8a3463db0a3f67d3bf47d0ea80024103d",
+    "runs/final_2017_v4/colorado/features_joint_gradual.parquet": "d7fdbd74514bd871a8827a19b49b74bcfd6769121f62008455196e80615dc83c"
+  },
+  "code_sha256": "d740512828ac45a17a261fba8b2d05a0c1fa1cd83348ce6d96b492b30ca6997c",
+  "python": "3.14.0",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "threadpools_during_timing": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "filepath": "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/sklearn/.dylibs/libomp.dylib",
+      "version": null
+    }
+  ],
+  "elapsed_seconds": 554.6090151249955,
+  "benchmark_process_peak_rss_bytes": 421396480,
+  "sampling": "32 evenly spaced all-four-horizon daylight origins per site/case by default; three unrecorded warmup calls per workload; pandas linear empirical p95",
+  "actual_samples_per_workload": 32,
+  "scope": "Warm loaded prediction from prepared visible features, four horizons/seven quantiles; recovery includes context construction, corrections and pending-record creation. No held-out target columns are accessed. Synthetic 0/360/720-score pools are controlled workloads, not measured operational histories; 720 is a dense stress case.",
+  "exclusions": "Model loading, receipt/history construction, label ingestion/backlog processing, score-pool preparation, network, disk writes and process startup are outside the timer. Untimed predictions prepare each fixture and warm caches. Peak RSS covers the benchmark process including model-bundle loading; it is not training peak memory. Shared personal hardware is not a dedicated-server latency guarantee.",
+  "files_sha256": {
+    "summary.csv": "11645f964364e2166b74fc1a5e719ec2d619f703d3592258094a08ba56e1d379",
+    "calls.csv": "e7ca58ae2e5e82c48c3eeb82689aba71849df05bc3c89336c4a0842ec4c778cb"
+  }
+}

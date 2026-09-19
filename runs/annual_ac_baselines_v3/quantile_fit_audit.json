@@ -1,0 +1,135 @@
+{
+  "gradient_probe_y": [
+    0.0,
+    0.1,
+    1.0
+  ],
+  "gradient_probe_prediction": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gradient_by_quantile": {
+    "0.05": [
+      -0.05,
+      -0.05,
+      -0.05
+    ],
+    "0.1": [
+      -0.1,
+      -0.1,
+      -0.1
+    ],
+    "0.25": [
+      -0.25,
+      -0.25,
+      -0.25
+    ],
+    "0.5": [
+      -0.5,
+      -0.5,
+      -0.5
+    ]
+  },
+  "nist_constant_zero_medians": [
+    {
+      "site": "nist",
+      "method": "quantile_compact",
+      "horizon": 1,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.2936020036429873
+    },
+    {
+      "site": "nist",
+      "method": "quantile_compact",
+      "horizon": 2,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.25170765027322406
+    },
+    {
+      "site": "nist",
+      "method": "quantile_compact",
+      "horizon": 3,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.22734517304189436
+    },
+    {
+      "site": "nist",
+      "method": "quantile_compact",
+      "horizon": 4,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.1366120218579235
+    },
+    {
+      "site": "nist",
+      "method": "quantile_flexible",
+      "horizon": 1,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.5159380692167578
+    },
+    {
+      "site": "nist",
+      "method": "quantile_flexible",
+      "horizon": 2,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.36885245901639346
+    },
+    {
+      "site": "nist",
+      "method": "quantile_flexible",
+      "horizon": 3,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.26343351548269583
+    },
+    {
+      "site": "nist",
+      "method": "quantile_flexible",
+      "horizon": 4,
+      "quantile": 0.5,
+      "initial_prediction": 0.0,
+      "prediction_min": 0.0,
+      "prediction_max": 0.0,
+      "prediction_std": 0.0,
+      "zero_fraction": 1.0,
+      "all_quantile_crossing_fraction": 0.15198087431693988
+    }
+  ],
+  "interpretation": "At zero initial prediction the pinned loss gives identical gradients for zero and positive targets. Constant zero median fits are observed on NIST; exact downstream splitting behavior can depend on numerical effects. Do not use this failed quantile baseline to establish a new method's superiority.",
+  "source": "https://github.com/scikit-learn/scikit-learn/blob/1.8.0/sklearn/_loss/_loss.pyx.tp",
+  "audit_sha256": "00af916c3bf240ab0c4e20727753a3178dca360c93d8c0c0855de3bc06e3f965"
+}

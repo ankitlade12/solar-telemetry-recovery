@@ -1,0 +1,32 @@
+\begin{table*}[t]
+\centering\footnotesize
+\caption{Failure/recovery forecasts: original systems and separately declared extension.}
+\label{tab:main}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrrrrrr}
+\hline
+ & \multicolumn{3}{c}{NIST: original} & \multicolumn{3}{c}{C4: original} & \multicolumn{3}{c}{C10: extension} \\
+Method & NWIS & $C_{90}$ & $W_{90}/C$ & NWIS & $C_{90}$ & $W_{90}/C$ & NWIS & $C_{90}$ & $W_{90}/C$ \\
+\hline
+Quantile HGB & 0.0525 & 82.7 & 0.366 & 0.0692 & 32.1 & 0.373 & 0.0569 & 85.0 & 0.408 \\
+Rolling calibration & 0.0521 & 89.2 & 0.393 & 0.0577 & 90.4 & 0.430 & 0.0567 & 90.8 & 0.431 \\
+Recency calibration & 0.0520 & 89.4 & 0.392 & 0.0577 & 90.3 & 0.430 & 0.0567 & 91.0 & 0.431 \\
+Physical context & 0.0520 & 90.0 & 0.395 & 0.0567 & 92.5 & 0.430 & 0.0567 & 91.5 & 0.435 \\
+Context + availability & 0.0520 & 90.2 & 0.396 & 0.0567 & 92.7 & 0.430 & 0.0567 & 91.4 & 0.434 \\
+Context + recovery & 0.0520 & 90.0 & 0.395 & 0.0567 & 92.6 & 0.430 & 0.0567 & 91.4 & 0.434 \\
+50-slot mask blend & 0.0520 & 89.4 & 0.393 & 0.0577 & 90.3 & 0.430 & 0.0567 & 91.2 & 0.432 \\
+Bounded adaptive alpha & 0.0521 & 89.3 & 0.394 & 0.0576 & 91.3 & 0.431 & 0.0567 & 90.8 & 0.431 \\
+Single imputation & 0.0607 & 78.1 & 0.274 & 0.0777 & 74.4 & 0.247 & 0.0658 & 80.2 & 0.313 \\
+Multiple imputation & 0.0575 & 84.4 & 0.318 & 0.0721 & 78.0 & 0.269 & 0.0640 & 83.1 & 0.337 \\
+MI + recency calibration & 0.0564 & 91.2 & 0.393 & 0.0669 & 81.7 & 0.311 & 0.0629 & 90.3 & 0.432 \\
+Persistence & 0.1086 & 86.5 & 0.576 & 0.0497 & 99.4 & 0.497 & 0.1245 & 88.0 & 0.691 \\
+Geometric persistence & 0.0889 & 85.9 & 0.476 & 0.0365 & 99.3 & 0.455 & 0.1034 & 87.6 & 0.601 \\
+Previous day & 0.0867 & 92.3 & 0.641 & 0.0253 & 98.4 & 0.416 & 0.1035 & 87.8 & 0.666 \\
+Carry-forward quantiles & 0.0555 & 80.9 & 0.371 & 0.0835 & 29.4 & 0.424 & 0.0593 & 82.3 & 0.403 \\
+\hline
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+NIST and C4 are the original study; C10 is the later producing-system replication. NWIS and width are DC-capacity normalized; coverage is percent. All fifteen outputs use the same eligible rows within each case. Equal case/horizon means are computed within each system, with no pooled-site estimate.
+\end{minipage}
+\end{table*}

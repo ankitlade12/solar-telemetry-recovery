@@ -1,0 +1,37 @@
+{
+  "status": "complete analysis",
+  "source_manifest_sha256": "fa3e7ec4ed06ad2a1330efa6c0e55d626d6f30f84fac5447e2bfd7b99a4e5297",
+  "analysis_code_sha256": "39c0c87ac4f3c45d01f304d47849c7063a5c8e3a4c73d8984a409226ab0b77ca",
+  "config_sha256": "e50a7a8a00370a91ebce4f789c8a037012ab0da8c34b1f6f496055f3e4e32f75",
+  "tables": {
+    "Summary": 420,
+    "Cells": 18800,
+    "Contrasts": 1026,
+    "Support": 2320,
+    "Diagnostics": 1032,
+    "Recovery": 20160,
+    "UpdateActivity": 260,
+    "InterruptionComparison": 80
+  },
+  "daily_rows": 1366570,
+  "files_sha256": {
+    "Summary.csv": "caa444310ff1864265b8e8dbb3e7e5c79e145637773715ef215fd40d335116b6",
+    "daily_scores.parquet": "d33ab36d01246b6ed2af9876764fdfee01c5d0ac7af9fc519f35bc86cf5ce90f",
+    "Final_Evaluation_Evidence.xlsx": "5de0eafa314f10319a879f1cca568943af74745d49496b046b6cfcf1e980f34a",
+    "Diagnostics.csv": "ab125f0d3b8f82ecd6a72cd9f358394cdf699f82df44732263e5a6390ec9a9ff",
+    "UpdateActivity.csv": "9ce304da17d3f363d6d18a78af4d80cdfc2c1a53c58c55c878004c7cbbd3fa06",
+    "Contrasts.csv": "ebade96fa3288e8b4a7acd18742f58eaa0df4e7282cef7076a5ebd31bc722dc5",
+    "Support.csv": "b9db6a278aa36eb823c042aa1ea1e25aafc38f6b28fc41d3cefb13d456a2facb",
+    "Cells.csv": "f3ea918732acd0d770a0bb2623132c799d26a3cd02b228fabe7b23ba14bd85cc",
+    "Recovery.csv": "7e5ecbb19003c4d72abb6d34e5c5dcbc2bcbf03f6e9dfbdad85d40d986d9941e",
+    "InterruptionComparison.csv": "51c6aadc7cea411a1d399f1678373a156a1cd918487d38dc06c571fad5f6d57f",
+    "figures/recovery_trajectory.png": "d1f8f10d7c80c81525d008346d9c441d28a628f4c2d168af32649e12cc8e9016",
+    "figures/recovery_trajectory.pdf": "a2e4d040e5fa471feef3e12a89e7eb91939cc728872a8f61e7cdbdfe2b96138d",
+    "figures/failure_by_horizon.png": "34c76bb4896cfa87dbbc18e3d7e201578ab644d46dbeaad0be58f470a8e92f98",
+    "figures/failure_by_horizon.pdf": "8765aa0ffb16ffd47a8056c94fc8f00beeb3d0d0bddded38ebd735d90fd46917",
+    "figures/primary_contrast.pdf": "1bdfc8557b73feb2073d15ba050a76087bafcda8c52eac4d96e89d5e4c0294ec",
+    "figures/primary_contrast.png": "a320ae67e960d190b235004f1be0b5f7399fa5ef03a934f920a775ede8fb3cd3"
+  },
+  "seed_derivation": "Frozen seed plus first 32 SHA256 bits of ordered site/population/pool/endpoint/contrast/block key, modulo 2^32",
+  "bootstrap_missing_stratum_policy": "Reject replicate and report rate; point estimate uses supported fixed strata"
+}

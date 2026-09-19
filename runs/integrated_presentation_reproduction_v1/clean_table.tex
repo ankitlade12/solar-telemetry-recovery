@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering\footnotesize
+\caption{Clean-data tradeoff against physical context.}
+\label{tab:clean}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrl}
+\hline
+System & Physical NWIS & Recovery NWIS & $10^3\Delta$NWIS [95\% CI] & Tolerance met? \\
+\hline
+NIST & 0.0457 & 0.0458 & 0.026 [-0.003, 0.053] & yes \\
+C4 & 0.0460 & 0.0460 & -0.002 [-0.007, 0.002] & yes \\
+C10 & 0.0525 & 0.0525 & -0.003 [-0.025, 0.019] & yes \\
+\hline
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\textwidth}\scriptsize
+The point tolerance is an increase no larger than $\max(0.02\,\mathrm{NWIS}_{physical},0.0001)$. C10 is the later replication. Meeting the tolerance is not an improvement, coverage or acceptance guarantee.
+\end{minipage}
+\end{table*}

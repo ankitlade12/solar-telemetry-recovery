@@ -1,0 +1,19 @@
+{
+  "identity": "separate producing-system replication after original-study performance exposure",
+  "original_parent_lock_sha256": "b01f5fa92907e3967e61628d70a664ada8114398132aa32cea95e875e2151960",
+  "extension_lock_sha256": "436d6fb991c1f3365c724d6b7ac17b058ddf22430096c06f16109dd697049464",
+  "original_parent_authenticated": true,
+  "extension_dependencies_verified": 139,
+  "verifier": "unchanged generic arithmetic/receipt verifier with authenticated extension configuration and source contracts",
+  "generic_private_mode_note": "The generic checker labels its no-release-view branch original private-workspace verification. Here its actual run lock is the separate extension lock above, not the original study lock.",
+  "source_sha256": {
+    "research/producing_extension.py": "4fed736c15b4f6c6b683dcc1e4914554ad2f2becb0b4599b877e9d6747a7739b",
+    "research/prepare_producing_extension.py": "7bf6b30274718886b5119503c7d258946c1731c9861b1575c7786c36b96d02bb",
+    "research/freeze_producing_extension.py": "dfb5c1968e766aa8f69b4aae7316bc2a992dea54fd21b10f7302b379a0484090",
+    "research/PRODUCING_SYSTEM_EXTENSION_PROTOCOL.md": "4f4b662ddc9a7f95d97d0f0a903804fe2b39aa027dfc1310910c72ba2c1fc77f",
+    "research/verify_producing_extension.py": "166529414a8db42955dccfbee72952a6139560ccfca498b7b2db85e222163ad4",
+    "research/verify_final_evaluation.py": "77b4d4f12ada909c996bad8bfc720a92fa548c09252fdeb457b5e1316161b14a",
+    "research/release_protocol.py": "6a6dde4b988dd93303e197d917206b291cd8d4e9e83fe2bd327679ccc719aa14"
+  },
+  "limits": "Automated verification, not independent human reproduction or physical-meter certification"
+}

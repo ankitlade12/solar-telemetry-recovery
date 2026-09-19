@@ -1,0 +1,7 @@
+{
+  "source_forecast_sha256": "1223c1ab4eb0c8ff9db3f8a65ee9947f88fd1d308d0fc53753b112b556a1f747",
+  "analysis_sha256": "5ed878493267dd1285f352c7746b1a3108c3c82a7a316942afccd9f0f82fb6e2",
+  "bootstrap_seed": 20260911,
+  "replicates": 5000,
+  "resampling_unit": "event mean within a fixed site and development slice"
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "runs/annual_ac_daylight_causal_v3",
+  "sites": [
+    "nist",
+    "colorado"
+  ],
+  "scenarios": [
+    "clean",
+    "joint_gradual"
+  ],
+  "parameters": {
+    "daylight_only": true,
+    "window_hours": 720,
+    "tau_hours": 336,
+    "shrinkage": 50.0,
+    "bandwidth": 1.0,
+    "min_scores": 30,
+    "gamma": 0.001
+  },
+  "methods": [
+    "raw",
+    "rolling",
+    "recency",
+    "physical",
+    "physical_recovery",
+    "mask50",
+    "aci_bounded"
+  ],
+  "base_family": "validation-selected quantile",
+  "status": "development, not confirmatory"
+}

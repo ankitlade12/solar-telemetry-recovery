@@ -1,0 +1,24 @@
+{
+  "status": "verified extension numerical export; narrative review pending",
+  "run": "runs/extension_export_synthetic_v1/synthetic",
+  "data_kind": "explicitly synthetic export fixture",
+  "code_sha256": "be54d47cf5d4c5362a020ef58a9af909b914dda428921bf44d019e12ff84a34b",
+  "source_sha256": {
+    "runs/extension_export_synthetic_v1/synthetic/manifest.json": "7996c1b915fe8e7dc611c25573283ebb799cf7fa5962a908eb728cd8d9e5761d",
+    "runs/extension_export_synthetic_v1/synthetic/verification.json": "65054741979d092455e2b9a9817e617a95361930ad19c2149db87bcde7ff716a",
+    "runs/extension_export_synthetic_v1/synthetic/analysis/manifest.json": "23f4b0abc577aeaec4bd17327748cc7b529c8af5eb3bab2b65dfceced692cd78",
+    "runs/extension_export_synthetic_v1/reproduced/reproduction_comparison.json": "364b811da47144afb4f136cca54610da8f205b0053f4f0455af62c41286dd306"
+  },
+  "claims_checked": 41,
+  "files_sha256": {
+    "sensitivity_claim_rows.csv": "7b8317258f2f597394d0be8d9a2b2e8f8fc791eba8e37f0a134f9bd15f19eca0",
+    "extension_primary.tex": "b305416a52afdb41eedc87d42b97a1e716da4147ab7ecaf07b4ba1a523e9cd65",
+    "primary_claim_rows.csv": "9108056ac66881a6d65a291fd466d85a01a3e38d22832189fb571c30cbfa41e1",
+    "extension_sensitivities.tex": "d04c2bc6e35b15fba5d0619986cf36a3cef45d9dfc1cd2f19c5c815c5ba7cafc",
+    "main_claim_rows.csv": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+    "claim_evidence_extension.json": "37ff20df377db85ec36de1b2c05f5b2f0ba1daaca8e123058b3e1d7cf29c064f",
+    "engineering_gate_facts.csv": "a277d295e8022ce0aa091e7b6e5935a0ef6a87fd678d70dcbf5d6da5d7a95302",
+    "extension_methods.tex": "0ec63920bc311f8b7c8aade261921fe494e335054c4ab5548f71882e82383d67"
+  },
+  "limits": "Point gates are not significance or acceptance guarantees; no independent human review or population-site inference"
+}

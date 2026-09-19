@@ -1,0 +1,7 @@
+site,family,method,validation_nwis
+nist,quantile,quantile_flexible,0.08957297075363438
+nist,single_imputation,single_imputation_compact,0.0649889907646624
+nist,multiple_imputation,multiple_imputation_compact,0.06322782020693297
+colorado,quantile,quantile_flexible,0.05184914780704609
+colorado,single_imputation,single_imputation_compact,0.06448537043286273
+colorado,multiple_imputation,multiple_imputation_compact,0.06357185747127246

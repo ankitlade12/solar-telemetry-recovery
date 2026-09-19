@@ -1,0 +1,91 @@
+{
+  "status": "controlled development ablation; not confirmatory",
+  "parent": "runs/nist_2015_daytime_probe_v1",
+  "parent_forecast_sha256": "4ecbfbff402e15ea80f52118bcc0f73aad5be2818598f145d59202e535abcbcf",
+  "parent_features_sha256": "b32c893a1b62605b55d66c7e88a9c06f86488d1743f17da75eb687196904ea14",
+  "source_data_sha256": "64674f757bdc60cf857f40df2209b30a2bbd58ad49f0a03c2b8ec50ccf4de78d",
+  "definitions": {
+    "expand_all": {
+      "method": "rolling",
+      "daylight_only": false,
+      "expansion_only": true
+    },
+    "signed_all": {
+      "method": "rolling",
+      "daylight_only": false
+    },
+    "expand_day": {
+      "method": "rolling",
+      "expansion_only": true
+    },
+    "signed_day": {
+      "method": "rolling"
+    },
+    "recency_day": {
+      "method": "recency"
+    },
+    "context_day": {
+      "method": "context"
+    },
+    "mask_day": {
+      "method": "mask"
+    },
+    "recovery_day": {
+      "method": "recovery"
+    },
+    "aci_bounded_day": {
+      "method": "aci_bounded"
+    }
+  },
+  "common_defaults": {
+    "window_hours": 720,
+    "tau_hours": 336,
+    "shrinkage": 50.0,
+    "bandwidth": 1.0,
+    "min_scores": 30,
+    "gamma": 0.005,
+    "alpha_bounds": [
+      0.01,
+      0.99
+    ]
+  },
+  "code_sha256": {
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/calibration_v2.py": "f3ab7f4e7af2325c4ab99f1b1d25a3ac605dd3ce0d4ef463789324ae0374177f",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4"
+  },
+  "runner_sha256": "63dad19e2f5c0a98783b2677069cb29b71a5b6ba2c62392897d3169db53263c8",
+  "total_forecasts": 176640,
+  "elapsed_seconds": 85.10205354201025,
+  "checks_passed": [
+    "source data hash",
+    "finite ordered nonnegative quantiles",
+    "unique forecast keys",
+    "identical bases across all methods",
+    "unchanged medians"
+  ],
+  "alpha_clip_counts": {
+    "expand_all": 0,
+    "signed_all": 0,
+    "expand_day": 0,
+    "signed_day": 0,
+    "recency_day": 0,
+    "context_day": 0,
+    "mask_day": 0,
+    "recovery_day": 0,
+    "aci_bounded_day": 0
+  },
+  "limitations": [
+    "single development site-year and fault seed",
+    "complete immediate backfill only",
+    "empirical mask/context variants, not full reproductions of published comparators",
+    "bounded ACI is not the original unbounded algorithm; no inherited guarantee",
+    "equal parameter choices, no method-specific tuning"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "rendered for inspection; not a visual-review result",
+  "pdf": "runs/extension_export_synthetic_v1/synthetic_tables.pdf",
+  "pdf_sha256": "01790033ba662cfdadeb413eb1f42d5cd5bc3449de14648c19285bf88f0797fa",
+  "pages": [
+    {
+      "page": 1,
+      "file": "page_1.png",
+      "sha256": "876a21857f832355f0cdb6ac29dbad932f5db28adb5494b39ee10a70fc4ccdfd"
+    },
+    {
+      "page": 2,
+      "file": "page_2.png",
+      "sha256": "544b4a0ed96ee3202e6a9bef9bb511280d3b15befe25e6d5dd1264ddf4a58bd2"
+    }
+  ],
+  "scale": 1.6,
+  "renderer": "pypdfium2",
+  "renderer_version": "5.13.0",
+  "code_sha256": "3fe8d6ca5a7d82a50a099c3af91be75c534ec1100cc4378376ea3367b0c6815c"
+}

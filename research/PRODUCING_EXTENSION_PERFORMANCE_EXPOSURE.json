@@ -1,0 +1,20 @@
+{
+  "status": "first assistant numerical performance inspection begins after verified analysis and reproduced tables",
+  "recorded_before_inspection_at_utc": "2026-09-13T23:08:53.377080+00:00",
+  "run": "runs/producing_extension_v1",
+  "original_study_exposure": "research/FINAL_PERFORMANCE_EXPOSURE.json",
+  "declaration": "research/PRODUCING_SYSTEM_EXTENSION_PROTOCOL.md",
+  "prior_scope": "Only source qualification, training/progress counts and verification metadata inspected; no extension forecast scores or rankings read by assistant before this record",
+  "next_action": "Export and inspect all 15 primary summaries, primary phases across 7/14/28-day blocks, all declared sensitivities, engineering/support diagnostics; no result-driven retraining",
+  "source_sha256": {
+    "runs/producing_extension_v1/manifest.json": "e998028252aca2cb753399a5723fe4f1990a96974802788ff28ce02a34c2b295",
+    "runs/producing_extension_v1/verification.json": "1573842c56eb4348eb1ead0281a883e9186864116033d8571d0f132b9ce23a74",
+    "runs/producing_extension_v1/analysis/manifest.json": "520c31accb687ff1a1995869e96ec4fac15ecb704093fd4308d13c9cc71ffc1f",
+    "runs/producing_extension_reproduced_v1/reproduction_comparison.json": "b28c9effde2a9d6f677a1ff4e7be4636117f238960287ec3c660048d6f7dad32",
+    "runs/producing_extension_v1/completion_workflow/extension_completion.json": "96123f58636970605d3079e163d922d56ad1bdd359c844ec0237e7720cba1ffd"
+  },
+  "completed_cases": 11,
+  "verified_forecasts": 4702320,
+  "direct_history_slots_checked": 192700,
+  "limits": "This extension follows original-study result exposure and source-distribution qualification; not original prospective evaluation, external preregistration or independent human reproduction"
+}

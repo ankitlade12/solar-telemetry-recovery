@@ -1,0 +1,2435 @@
+[
+  {
+    "system_id": 4,
+    "system": {
+      "system_id": 4,
+      "site_id": 15,
+      "public_name": "[4] NREL x-Si -1",
+      "area": "5.896",
+      "power": "1.0",
+      "started_on": "2007-08-26 06:00:00",
+      "ended_on": "",
+      "comments": "HIP"
+    },
+    "site": {
+      "site_id": "15",
+      "public_name": "[4] NREL x-Si -1",
+      "latitude": "39.7406",
+      "longitude": "-105.1774",
+      "elevation": "1795.3",
+      "climate_type": "Bsk",
+      "av_temp": "12.5",
+      "av_pressure": "820.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "4",
+          "name": "ot_4_inv_0",
+          "manufacturer": "Unknown",
+          "model": "1800",
+          "type": "Unknown",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 314,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 315,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 313,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 10,
+    "system": {
+      "system_id": 10,
+      "site_id": 19,
+      "public_name": "[10] NREL CIS -1",
+      "area": "12.065",
+      "power": "1.12",
+      "started_on": "2006-01-09 22:45:00",
+      "ended_on": "",
+      "comments": ""
+    },
+    "site": {
+      "site_id": "19",
+      "public_name": "[10] NREL CIS -1",
+      "latitude": "39.7404",
+      "longitude": "-105.1774",
+      "elevation": "1792.8",
+      "climate_type": "Bsk",
+      "av_temp": "12.5",
+      "av_pressure": "820.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "8",
+          "name": "otec80_10_inv_0",
+          "manufacturer": "Unknown",
+          "model": "Unknown",
+          "type": "Unknown",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 422,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 423,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 421,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 33,
+    "system": {
+      "system_id": 33,
+      "site_id": 11,
+      "public_name": "Silicor Materials",
+      "area": "15.76",
+      "power": "2.4",
+      "started_on": "2010-01-08 20:30:00",
+      "ended_on": "",
+      "comments": "240W UMG Modules"
+    },
+    "site": {
+      "site_id": "11",
+      "public_name": "NREL OTF Silicor",
+      "location": "Golden, CO",
+      "latitude": "39.7404",
+      "longitude": "-105.1772",
+      "elevation": "1794.0",
+      "climate_type": "Bsk",
+      "av_temp": "12.5",
+      "av_pressure": "820.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "29",
+          "name": "otsy1_33_inv_0",
+          "manufacturer": "SMA",
+          "model": "SB3000US",
+          "type": "string",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 583,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 584,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 582,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 50,
+    "system": {
+      "system_id": 50,
+      "site_id": 3,
+      "public_name": "NREL x-Si 6",
+      "area": "-1.0",
+      "power": "6.0",
+      "started_on": "1996-03-08 05:26:00",
+      "ended_on": "",
+      "comments": ""
+    },
+    "site": {
+      "site_id": "3",
+      "public_name": "SERF East",
+      "location": "Golden, CO",
+      "latitude": "39.742",
+      "longitude": "-105.1727",
+      "elevation": "1994.7",
+      "climate_type": "Bsk",
+      "av_temp": "12.5",
+      "av_pressure": "820.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "41",
+          "name": "seeasy_50_inv_0",
+          "manufacturer": "Fronius",
+          "model": "IG 4500-LV",
+          "type": "string",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 751,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 752,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 765,
+        "sensor_name": "dc_power_1",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 766,
+        "sensor_name": "dc_power_2",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 767,
+        "sensor_name": "ac_power_1",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 768,
+        "sensor_name": "ac_power_2",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 750,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 51,
+    "system": {
+      "system_id": 51,
+      "site_id": 4,
+      "public_name": "NREL x-Si 7",
+      "area": "-1.0",
+      "power": "6.0",
+      "started_on": "2011-04-20 13:48:00",
+      "ended_on": "",
+      "comments": ""
+    },
+    "site": {
+      "site_id": "4",
+      "public_name": "SERF West",
+      "location": "Golden, CO",
+      "latitude": "39.7416",
+      "longitude": "-105.1734",
+      "elevation": "1994.7",
+      "climate_type": "Bsk",
+      "av_temp": "12.5",
+      "av_pressure": "820.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "42",
+          "name": "sewesy_51_inv_0",
+          "manufacturer": "Fronius",
+          "model": "IG 4500-LV",
+          "type": "string",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 772,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 773,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 786,
+        "sensor_name": "dc_power_1",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 787,
+        "sensor_name": "dc_power_2",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 788,
+        "sensor_name": "ac_power_1",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 789,
+        "sensor_name": "ac_power_2",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 771,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1199,
+    "system": {
+      "system_id": 1199,
+      "site_id": 1196,
+      "public_name": "[1199] Distributed Sun - Hunt Valley",
+      "area": "366.544",
+      "power": "52.92",
+      "started_on": "2010-05-26 15:45:00",
+      "ended_on": "",
+      "comments": "PVDAQ contributor Washington D.C. area"
+    },
+    "site": {
+      "site_id": "1196",
+      "public_name": "[1199] Distributed Sun - Hunt Valley",
+      "latitude": "39.4856",
+      "longitude": "-76.6636",
+      "elevation": "325.0",
+      "climate_type": "Cfa",
+      "av_temp": "16.0",
+      "av_pressure": "1020.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1180",
+          "name": "disu-huva_1199_inv_0",
+          "manufacturer": "SMA",
+          "model": "SB7000W",
+          "type": "string",
+          "quantity": "7",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 2714,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2715,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2716,
+        "sensor_name": "inv1_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2717,
+        "sensor_name": "inv1_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2721,
+        "sensor_name": "inv2_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2722,
+        "sensor_name": "inv2_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2726,
+        "sensor_name": "inv3_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2727,
+        "sensor_name": "inv3_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2731,
+        "sensor_name": "inv4_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2732,
+        "sensor_name": "inv4_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2736,
+        "sensor_name": "inv5_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2737,
+        "sensor_name": "inv5_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2741,
+        "sensor_name": "inv6_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2742,
+        "sensor_name": "inv6_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2746,
+        "sensor_name": "inv7_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2747,
+        "sensor_name": "inv7_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1200,
+    "system": {
+      "system_id": 1200,
+      "site_id": 1197,
+      "public_name": "[1200] Distributed Sun - BWI Hilton",
+      "area": "362.162",
+      "power": "51.84",
+      "started_on": "2010-10-03 18:15:00",
+      "ended_on": "",
+      "comments": "PVDAQ contributor Washington D.C. area"
+    },
+    "site": {
+      "site_id": "1197",
+      "public_name": "[1200] Distributed Sun - BWI Hilton",
+      "latitude": "39.1958",
+      "longitude": "-76.6808",
+      "elevation": "155.0",
+      "climate_type": "Cfa",
+      "av_temp": "16.0",
+      "av_pressure": "1020.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1181",
+          "name": "disu-bwhi_1200_inv_0",
+          "manufacturer": "SMA",
+          "model": "SB8000W",
+          "type": "string",
+          "quantity": "6",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 2751,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2752,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2757,
+        "sensor_name": "inv1_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2758,
+        "sensor_name": "inv1_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2762,
+        "sensor_name": "inv2_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2763,
+        "sensor_name": "inv2_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2767,
+        "sensor_name": "inv3_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2768,
+        "sensor_name": "inv3_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2772,
+        "sensor_name": "inv4_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2773,
+        "sensor_name": "inv4_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2777,
+        "sensor_name": "inv5_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2778,
+        "sensor_name": "inv5_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2782,
+        "sensor_name": "inv6_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2783,
+        "sensor_name": "inv6_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 4197,
+        "sensor_name": "ac_power_metered_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2753,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1201,
+    "system": {
+      "system_id": 1201,
+      "site_id": 1199,
+      "public_name": "[1201] Distributed Sun - 5 Executive Campus",
+      "area": "959.058",
+      "power": "140.14",
+      "started_on": "2011-01-24 18:00:00",
+      "ended_on": "",
+      "comments": "PVDAQ contributor Washington D.C. area"
+    },
+    "site": {
+      "site_id": "1199",
+      "public_name": "[1201] Distributed Sun - 5 Executive Campus",
+      "latitude": "39.9283",
+      "longitude": "-75.0481",
+      "elevation": "18.0",
+      "climate_type": "Cfa",
+      "av_temp": "16.0",
+      "av_pressure": "1020.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1183",
+          "name": "disu-5exca_1201_inv_0",
+          "manufacturer": "Satcon",
+          "model": "Power Gate Plus 135kW",
+          "type": "central",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 2800,
+        "sensor_name": "dc_power_hW",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 100.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2801,
+        "sensor_name": "ac_power_hW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 100.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2789,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1202,
+    "system": {
+      "system_id": 1202,
+      "site_id": 1200,
+      "public_name": "[1202] Distributed Sun - 6 Executive Campus",
+      "area": "362.162",
+      "power": "51.84",
+      "started_on": "2010-12-29 21:00:00",
+      "ended_on": "",
+      "comments": "PVDAQ contributor Washington D.C. area"
+    },
+    "site": {
+      "site_id": "1200",
+      "public_name": "[1202] Distributed Sun - 6 Executive Campus",
+      "latitude": "39.9292",
+      "longitude": "-75.0472",
+      "elevation": "19.0",
+      "climate_type": "Cfa",
+      "av_temp": "16.0",
+      "av_pressure": "1020.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1184",
+          "name": "disu-6exca_1202_inv_0",
+          "manufacturer": "SMA",
+          "model": "SB8000W",
+          "type": "string",
+          "quantity": "6",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 2810,
+        "sensor_name": "inv1_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2811,
+        "sensor_name": "inv1_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2815,
+        "sensor_name": "inv2_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2816,
+        "sensor_name": "inv2_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2820,
+        "sensor_name": "inv3_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2821,
+        "sensor_name": "inv3_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2825,
+        "sensor_name": "inv4_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2826,
+        "sensor_name": "inv4_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2830,
+        "sensor_name": "inv5_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2831,
+        "sensor_name": "inv5_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2835,
+        "sensor_name": "inv6_ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2836,
+        "sensor_name": "inv6_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2840,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2841,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2802,
+        "sensor_name": "ac_power_metered_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2806,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1203,
+    "system": {
+      "system_id": 1203,
+      "site_id": 1201,
+      "public_name": "[1203] Distributed Sun - EJ DeSeta",
+      "area": "1351.4",
+      "power": "197.47",
+      "started_on": "2011-01-18 08:00:00",
+      "ended_on": "",
+      "comments": "PVDAQ contributor Washington D.C. area"
+    },
+    "site": {
+      "site_id": "1201",
+      "public_name": "[1203] Distributed Sun - EJ DeSeta",
+      "latitude": "39.7325",
+      "longitude": "-75.5511",
+      "elevation": "4.0",
+      "climate_type": "Cfa",
+      "av_temp": "16.0",
+      "av_pressure": "1020.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1185",
+          "name": "disu-ejde_1203_inv_0",
+          "manufacturer": "Satcon",
+          "model": "Power Gate Plus 100kW",
+          "type": "central",
+          "quantity": "2",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 2889,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2890,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2895,
+        "sensor_name": "inv1_ac_power_hW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 100.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2896,
+        "sensor_name": "inv1_dc_power_hW",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 100.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2902,
+        "sensor_name": "inv2_ac_power_hW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 100.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2903,
+        "sensor_name": "inv2_dc_power_hW",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 100.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2911,
+        "sensor_name": "ac_inverter_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2909,
+        "sensor_name": "ac_meter_1_power_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2910,
+        "sensor_name": "ac_meter_2_power_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 2893,
+        "sensor_name": "gh_irradiance",
+        "common_name": "Irradiance GHI",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1208,
+    "system": {
+      "system_id": 1208,
+      "site_id": 9,
+      "public_name": "NREL Visitors Parking",
+      "area": "",
+      "power": "2.7135081",
+      "started_on": "2011-07-26 19:14:30",
+      "ended_on": "2021-01-15 11:44:00",
+      "comments": ""
+    },
+    "site": {
+      "site_id": "9",
+      "public_name": "NREL Visitors Parking",
+      "location": "Golden, CO",
+      "latitude": "39.7407",
+      "longitude": "-105.1694",
+      "elevation": "1780.0",
+      "climate_type": "Bsk",
+      "av_temp": "12.5",
+      "av_pressure": "820.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1190",
+          "name": "nrvipast_1208_inv_0",
+          "manufacturer": "SMA",
+          "model": "Sunny Central 250U",
+          "type": "central",
+          "quantity": "2",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 1130,
+        "sensor_name": "inv1_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1131,
+        "sensor_name": "inv2_dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1132,
+        "sensor_name": "dc_power",
+        "common_name": "DC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1133,
+        "sensor_name": "ac_power_metered_1_2",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1016,
+        "sensor_name": "ac_power_metered_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1017,
+        "sensor_name": "ac_meter_1_power_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1018,
+        "sensor_name": "ac_meter_2_power_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1019,
+        "sensor_name": "inv1_ac_power_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 1023,
+        "sensor_name": "inv2_ac_power_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1239,
+    "system": {
+      "system_id": 1239,
+      "site_id": 1228,
+      "public_name": "[1239] Univ. of Maine - Presque Isle",
+      "area": "146.7144",
+      "power": "20.16",
+      "started_on": "2011-09-20 05:00:00",
+      "ended_on": "",
+      "comments": "CDP site"
+    },
+    "site": {
+      "site_id": "1228",
+      "public_name": "[1239] Univ. of Maine - Presque Isle",
+      "latitude": "46.6704",
+      "longitude": "-68.0178",
+      "elevation": "197.0",
+      "climate_type": "Dfb",
+      "av_temp": "8.0",
+      "av_pressure": "1020.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1215",
+          "name": "unofma-pris_1239_inv_0",
+          "manufacturer": "Solectria",
+          "model": "PVI 13kW",
+          "type": "string",
+          "quantity": "2",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 3015,
+        "sensor_name": "ac_power_metered_kW",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "kW",
+        "calc_scale": 1000.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 3018,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 1367,
+    "system": {
+      "system_id": 1367,
+      "site_id": 1348,
+      "public_name": "[1367] City of Henderson-NV - Aquatic Complex",
+      "area": "1698.0581",
+      "power": "277.16",
+      "started_on": "2013-05-08 08:38:00",
+      "ended_on": "",
+      "comments": "CDP site. City of Henderson Nevada."
+    },
+    "site": {
+      "site_id": "1348",
+      "public_name": "[1367] City of Henderson-NV - Aquatic Complex",
+      "latitude": "36.033",
+      "longitude": "-114.9516",
+      "elevation": "660.0",
+      "climate_type": "Bwh",
+      "av_temp": "30.0",
+      "av_pressure": "955.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "1343",
+          "name": "ciofhe-aqco_1367_inv0",
+          "manufacturer": "Solectria",
+          "model": "PVI 95kW",
+          "type": "string",
+          "quantity": "2",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        },
+        "Inverter 1": {
+          "inverter_id": "1344",
+          "name": "ciofhe-aqco_1367_inv1",
+          "manufacturer": "Solectria",
+          "model": "PVI 60kW",
+          "type": "string",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "",
+          "modules_per_string": "",
+          "num_strings": ""
+        }
+      },
+      "Meters": {},
+      "Other Instruments": {}
+    },
+    "channels": [
+      {
+        "metric_id": 3083,
+        "sensor_name": "ac_power_1",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 3086,
+        "sensor_name": "ac_power_2",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 3089,
+        "sensor_name": "ac_power_3",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 3091,
+        "sensor_name": "ac_power",
+        "common_name": "AC power",
+        "units": "W",
+        "raw_units": "W",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      },
+      {
+        "metric_id": 4195,
+        "sensor_name": "poa_irradiance",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": null,
+        "source_id": null
+      }
+    ]
+  },
+  {
+    "system_id": 4902,
+    "system": {
+      "system_id": 4902,
+      "site_id": 3197,
+      "public_name": "NIST_Ground_1",
+      "area": "",
+      "power": "270.7",
+      "started_on": "2014-07-29 07:59:00",
+      "ended_on": "",
+      "comments": ""
+    },
+    "site": {
+      "site_id": "3197",
+      "public_name": "s_NIST_G1",
+      "location": "Gaithersburg MD",
+      "latitude": "39.1319",
+      "longitude": "-77.2141",
+      "elevation": "138.0",
+      "climate_type": "Cfa",
+      "av_temp": "12.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "14538",
+          "name": "inv_nist_g1",
+          "manufacturer": "PV Powered",
+          "model": "PVP 260kW",
+          "type": "central",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L",
+          "modules_per_string": 12,
+          "num_strings": 96
+        }
+      },
+      "Meters": {
+        "Meter 0": {
+          "meter_id": "1864",
+          "name": "meter_nist_g1",
+          "manufacturer": "Schnieder Electric",
+          "model": "Power Logic ION8600",
+          "type": "revenue grade",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        }
+      },
+      "Other Instruments": {
+        "Other Instrument 0": {
+          "instrument_id": "2202",
+          "name": "pyra_1_nist_g1",
+          "manufacturer": "Eppley",
+          "model": "PSP",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 1": {
+          "instrument_id": "2203",
+          "name": "pyra_2_nist_g1",
+          "manufacturer": "Kipp and Zonen",
+          "model": "CMP11",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 2": {
+          "instrument_id": "2204",
+          "name": "ref_cell_nist_g1",
+          "manufacturer": "IMT Solar",
+          "model": "Si-420-TC-K",
+          "type": "ref cell",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 3": {
+          "instrument_id": "2205",
+          "name": "amb_temp_nist_g1",
+          "manufacturer": "RM Young",
+          "model": "41342LC",
+          "type": "temp sensor",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 4": {
+          "instrument_id": "2206",
+          "name": "weather_station_nist_g1",
+          "manufacturer": "Vaisala",
+          "model": "WMT52",
+          "type": "weather station",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        }
+      }
+    },
+    "channels": [
+      {
+        "metric_id": 82607,
+        "sensor_name": "InvPAC_kW_Avg",
+        "common_name": "AC power",
+        "units": "kW",
+        "raw_units": "kW",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "INVERTER",
+        "source_id": 14538.0
+      },
+      {
+        "metric_id": 82610,
+        "sensor_name": "InvPDC_kW_Avg",
+        "common_name": "DC power",
+        "units": "kW",
+        "raw_units": "kW",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "INVERTER",
+        "source_id": 14538.0
+      },
+      {
+        "metric_id": 82638,
+        "sensor_name": "PwrMtrEdel_kVARh_Max",
+        "common_name": "AC power",
+        "units": "kVARh",
+        "raw_units": "kVARh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1864.0
+      },
+      {
+        "metric_id": 82636,
+        "sensor_name": "PwrMtrEdel_kWh_Max",
+        "common_name": "AC power",
+        "units": "kWh",
+        "raw_units": "kWh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1864.0
+      },
+      {
+        "metric_id": 82639,
+        "sensor_name": "PwrMtrErec_kVARh_Max",
+        "common_name": "AC power",
+        "units": "kVARh",
+        "raw_units": "kVARh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1864.0
+      },
+      {
+        "metric_id": 82637,
+        "sensor_name": "PwrMtrErec_kWh_Max",
+        "common_name": "AC power",
+        "units": "kWh",
+        "raw_units": "kWh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1864.0
+      },
+      {
+        "metric_id": 82633,
+        "sensor_name": "PwrMtrP_kW_Avg",
+        "common_name": "AC power",
+        "units": "kW",
+        "raw_units": "kW",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "METER",
+        "source_id": 1864.0
+      },
+      {
+        "metric_id": 82593,
+        "sensor_name": "Pyra1_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2202.0
+      },
+      {
+        "metric_id": 82594,
+        "sensor_name": "Pyra2_mV_Avg",
+        "common_name": "Irradiance POA",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2203.0
+      },
+      {
+        "metric_id": 82595,
+        "sensor_name": "RefCell1_Wm2_Avg",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2204.0
+      },
+      {
+        "metric_id": 82622,
+        "sensor_name": "SEWSPOAIrrad_Wm2_Avg",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2206.0
+      }
+    ]
+  },
+  {
+    "system_id": 4903,
+    "system": {
+      "system_id": 4903,
+      "site_id": 3198,
+      "public_name": "NIST_Roof_1",
+      "area": "",
+      "power": "73.7",
+      "started_on": "2014-07-29 07:59:00",
+      "ended_on": "",
+      "comments": ""
+    },
+    "site": {
+      "site_id": "3198",
+      "public_name": "s_NIST_R1",
+      "location": "Gaithersburg MD",
+      "latitude": "39.1354",
+      "longitude": "-77.2156",
+      "elevation": "149.0",
+      "climate_type": "Cfa",
+      "av_temp": "12.0"
+    },
+    "instruments": {
+      "Inverters": {
+        "Inverter 0": {
+          "inverter_id": "14539",
+          "name": "inv_nist_r1",
+          "manufacturer": "Satcon",
+          "model": "PVS-75 480",
+          "type": "string",
+          "quantity": "1",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L",
+          "modules_per_string": 12,
+          "num_strings": 26
+        }
+      },
+      "Meters": {
+        "Meter 0": {
+          "meter_id": "1865",
+          "name": "meter_nist_r1",
+          "manufacturer": "Schnieder Electric",
+          "model": "Power Logic ION8600",
+          "type": "revenue grade",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        }
+      },
+      "Other Instruments": {
+        "Other Instrument 0": {
+          "instrument_id": "2206",
+          "name": "pyra_1_nist_r1",
+          "manufacturer": "Eppley",
+          "model": "PSP",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 1": {
+          "instrument_id": "2207",
+          "name": "pyra_2_nist_r1",
+          "manufacturer": "Eppley",
+          "model": "PSP",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 2": {
+          "instrument_id": "2208",
+          "name": "pyra_3_nist_r1",
+          "manufacturer": "Kipp and Zonen",
+          "model": "CMP11",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 3": {
+          "instrument_id": "2209",
+          "name": "pyra_4_nist_r1",
+          "manufacturer": "Eppley",
+          "model": "PSP",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 4": {
+          "instrument_id": "2210",
+          "name": "pyra_5_nist_r1",
+          "manufacturer": "Eppley",
+          "model": "PSP",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 5": {
+          "instrument_id": "2211",
+          "name": "pyra_6_nist_r1",
+          "manufacturer": "Kipp and Zonen",
+          "model": "CMP11",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 6": {
+          "instrument_id": "2212",
+          "name": "pyra_7_nist_r1",
+          "manufacturer": "Eppley",
+          "model": "PSP",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 7": {
+          "instrument_id": "2213",
+          "name": "pyra_8_nist_r1",
+          "manufacturer": "Eppley",
+          "model": "PSP",
+          "type": "pyranometer",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 8": {
+          "instrument_id": "2214",
+          "name": "ref_cell_1_nist_r1",
+          "manufacturer": "IMT Solar",
+          "model": "Si-420-TC-K",
+          "type": "ref cell",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 9": {
+          "instrument_id": "2215",
+          "name": "ref_cell_2_nist_r1",
+          "manufacturer": "IMT Solar",
+          "model": "Si-420-TC-K",
+          "type": "ref cell",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 10": {
+          "instrument_id": "2216",
+          "name": "ref_cell_3_nist_r1",
+          "manufacturer": "IMT Solar",
+          "model": "Si-420-TC-K",
+          "type": "ref cell",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 11": {
+          "instrument_id": "2217",
+          "name": "amb_temp_nist_r1",
+          "manufacturer": "RM Young",
+          "model": "41342LC",
+          "type": "temp sensor",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        },
+        "Other Instrument 12": {
+          "instrument_id": "2218",
+          "name": "weather_station_nist_r1",
+          "manufacturer": "Vaisala",
+          "model": "WMT52",
+          "type": "weather station",
+          "serial_num": "",
+          "comments": "",
+          "time_interval": "L"
+        }
+      }
+    },
+    "channels": [
+      {
+        "metric_id": 82728,
+        "sensor_name": "InvPAC_kW_Avg",
+        "common_name": "AC power",
+        "units": "kW",
+        "raw_units": "kW",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "INVERTER",
+        "source_id": 14539.0
+      },
+      {
+        "metric_id": 82727,
+        "sensor_name": "InvPDC_kW_Avg",
+        "common_name": "DC power",
+        "units": "kW",
+        "raw_units": "kW",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "INVERTER",
+        "source_id": 14539.0
+      },
+      {
+        "metric_id": 82759,
+        "sensor_name": "PwrMtrEdel_kVARh_Max",
+        "common_name": "AC power",
+        "units": "kVARh",
+        "raw_units": "kVARh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1865.0
+      },
+      {
+        "metric_id": 82757,
+        "sensor_name": "PwrMtrEdel_kWh_Max",
+        "common_name": "AC power",
+        "units": "kWh",
+        "raw_units": "kWh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1865.0
+      },
+      {
+        "metric_id": 82760,
+        "sensor_name": "PwrMtrErec_kVARh_Max",
+        "common_name": "AC power",
+        "units": "kVARh",
+        "raw_units": "kVARh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1865.0
+      },
+      {
+        "metric_id": 82758,
+        "sensor_name": "PwrMtrErec_kWh_Max",
+        "common_name": "AC power",
+        "units": "kWh",
+        "raw_units": "kWh",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "max",
+        "source_type": "METER",
+        "source_id": 1865.0
+      },
+      {
+        "metric_id": 82754,
+        "sensor_name": "PwrMtrP_kW_Avg",
+        "common_name": "AC power",
+        "units": "kW",
+        "raw_units": "kW",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "METER",
+        "source_id": 1865.0
+      },
+      {
+        "metric_id": 82691,
+        "sensor_name": "Pyra1_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2206.0
+      },
+      {
+        "metric_id": 82692,
+        "sensor_name": "Pyra2_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2207.0
+      },
+      {
+        "metric_id": 82693,
+        "sensor_name": "Pyra3_mV_Avg",
+        "common_name": "Irradiance POA",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2208.0
+      },
+      {
+        "metric_id": 82694,
+        "sensor_name": "Pyra4_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2209.0
+      },
+      {
+        "metric_id": 82695,
+        "sensor_name": "Pyra5_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2210.0
+      },
+      {
+        "metric_id": 82696,
+        "sensor_name": "Pyra6_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2211.0
+      },
+      {
+        "metric_id": 82697,
+        "sensor_name": "Pyra7_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2212.0
+      },
+      {
+        "metric_id": 82698,
+        "sensor_name": "Pyra8_mV_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "mV",
+        "raw_units": "mV",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2213.0
+      },
+      {
+        "metric_id": 82699,
+        "sensor_name": "RefCell1_Wm2_Avg",
+        "common_name": "Irradiance POA",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2214.0
+      },
+      {
+        "metric_id": 82700,
+        "sensor_name": "RefCell2_Wm2_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2215.0
+      },
+      {
+        "metric_id": 82701,
+        "sensor_name": "RefCell3_Wm2_Avg",
+        "common_name": "Irradiance GHI",
+        "units": "W/m^2",
+        "raw_units": "W/m^2",
+        "calc_scale": 1.0,
+        "calc_offset": 0.0,
+        "aggregation_type": "avg",
+        "source_type": "OTHER",
+        "source_id": 2216.0
+      }
+    ]
+  },
+  {
+    "system_id": 4904,
+    "status": "metadata unavailable"
+  }
+]

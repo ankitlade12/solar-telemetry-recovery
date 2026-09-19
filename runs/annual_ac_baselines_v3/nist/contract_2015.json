@@ -1,0 +1,41 @@
+{
+  "system_id": 4902,
+  "year": 2015,
+  "name": "NIST_Ground_1",
+  "latitude": 39.1319,
+  "longitude": -77.2141,
+  "capacity_kw_dc": 270.7,
+  "specification": {
+    "pv": 82633,
+    "irradiance": 82595,
+    "pv_unit": "kW",
+    "pv_to_kw": 1.0,
+    "utc_add_hours": 5,
+    "alignment": "left aligned according to meter and reference-cell metadata"
+  },
+  "target": "nonnegative component of the hourly mean of recorded AC real-power samples, kW",
+  "target_transform": "max(mean(valid minute AC measurements), 0); missing means remain missing",
+  "irradiance": "mean recorded POA irradiance; small negative sensor readings retained, not treated as delivery failure",
+  "hour_definition": "60 valid distinct source minute records in left-closed timestamp bins, labelled at the next hour",
+  "quality_bounds": {
+    "ac_min_kw": -13.535,
+    "ac_max_kw": 406.04999999999995,
+    "poa_min_w_m2": -20.0,
+    "poa_max_w_m2": 2000.0
+  },
+  "timestamp_source": "source UTC, cross-checked against native fixed-offset timestamps",
+  "alignment": "left aligned according to meter and reference-cell metadata",
+  "receipt_assumption": "Operational receipts unavailable. For alignment sensitivity, impose at least one-minute release margin; current artifact is data only.",
+  "status": "development data; Colorado UTC/interval convention is a qualified assumption requiring sensitivity analysis",
+  "source_manifest_sha256": "0b80d4c75b6b688b9af1ae47aebc0ef77ba41c5620be03345de18533100ef102",
+  "hourly_sha256": "ce1607623c5e8b5ace0b9aa4782638b6a7860594743c190932968fd55b77f003",
+  "adapter_sha256": "eb11fe47b874defe2e413913b7a005fee59d7cf4f63a816108e0ae2a5424a58a",
+  "license": "CC-BY-4.0",
+  "doi": "10.25984/1846021",
+  "limitations": [
+    "quality bounds are explicit engineering choices requiring sensitivity analysis",
+    "AC sensor and nonnegative-component target differ from the original inverter-DC pilot",
+    "catalog QA flags remain applicable; high completeness alone is not metrological validation",
+    "no forecast performance or untouched evaluation result is reported by this adapter"
+  ]
+}

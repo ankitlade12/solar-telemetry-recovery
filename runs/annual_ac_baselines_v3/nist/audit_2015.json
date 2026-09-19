@@ -1,0 +1,14 @@
+{
+  "duplicate_rows_removed": 38,
+  "timestamp_source": "source UTC, cross-checked against native fixed-offset timestamps",
+  "excluded_minute_rows": 33325,
+  "negative_hourly_ac_means_clipped": 311,
+  "system_id": 4902,
+  "year": 2015,
+  "hours": 8760,
+  "valid_pv_hours": 7879,
+  "valid_irradiance_hours": 7332,
+  "daylight_hours": 4404,
+  "valid_daylight_pv_hours": 3902,
+  "valid_daylight_joint_hours": 3669
+}

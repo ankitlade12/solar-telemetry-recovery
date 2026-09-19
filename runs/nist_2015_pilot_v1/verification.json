@@ -1,0 +1,52 @@
+{
+  "checks_passed": [
+    "code hashes",
+    "seven complete scenario files",
+    "unique origin/horizon/method forecasts",
+    "four configured horizons and five methods at each origin",
+    "correct target timestamps",
+    "finite nonnegative ordered quantiles",
+    "unchanged calibrated medians",
+    "truth alignment and missing-target preservation",
+    "identical base forecasts across learned-model methods",
+    "calibration score ages and effective sample sizes"
+  ],
+  "scenarios": {
+    "clean": {
+      "forecasts": 88320,
+      "eligible_daylight_forecasts": 33940,
+      "development_recovery_events": 0
+    },
+    "irradiance_first": {
+      "forecasts": 88320,
+      "eligible_daylight_forecasts": 33940,
+      "development_recovery_events": 8
+    },
+    "irradiance_only": {
+      "forecasts": 88320,
+      "eligible_daylight_forecasts": 33940,
+      "development_recovery_events": 8
+    },
+    "joint": {
+      "forecasts": 88320,
+      "eligible_daylight_forecasts": 33940,
+      "development_recovery_events": 8
+    },
+    "no_backfill": {
+      "forecasts": 88320,
+      "eligible_daylight_forecasts": 33940,
+      "development_recovery_events": 8
+    },
+    "pv_first": {
+      "forecasts": 88320,
+      "eligible_daylight_forecasts": 33940,
+      "development_recovery_events": 8
+    },
+    "pv_only": {
+      "forecasts": 88320,
+      "eligible_daylight_forecasts": 33940,
+      "development_recovery_events": 8
+    }
+  },
+  "total_forecasts": 618240
+}

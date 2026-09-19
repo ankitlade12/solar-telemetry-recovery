@@ -1,0 +1,16 @@
+{
+  "status": "pending; not admitted to producing-site extension",
+  "forecast_performance_inspected": false,
+  "coverage_check": "pass",
+  "scale_check": "supported by catalog and positive energy-increment diagnostic",
+  "clock": "fixed EST supported by diagnostics, not externally confirmed",
+  "interval_semantics": "unresolved",
+  "operating_regime": "unexplained dominant near-idle winter months",
+  "original_frozen_files_verified": 83,
+  "evidence_sha256": {
+    "research/maine_qualification_v1/manifest.json": "d49a8e9fef99dad5b0ac24c209a472ff370bf2cef11c0c6eebcd0c15dfb1c15f",
+    "research/maine_qualification_v1/FINDINGS.md": "b28b429b8fe695e865e7271c58c23821e62a925c3d1f11dc96351ff88ccb08d3",
+    "research/EXTENSION_SOURCE_QUALIFICATION_PLAN.md": "f062656044426227014dc0c95316f69f631ad498d431e013df23687515530b55",
+    "research/RESERVE_SOURCE_10_PLAN.md": "4b2ea822d7cb0fddc9df0cd72ea3ac010856c49d8478312af2627357a2c63748"
+  }
+}

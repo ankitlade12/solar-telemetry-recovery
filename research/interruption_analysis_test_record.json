@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-09-12T17:28:07.723782+00:00",
+  "data_kind": "synthetic tests and schedule metadata only; no final numerical forecasting-performance inspection",
+  "tests": [
+    {
+      "command": "MPLCONFIGDIR=/private/tmp/solar-recovery-mpl python3 -m pytest tests/test_final_analysis_integration.py tests/test_final_analysis.py -q",
+      "result": "4 passed",
+      "elapsed_seconds": 23.6
+    },
+    {
+      "command": "MPLCONFIGDIR=/private/tmp/solar-recovery-mpl python3 -m pytest tests/test_final_verifier.py tests/test_release_protocol.py tests/test_final_analysis_integration.py -q",
+      "result": "5 passed",
+      "elapsed_seconds": 23.4
+    }
+  ],
+  "checks": [
+    "All eight analysis CSV tables reproduced from synthetic artifacts at declared tolerance",
+    "Isolated interruption rows retained; clean comparison matched to same origin/horizon keys",
+    "Scheduled phase boundaries at start, first/final return, six hours and twenty-four hours tested",
+    "Actual schedule metadata confirms identical interruption windows for both sites across isolated and joint cases",
+    "All 83 original frozen files still match; no scientific frozen inputs edited"
+  ],
+  "source_sha256": {
+    "research/analyze_final_evaluation.py": "39c0c87ac4f3c45d01f304d47849c7063a5c8e3a4c73d8984a409226ab0b77ca",
+    "research/verify_final_evaluation.py": "77b4d4f12ada909c996bad8bfc720a92fa548c09252fdeb457b5e1316161b14a",
+    "tests/test_final_analysis_integration.py": "de06b863f7db85dc5721d58cd9d77caf6a0fded49fc7840b0c3a42a1292c1b25",
+    "tests/test_final_verifier.py": "62b3431c25de6b66e3523b0be3c0f233008447aa149d19e9cd97670e2375e206"
+  },
+  "original_lock_sha256": "b01f5fa92907e3967e61628d70a664ada8114398132aa32cea95e875e2151960"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "integrated presentation generated from verified reproduced studies; manuscript review pending",
+  "code_sha256": "e3cb3e31f36ef9eb6205f091252b3dfa99eedeef82496b8ec503f3cd38e44f4a",
+  "source_sha256": {
+    "runs/final_2017_v4/analysis/Summary.csv": "caa444310ff1864265b8e8dbb3e7e5c79e145637773715ef215fd40d335116b6",
+    "runs/producing_extension_v1/analysis/Summary.csv": "7e8bb7c0bd35f1e607405f775fe8b14ee4e3a1cc39d12a6037504aec53e05c26",
+    "runs/final_2017_v4/analysis/Contrasts.csv": "ebade96fa3288e8b4a7acd18742f58eaa0df4e7282cef7076a5ebd31bc722dc5",
+    "runs/final_2017_v4/analysis/Cells.csv": "f3ea918732acd0d770a0bb2623132c799d26a3cd02b228fabe7b23ba14bd85cc",
+    "runs/producing_extension_v1/analysis/Contrasts.csv": "9ecd2b5dc32c1587cc14546ed8aedaa677565acb3bce57550eec76a358cdeccc",
+    "runs/producing_extension_v1/analysis/Cells.csv": "529f92038f5cde6666314d0bff0643a8acecfa24d9bca95dfbea2189a0daaf04",
+    "runs/producing_extension_v1/analysis/Diagnostics.csv": "ecc8616585a3c122be62d3763981d6e6763d12072034cc03172f018b0692d90a",
+    "runs/final_2017_v4/analysis/Recovery.csv": "7e5ecbb19003c4d72abb6d34e5c5dcbc2bcbf03f6e9dfbdad85d40d986d9941e",
+    "runs/final_2017_v4/analysis/InterruptionComparison.csv": "51c6aadc7cea411a1d399f1678373a156a1cd918487d38dc06c571fad5f6d57f",
+    "runs/producing_extension_v1/analysis/Recovery.csv": "bf7613bdeaa4d574e56cf6510662bd23e96e4050b46dd50586d3183405fe3460",
+    "runs/producing_extension_v1/analysis/InterruptionComparison.csv": "308a4663e96ac942bd67d10b48db2ca39cd7f69bb8db8c848b757dda2693cc62"
+  },
+  "claims": 302,
+  "sites": [
+    "nist",
+    "colorado",
+    "reserve10"
+  ],
+  "inference": "Separate system estimates; no pooled-site intervals",
+  "files_sha256": {
+    "interruption_plot_values.csv": "b532c2532e223aa812b1540afacc87d0132d3ce8120136482acb359ccd69bd0b",
+    "method_rows.csv": "d01586d520b470b8c6089361421a8e4c87e5551ff324a2537e8781e7c1782c44",
+    "claim_evidence_integrated.json": "b65c69f14fa4a37807ad285f9f19717d78e21d6864932f21d2f81af9bb9c62a2",
+    "gate_facts.csv": "bde46b7b2bdad9660dbe18b46629df456719ae713d2fcdc877063a662826954e",
+    "recovery_plot_values.csv": "86f9cfaede633ec56860ac511065b5a800f6cec72dacf3b7139971db1b3eb077",
+    "primary_all_blocks.csv": "0044f2368114b9831d34c7168e75acd7d20885174dbd2cca7e4c573a959ca382",
+    "clean_table.tex": "079e79dc7052aa7ca812a371b0fa9f88fd1f600afbaa743a908ff9fa36100b96",
+    "ablation_table.tex": "6d089e4965e2bc35685a01804f8ae3b78e6e64fe52b572b7305ff6a9dacb637f",
+    "sensitivity_rows.csv": "f86c377ad08f8798882e7d99845c94953d4209568bcf078feec5cc2d2a89e8b4",
+    "main_table.tex": "0167f55bef0bfaf321c7e3f37f88282fcc8538d6dc6e8af786ff2ecf36cb43a3",
+    "primary_table.tex": "f8b325a93599b21ad229a0be00de75ba7b7b5d4d5a3914d90014d94926a2def3",
+    "support_ranges.csv": "3415b35daa71ac1dba4defacffa6b37bf6ec70a6c5a9c289aa69044647274969",
+    "figures/recovery_trajectory.png": "f195a13eb2c79dd647b47d1ad1aa33ddc9512338580c55dd4a9bed21d89361c0",
+    "figures/recovery_trajectory.pdf": "332aeff78d528f61d5cc77fdb216b809ff2e90eafbc9c7207f76b480c3d3b69c",
+    "figures/failure_by_horizon.png": "34f7fbfe309bdfa59761e6b23e9ceda02319d440f693a4d7b833283645537e20",
+    "figures/failure_by_horizon.pdf": "310042c49b58f16e45e3b79e95bbde2338206187e66753843655c9c2a3a5c7b0"
+  }
+}

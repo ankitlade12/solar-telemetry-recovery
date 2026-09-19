@@ -1,0 +1,30 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+.DS_Store
+data/raw/
+data/samples/
+data/processed/
+data/metadata/
+
+# Generated distribution copies and manuscript build output.
+dist/
+paper/build/*
+!paper/build/manuscript.pdf
+
+# Large local research artifacts; retain their manifests and analysis tables.
+*.parquet
+*.pkl
+
+# Local instructions, private planning, copied reference papers, and run logs.
+AGENTS.md
+.agents/
+.codex/
+.env
+.env.*
+!.env.example
+Solar_Forecasting_Research_PRD.docx
+research/CCWC_Research_Assessment.*
+research/sources/
+*.log

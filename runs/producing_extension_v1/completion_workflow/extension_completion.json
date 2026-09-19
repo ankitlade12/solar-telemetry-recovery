@@ -1,0 +1,67 @@
+{
+  "status": "verification, analysis and table reproduction complete; interpretation pending",
+  "run_pid": 23821,
+  "process_identity_at_start": "Sun Sep 13 16:54:27 2026     /Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -m research.producing_extension --output runs/producing_extension_v1",
+  "started_at_utc": "2026-09-13T21:59:46.009243+00:00",
+  "code_sha256": {
+    "research/complete_producing_extension.py": "1f97a3695a30b1d5e95fbd9017674a493009072450f31283d4dc5c309503abe7",
+    "research/verify_producing_extension.py": "166529414a8db42955dccfbee72952a6139560ccfca498b7b2db85e222163ad4",
+    "research/verify_final_evaluation.py": "77b4d4f12ada909c996bad8bfc720a92fa548c09252fdeb457b5e1316161b14a",
+    "research/analyze_producing_extension.py": "ee7f947767c7a87a49e1929ecce8448179a7dc4403fd44e33b51f75d804d0287",
+    "research/analyze_final_evaluation.py": "39c0c87ac4f3c45d01f304d47849c7063a5c8e3a4c73d8984a409226ab0b77ca",
+    "research/producing_extension_analysis_derivation.json": "de4c60271e89b0886c48c4e45020820eaa14173189ae7ba800cdf25e1e7bbaa3",
+    "research/producing_extension_analysis_test_record.json": "1fadc75330ae115cd0a7a6896df336a4d1e23266c76993ffe107b0ee29619d8a",
+    "tests/test_producing_extension_analysis.py": "1acbd0a5735bfbdbb19cc8f22a6fee20e25d6faf8386ec0ee88c6b480b4b0a21"
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-m",
+        "research.verify_producing_extension",
+        "runs/producing_extension_v1"
+      ],
+      "pid": 35825,
+      "started_at_utc": "2026-09-13T22:53:39.518083+00:00",
+      "returncode": 0,
+      "log_sha256": "42bbb4efe8e0afedef6856a1cb2b6fbde12a3963686340f7539e9c8d63a6a870"
+    },
+    {
+      "stage": 2,
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-m",
+        "research.analyze_producing_extension",
+        "runs/producing_extension_v1"
+      ],
+      "pid": 36098,
+      "started_at_utc": "2026-09-13T23:07:49.112745+00:00",
+      "returncode": 0,
+      "log_sha256": "189473d8e28913a400f013b3c7f3b76401f3aba76ecac2008a27c8885016a49a"
+    },
+    {
+      "stage": 3,
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-m",
+        "research.analyze_producing_extension",
+        "runs/producing_extension_v1",
+        "--output",
+        "runs/producing_extension_reproduced_v1"
+      ],
+      "pid": 36141,
+      "started_at_utc": "2026-09-13T23:08:05.202008+00:00",
+      "returncode": 0,
+      "log_sha256": "71fae302421151e44c9b3fe9ccb4abb9889974e9c2c4308d14ad023870a833c7"
+    }
+  ],
+  "forecast_performance_inspected_by_assistant": false,
+  "policy": "No retraining/restart; PID identity changes or failed run stop the queue",
+  "updated_at_utc": "2026-09-13T23:08:28.360983+00:00",
+  "evidence_sha256": {
+    "runs/producing_extension_v1/verification.json": "1573842c56eb4348eb1ead0281a883e9186864116033d8571d0f132b9ce23a74",
+    "runs/producing_extension_v1/analysis/manifest.json": "520c31accb687ff1a1995869e96ec4fac15ecb704093fd4308d13c9cc71ffc1f",
+    "runs/producing_extension_reproduced_v1/reproduction_comparison.json": "b28c9effde2a9d6f677a1ff4e7be4636117f238960287ec3c660048d6f7dad32"
+  }
+}

@@ -1,0 +1,11 @@
+# Reserve system 10: source-only qualification contract
+
+Recorded after the Nevada/Maine source screens and before inspecting system 10 measurements. This implements the reserve named in `EXTENSION_SOURCE_QUALIFICATION_PLAN.md`; it does not change that plan or the original frozen experiment.
+
+Use PVDAQ system 10, years 2016 and 2017, aggregate AC channel 423 and POA channel 421. Existing metadata identify 1.12 kW DC capacity, native AC in W with scale 1/offset 0, and POA in W/m² with scale 1/offset 0. DC channel 422 and voltage/current channels may be examined as source diagnostics, never substituted for aggregate AC after observing results. Full-year public listings contain 363 and 360 daily objects, approximately 56.8 and 56.5 MB. Acquire into `data/raw/extension_v1` with an 80 MB bound per year and preserve source manifests.
+
+Before modeling, check actual cadence, timestamp conflicts, UTC fields, engineering bounds, complete-hour requirements at the observed nominal cadence, monthly paired daylight coverage, and bright near-idle fractions. Use the same preliminary AC/POA bounds and source-screen thresholds as the Maine qualification. Inspect seasonal distributions as well as the annual aggregate. If the source is minute-resolution, require all 60 expected distinct minutes; do not interpolate missing targets. Treat off-grid-affected channel-hours as ambiguous. Fixed MST (UTC = native +7 h) may be evaluated as a diagnostic assumption, alongside civil Mountain time and ±1-minute interval alignment; it is not externally established by the empty interval field.
+
+A blank instrument interval convention remains a qualification issue. Document whether source evidence supports a usable bounded measurement/receipt contract; do not present a derived convention as operator-confirmed. No forecasting-performance-based admission, calendar trimming, silent channel changes or replacement of the original unfavorable result is permitted.
+
+System 10 is adjacent to system 4 and has the same broad weather exposure. Even if it qualifies, it supplies an additional producing-system replication, not another independent climate or additional independent calendar events. Any extension analysis must preserve common-weather dependence and label itself as declared after exposure of the original experiment.

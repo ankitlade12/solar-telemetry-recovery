@@ -1,0 +1,5 @@
+year,metric_id,expected_minutes,finite_valid_minutes,off_grid_records,bound_failures,identical_duplicates_both_channels
+2016,423,527040,518825,0,0,0
+2016,421,527040,518804,0,21,0
+2017,423,525600,512675,0,0,0
+2017,421,525600,512648,0,27,0

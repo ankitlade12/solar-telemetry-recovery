@@ -1,0 +1,30 @@
+{
+  "status": "development pilot; not a preregistered final experiment",
+  "system_id": 4902,
+  "data_directory": "data/processed/nist_2015",
+  "train_end": "2015-07-01T00:00:00Z",
+  "calibration_end": "2015-08-15T00:00:00Z",
+  "validation_end": "2015-10-01T00:00:00Z",
+  "evaluation_end": "2016-01-01T00:00:00Z",
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "seed": 20260911,
+  "normal_receipt_lag_minutes": 0,
+  "outage_hours": 12,
+  "restoration_gap_hours": 3,
+  "event_spacing_days": 7,
+  "recovery_window_hours": 24,
+  "training_block_augmentation": true,
+  "max_iter": 60,
+  "max_leaf_nodes": 15,
+  "min_samples_leaf": 30,
+  "learning_rate": 0.08,
+  "calibration_window_hours": 720,
+  "calibration_tau_hours": 336,
+  "calibration_shrinkage": 50,
+  "context_bandwidth": 1.0
+}

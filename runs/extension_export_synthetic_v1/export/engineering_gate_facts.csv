@@ -1,0 +1,2 @@
+site,physical_failure_recovery_nwis,recovery_failure_recovery_nwis,relative_failure_recovery_difference,signal_point_gate_5pct,clean_physical_nwis,clean_recovery_nwis,clean_difference,clean_tolerance,clean_point_gate,recovery_coverage90,recovery_0_6_minimum_pairs,recovery_0_6_minimum_events,recovery_0_6_all_cells_meet_support,recovery_6_24_minimum_pairs,recovery_6_24_minimum_events,recovery_6_24_all_cells_meet_support
+reserve10,0.1,0.094,-0.06000000000000005,True,0.1,0.103,0.002999999999999989,0.002,False,0.9,125,29,False,125,29,False

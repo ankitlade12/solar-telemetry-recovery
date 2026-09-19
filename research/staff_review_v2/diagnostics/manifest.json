@@ -1,0 +1,26 @@
+{
+  "status": "post-hoc descriptive diagnosis; no changed scientific experiment",
+  "original_protocol_files_verified": 83,
+  "inputs_sha256": {
+    "data/processed/final_v4/nist/2016/primary/hourly.parquet": "93861343809dc4854ba10c354a633666bfc710c995e96b8d47d306032f8b6a6e",
+    "data/processed/final_v4/nist/2017/primary/hourly.parquet": "fea3e6850c66faed362f15ab6f9f78a6ef3bfe84efcc4964b614ef9637728c81",
+    "data/processed/final_v4/colorado/2016/primary/hourly.parquet": "d5829c8337869fb61ab682adf8e8a8d4dc55f3dbfa86233c59248d0f6b6fd2f1",
+    "data/processed/final_v4/colorado/2017/primary/hourly.parquet": "eb52524356b6fc06428aec5f8bb8513655a13a43b3ec4c2792d1fb5a9472b5fe",
+    "data/processed/final_v4/colorado/2017/narrow_quality/hourly.parquet": "a3788c371b53caafbd177774a478420793ec3835d1e1ee7cfac2513f92f041c2",
+    "data/processed/final_v4/colorado/2017/right_aligned/hourly.parquet": "410c53e4c17a6faecd6f547976f6548110504c5f042aba1f4c767fada727af57",
+    "runs/final_2017_v4/nist/forecasts_clean.parquet": "4aed690871d22704b20c43b4a1aa9135f055b9c3264dcccc426b28b503b4c5f2",
+    "runs/final_2017_v4/colorado/forecasts_clean.parquet": "0d05d5d4401927baa219ebe2856b423131d5559fc75a50128637530cd02d35a2",
+    "runs/final_2017_v4/analysis/Summary.csv": "caa444310ff1864265b8e8dbb3e7e5c79e145637773715ef215fd40d335116b6"
+  },
+  "code_sha256": "959c5325559c189383e1199121088e3b64ab34d0453ac3c6b34cd651accf50b0",
+  "scope": "February-December geometric-daylight source hours, grouped by target midpoint; scored-target counts separately use original clean evaluation eligibility",
+  "threshold": "recorded power < 0.01 * DC capacity; selected after performance exposure, diagnostic only",
+  "excluded_targets": 0,
+  "models_refit": 0,
+  "outputs_sha256": {
+    "existing_summary_rows.csv": "71541ff379d8170475d75dd80b0ebd65118c21bf5304b64330becda9cf4fb41b",
+    "monthly_source_power.csv": "72d85f174e09aed40065fc5571b9386d2a328ef30f7a0e5303e67134ddf8fdd2",
+    "source_power_summary.csv": "0f7a79f8d83ff9b6056af0cded4e9875b1abd136ffc4f387c33c1e2c0db70f54",
+    "unique_scored_target_audit.csv": "1236df598dae02c72a15b7b3695031064746a087a0d62303cbb6e6eb957bb7e4"
+  }
+}

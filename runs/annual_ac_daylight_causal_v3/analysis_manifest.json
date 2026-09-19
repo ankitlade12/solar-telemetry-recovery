@@ -1,0 +1,13 @@
+{
+  "analyzer_sha256": "a6337a854dc3d00a62e2a3cd2a0d8cd692640284adfdaadca7b5c26aace3aa12",
+  "run_manifest_sha256": "9f1ca73a117add738a28f362f39e72bb492ddff6bd7065f870c29b901aafddc9",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.8",
+    "openpyxl": "3.1.5"
+  },
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260911,
+  "status": "exploratory development analysis"
+}

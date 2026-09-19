@@ -1,0 +1,16 @@
+{
+  "status": "passed synthetic extension analysis integration",
+  "command": "python3 -m pytest -q tests/test_producing_extension_analysis.py",
+  "exit_code": 0,
+  "stdout": ".                                                                        [100%]\n1 passed in 55.38s\n",
+  "recorded_at_utc": "2026-09-13T21:57:23.336735+00:00",
+  "scope": "Synthetic single-site table/figure/workbook/reproduction and changed-source rejection, not observed-data performance",
+  "after_forecast_freeze": true,
+  "extension_performance_inspected": false,
+  "files_sha256": {
+    "research/analyze_producing_extension.py": "ee7f947767c7a87a49e1929ecce8448179a7dc4403fd44e33b51f75d804d0287",
+    "research/producing_extension_analysis_derivation.json": "de4c60271e89b0886c48c4e45020820eaa14173189ae7ba800cdf25e1e7bbaa3",
+    "research/verify_producing_extension.py": "166529414a8db42955dccfbee72952a6139560ccfca498b7b2db85e222163ad4",
+    "tests/test_producing_extension_analysis.py": "1acbd0a5735bfbdbb19cc8f22a6fee20e25d6faf8386ec0ee88c6b480b4b0a21"
+  }
+}

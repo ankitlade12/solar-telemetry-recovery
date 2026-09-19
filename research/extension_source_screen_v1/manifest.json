@@ -1,0 +1,16 @@
+{
+  "status": "completed descriptive source screen; no candidate admitted to forecasting",
+  "code_sha256": "35a6795ae67f026c7ccffcb1ea6a42bc5854a2711b7af444c21a5f3a6ae1f8d2",
+  "plan_sha256": "f062656044426227014dc0c95316f69f631ad498d431e013df23687515530b55",
+  "input_manifests_sha256": {
+    "data/raw/extension_v1/pvdaq_1367_2016/manifest.json": "2666419346c1f6a4e6e9a232dd6f263500a9bd9e80f0a31a0741c4ee37852274",
+    "data/raw/extension_v1/pvdaq_1367_2017/manifest.json": "2b480e8250e28c1742efd854dd5580f35deda05fc36ce8843cf653fc181a5282",
+    "data/raw/extension_v1/pvdaq_1239_2016/manifest.json": "63c9a076944fd0d06fbcaaee36c02f9f990e090c6517e8236f768191afacdf9f",
+    "data/raw/extension_v1/pvdaq_1239_2017/manifest.json": "69e70042a52399898ce310ec5e8e4d7e5cf060ff124f34d535428982af7d73d1"
+  },
+  "outputs_sha256": {
+    "monthly_channel_inventory.csv": "eaace0f551a33ef85a2a280b61dd71e0032f9398f2c6a98f2ca106eedf44c4ee",
+    "candidate_status.csv": "277ff26c90cf6e6643f6242d673537dcde166ddedb905292ea92838d8d63c5fd"
+  },
+  "scope": "All acquired daily objects hash-checked; only preselected AC/POA channel values inspected. Native clock, untransformed raw value summaries; no claim that UTC, scale or interval alignment is qualified."
+}

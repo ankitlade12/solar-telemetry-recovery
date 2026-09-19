@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "forecasts": 983808,
+  "independently_counted_label_updates_per_method": {
+    "nist/clean": 17304,
+    "nist/joint_gradual": 17304,
+    "colorado/clean": 17648,
+    "colorado/joint_gradual": 17648
+  },
+  "checked_interval_repairs": 8000,
+  "verifier_sha256": "a818e2a08558d8dbc26f1877ed72e991120dfa2eb0e391d1d721a94213950018",
+  "limits": "Integrity/update-count checks and tested prefix invariance do not establish coverage guarantees or generalization."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed two-pass synthetic analysis and release checks",
+  "command": "MPLCONFIGDIR=/private/tmp/solar-final-test-mpl XDG_CACHE_HOME=/private/tmp/solar-final-test-cache python3 -m pytest -q tests/test_final_analysis.py tests/test_final_analysis_integration.py tests/test_release_protocol.py tests/test_public_release_selection.py",
+  "passed": 6,
+  "seconds": 10.2,
+  "test_sources_sha256": {
+    "tests/test_final_analysis.py": "25b316bf4859ce3e0da31589428a2bfe7242485e4d7d26dcc6759e6b23ce21cf",
+    "tests/test_final_analysis_integration.py": "f9b2b5ebb26b6a6f03b125a74a9c3f5a4bdcde14001b9965bc192fc994115673",
+    "tests/test_release_protocol.py": "959ab780977825dc6ada63fcbe1b08d2fdfda252f075d04069e248bb5de2caa9",
+    "tests/test_public_release_selection.py": "1e54fa70f17db4819f59a245076d8e5b96cb7797bad8c1d15b746745e7617650"
+  },
+  "scope": "Synthetic analysis fixture reproduced all seven tables without altering originals and rejected changed source bytes. Actual measured-table reproduction and assembled public archive checks remain pending."
+}

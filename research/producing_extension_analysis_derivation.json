@@ -1,0 +1,20 @@
+{
+  "parent_source": "research/analyze_final_evaluation.py",
+  "parent_sha256": "39c0c87ac4f3c45d01f304d47849c7063a5c8e3a4c73d8984a409226ab0b77ca",
+  "extension_sha256": "ee7f947767c7a87a49e1929ecce8448179a7dc4403fd44e33b51f75d804d0287",
+  "unchanged_function_asts": [
+    "interruption_comparison",
+    "paired_days",
+    "calendar_bootstrap",
+    "keyed_seed",
+    "collect",
+    "inference",
+    "reproduce_tables"
+  ],
+  "changed_scope": [
+    "single-system plot layout and labels",
+    "require authenticated verified snapshot before analysis",
+    "extension protocol/evidence wording in workbook"
+  ],
+  "forecast_performance_inspected": false
+}

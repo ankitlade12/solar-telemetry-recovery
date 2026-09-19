@@ -1,0 +1,40 @@
+{
+  "status": "integrated presentation regenerated into fresh directory; all seven numerical CSVs exactly matched",
+  "recorded_at_utc": "2026-09-14T00:54:18.991019+00:00",
+  "command": "python3 -m research.integrate_extension_evidence --output runs/integrated_presentation_reproduction_v1",
+  "comparisons": {
+    "method_rows.csv": {
+      "exact_dataframe_and_csv_hash_match": true,
+      "sha256": "d01586d520b470b8c6089361421a8e4c87e5551ff324a2537e8781e7c1782c44"
+    },
+    "primary_all_blocks.csv": {
+      "exact_dataframe_and_csv_hash_match": true,
+      "sha256": "0044f2368114b9831d34c7168e75acd7d20885174dbd2cca7e4c573a959ca382"
+    },
+    "support_ranges.csv": {
+      "exact_dataframe_and_csv_hash_match": true,
+      "sha256": "3415b35daa71ac1dba4defacffa6b37bf6ec70a6c5a9c289aa69044647274969"
+    },
+    "sensitivity_rows.csv": {
+      "exact_dataframe_and_csv_hash_match": true,
+      "sha256": "f86c377ad08f8798882e7d99845c94953d4209568bcf078feec5cc2d2a89e8b4"
+    },
+    "gate_facts.csv": {
+      "exact_dataframe_and_csv_hash_match": true,
+      "sha256": "bde46b7b2bdad9660dbe18b46629df456719ae713d2fcdc877063a662826954e"
+    },
+    "recovery_plot_values.csv": {
+      "exact_dataframe_and_csv_hash_match": true,
+      "sha256": "86f9cfaede633ec56860ac511065b5a800f6cec72dacf3b7139971db1b3eb077"
+    },
+    "interruption_plot_values.csv": {
+      "exact_dataframe_and_csv_hash_match": true,
+      "sha256": "b532c2532e223aa812b1540afacc87d0132d3ce8120136482acb359ccd69bd0b"
+    }
+  },
+  "executed_original_source_snapshot": "research/extension_manuscript_revision_v1/integrate_evidence_executed_v2.py",
+  "executed_original_source_sha256": "af2c13eceee956065e174de74e0256faed95d93e19a334411f42efef1449b0c9",
+  "current_source_sha256": "e3cb3e31f36ef9eb6205f091252b3dfa99eedeef82496b8ec503f3cd38e44f4a",
+  "change": "Fresh-output CLI option and workspace boundary only; no statistical or plotting changes",
+  "limits": "Same-agent reproduction; PDF binary identity not required because creation metadata can vary"
+}

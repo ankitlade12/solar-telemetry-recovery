@@ -1,0 +1,27 @@
+{
+  "status": "source diagnostics complete; experimental admission pending interpretation",
+  "forecast_performance_inspected": false,
+  "code_sha256": "ac6566f94ad59e0a91bbd0155d1b449c8586c1a051817e61e67c8a3fe19f02f7",
+  "source_manifests_sha256": {
+    "data/raw/extension_v1/pvdaq_1239_2016/manifest.json": "63c9a076944fd0d06fbcaaee36c02f9f990e090c6517e8236f768191afacdf9f",
+    "data/raw/extension_v1/pvdaq_1239_2017/manifest.json": "69e70042a52399898ce310ec5e8e4d7e5cf060ff124f34d535428982af7d73d1"
+  },
+  "qualification_plan_sha256": "f062656044426227014dc0c95316f69f631ad498d431e013df23687515530b55",
+  "hourly_definition": "mean of four expected quarter-hour records; incomplete or off-grid-affected channel-hours missing; signed AC mean clipped only after aggregation",
+  "clock": "fixed UTC+5 diagnostic assumption, not externally confirmed; civil and UTC+4 alternatives checked separately",
+  "excluded_records_units": "Off-grid values are raw stored units; bound-failure values are transformed kW/POA W/m2",
+  "outputs_sha256": {
+    "energy_consistency.csv": "9065d74dd9ca42892953fda99859014ad6bf92aa91507e604ea8c39f86ed02c7",
+    "excluded_records.csv": "68b79e424ed488f4177dbfe42a4896f1fc75a256b2d183de34a1088cd2e163aa",
+    "annual_quality.csv": "3aed4e3b2c81d58732709b7c768af6a0d416421fec6db0ef35aacd0c5552a3a8",
+    "monthly_quality.csv": "0125dafd6a351bbd365bafe8b5cf607d08818b4af84b0e0734bde4e19ca29def",
+    "hourly_diagnostic_2016_right.parquet": "9ed490736999af19b10f9f05e9cb5e88b128eb377a807bc611f2f36502ad0aab",
+    "hourly_diagnostic_2016_left.parquet": "8096e0d6f5a05a0aba03ded90d4cf00518e365b3e651639aec984768e039d4f6",
+    "hourly_diagnostic_2017_left.parquet": "f97b4e856e68ff5c34558af9efb6529cd1daa4239a5135f088dbae3636742e05",
+    "grid_audit.csv": "fc721ecd13f36847ba68c4c426d703a96651eaaef75a645b128f75814d32de7e",
+    "clock_diagnostics.csv": "b58cdfb25b47f4639fec659d593e8e46b6fb8a5ac8b6b194a8edc1c704c8458d",
+    "hourly_diagnostic_2017_right.parquet": "68ee2f3fdb9f16b869611814d4403837439789186432c1e00d4b930bae884fae",
+    "quarter_hour_2016.parquet": "9dc83c397bbc10feb0212b3e8e646decc2e4ddd7cba95122f6874b1aea858735",
+    "quarter_hour_2017.parquet": "8b7a05f4d340376e7e74eb642e4d77c89ff6264508ff80b5812fba67a0752508"
+  }
+}

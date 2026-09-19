@@ -1,0 +1,192 @@
+{
+  "status": "complete development calibration, no final-year evaluation",
+  "parent_manifest_sha256": "9f1ca73a117add738a28f362f39e72bb492ddff6bd7065f870c29b901aafddc9",
+  "selected_profiles_sha256": "dd02d2a7a48bba0acad718519c3acbdc7a346cb5a28150c92eb49e03e039b006",
+  "code_sha256": {
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/baselines_v3.py": "085b0bc745d255442a86e81fc882f875f2275c675697826873957299ca89fcc1",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/calibration_v2.py": "56d123ad876085a6959a1b4226f1da9d16398f13af9655904177e989f3949f8e",
+    "solar_recovery/calibration_v3.py": "a306f8f6770546405205237caa5988b321d545eb4cf97181b787b7299c94ea40",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/data_v2.py": "eb11fe47b874defe2e413913b7a005fee59d7cf4f63a816108e0ae2a5424a58a",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/replay_v3.py": "01733635af651b62302904e82c691e0d7b6394c67d668584bc701397b85f0af3",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4",
+    "research/run_annual_baselines.py": "9bad4383e8ee17356e95903f09990f5f337d09bc5a1bae88c671bf2cb4d2203b",
+    "research/run_annual_calibration.py": "a2fc14168ab21ac5f312ea4949748bf12cc9a6de31611611f9868edec1bb48eb"
+  },
+  "config_sha256": "8efea2b4c88b96d7278592b89a86aea6e077ac4dade55548de4df2ebaea1909a",
+  "python": "3.14.0",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "22.0.0"
+  },
+  "total_forecasts": 983808,
+  "updates": {
+    "nist/clean": {
+      "rolling": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "recency": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "physical": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "physical_recovery": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "mask50": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "aci_bounded": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      }
+    },
+    "nist/joint_gradual": {
+      "rolling": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "recency": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "physical": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "physical_recovery": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "mask50": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      },
+      "aci_bounded": {
+        "updates": 17304,
+        "alpha_clips": 0,
+        "pending_forecasts": 364
+      }
+    },
+    "colorado/clean": {
+      "rolling": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "recency": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "physical": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "physical_recovery": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "mask50": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "aci_bounded": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      }
+    },
+    "colorado/joint_gradual": {
+      "rolling": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "recency": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "physical": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "physical_recovery": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "mask50": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      },
+      "aci_bounded": {
+        "updates": 17648,
+        "alpha_clips": 0,
+        "pending_forecasts": 8
+      }
+    }
+  },
+  "inputs": {
+    "nist/clean": {
+      "forecast_sha256": "f092595fa2eed07ede554e9e3f9fa898959da16e7392bfaa66f007acb7d2c64e",
+      "features_sha256": "762d9b8b16ab11251c0204654b63cc73b80a1472c95536120942458fea299ef4",
+      "event_schedules_sha256": "eeb7a52153525061dce80718d493a8b778c4417c3a687d0952d3bcf2df9267f5"
+    },
+    "nist/joint_gradual": {
+      "forecast_sha256": "9b9f68a2ff3494c96e9af952fc8a144391a727fb7d2c98d331db0aabeaac527c",
+      "features_sha256": "72236381fb4d50c00431a686bc9fd38aa5f892191fcf9b6370f24cbb0482c643",
+      "event_schedules_sha256": "eeb7a52153525061dce80718d493a8b778c4417c3a687d0952d3bcf2df9267f5"
+    },
+    "colorado/clean": {
+      "forecast_sha256": "6c560fc8808fcf7fe5c5115c1d543333f4d216856e793b4eb939d37efa6152eb",
+      "features_sha256": "5d1cb58abf9630a61ff14d71fa005541b3558467ae4deda77a4e97ada226ada6",
+      "event_schedules_sha256": "eeb7a52153525061dce80718d493a8b778c4417c3a687d0952d3bcf2df9267f5"
+    },
+    "colorado/joint_gradual": {
+      "forecast_sha256": "efba3984660898930d4405e419073331a409a0add283446e875966570540d99a",
+      "features_sha256": "46a84ce9b7fb8adc682ad410fe9a41dc0bea7c3c1b7efdcb6bb2f9fd7f44174b",
+      "event_schedules_sha256": "eeb7a52153525061dce80718d493a8b778c4417c3a687d0952d3bcf2df9267f5"
+    }
+  },
+  "elapsed_seconds": 352.35583329200745,
+  "limitations": [
+    "Fixed calibration parameters, no calibration-parameter tuning in this run",
+    "Physical and physical+recovery share identical context/recency parameters; only the recovery-state blend differs",
+    "Mask50 is a shrinkage empirical control, not the distributional-imputation algorithm of Fan et al.",
+    "All intervals are empirical; finite weighted ranks, nesting repairs and bounded ACI change classical guarantees",
+    "All inspected 2016 performance is development; pending labels may never arrive under permanent loss"
+  ]
+}

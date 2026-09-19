@@ -1,0 +1,41 @@
+{
+  "recorded_at_utc": "2026-09-12T16:15:36.131169+00:00",
+  "status": "67-test suite and one new export test passed",
+  "runs": [
+    {
+      "command": "MPLCONFIGDIR=/private/tmp/solar-final-test-mpl XDG_CACHE_HOME=/private/tmp/solar-final-test-cache python3 -m pytest -q",
+      "passed": 67,
+      "seconds": 37.93,
+      "warnings": [
+        "Joblib could not obtain physical core count in the sandbox and used logical cores."
+      ],
+      "test_sources_sha256": {
+        "tests/test_baselines_v3.py": "0303f3f6ab926d0a0c16fb404462ebf83889447198cbc2b3f872a783a13d1097",
+        "tests/test_calibration.py": "c995181f654c06ed6f50fe58c3793f120aac9b0b00d0209604442a8878398b9c",
+        "tests/test_calibration_v2.py": "045f5f6d718ab76a594feec21741b99f0e8ca639957f417e5da6082d4c25f0e3",
+        "tests/test_calibration_v3.py": "6a69d7d68c84abe865a549c1eb6bd6d29f861a1722a4410b7ae362d9b56857a9",
+        "tests/test_data.py": "df74f73d456666b717d6b8e0be3b542705c4eb606089b386fa1533556486b654",
+        "tests/test_data_v2.py": "875904dbbecb7c5745dafc6a0e3247c584eeb57615c9df820a3c7b810cc27f81",
+        "tests/test_final_analysis.py": "25b316bf4859ce3e0da31589428a2bfe7242485e4d7d26dcc6759e6b23ce21cf",
+        "tests/test_final_analysis_integration.py": "75373d468157ec7d96a51db1ff18a5609994f757542feaea3f0dbb24a3a477ac",
+        "tests/test_final_v4.py": "f590427483e1636acbecca2865b16e76afc3582b8f4149df0dbeff7970f23ded",
+        "tests/test_final_verifier.py": "4d412a7e404cb6f9decc1bb9905d1d698a45c619a7ad3b25e9496ee5ea8667cd",
+        "tests/test_package_submission.py": "10ad3e44485c54efe82342f33ff4507c2576f95260a115b2bdf4d873c8436be7",
+        "tests/test_pilot.py": "43f387ac1eff462ede8d455d14654de4c356d5ab1fab4938e9f1cfd7b1d4e75c",
+        "tests/test_replay.py": "e5484b565963fedb464483e89d5f31a8775ee54dd065ac7dd05c091b07ce79f7",
+        "tests/test_replay_v3.py": "542c99412e02a51f88eee1c07f960c4065704d1104ebcc51359c3ca998ff7bb0",
+        "tests/test_restore_snapshot.py": "50a1c44072c146eef0f494cbc50fbcdcddadba8d6ffd7e45bfe31eddfd296449"
+      }
+    },
+    {
+      "command": "MPLCONFIGDIR=/private/tmp/solar-final-test-mpl XDG_CACHE_HOME=/private/tmp/solar-final-test-cache python3 -m pytest -q tests/test_paper_table_export.py",
+      "passed": 1,
+      "seconds": 1.75,
+      "test_sources_sha256": {
+        "tests/test_paper_table_export.py": "8202a3c15507727a9c8cc632262fc92bb26e61a4df47437186fe364d40fd6120"
+      }
+    }
+  ],
+  "scope": "Same-machine automated checks; the new test uses synthetic table inputs. This is not final measured-data verification or independent human reproduction.",
+  "note": "An initial unittest-discovery invocation found zero tests; pytest was then used as configured by this repository."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed targeted package-selection tests",
+  "command": "python3 -m pytest -q tests/test_revision_package_selection.py",
+  "exit_code": 0,
+  "stdout": "...                                                                      [100%]\n3 passed in 3.81s\n",
+  "scope": "Current claim/lock dependency inclusion, changed-source rejection, private exclusion, incomplete/changed extension rejection; not archive assembly or full public reproduction",
+  "files_sha256": {
+    "research/revision_package_selection.py": "3ca594cde8c0d7bf3e534c87f26b3f407011ed9d42a97f382048218cb7ad7c12",
+    "tests/test_revision_package_selection.py": "7439b17626a1062f0521cebca79ac1920710a37ce6e53becb282f008bf9943cc",
+    "research/revised_package_selection_audit.json": "650d1b6377aafcdfc5d10e3c85d68fe2bd9b6296fe7e632de421628bc9f12b7a"
+  }
+}

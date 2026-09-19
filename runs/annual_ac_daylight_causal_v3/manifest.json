@@ -1,0 +1,200 @@
+{
+  "status": "complete development comparison; no 2017 performance accessed",
+  "code_sha256": {
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/baselines_v3.py": "085b0bc745d255442a86e81fc882f875f2275c675697826873957299ca89fcc1",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/calibration_v2.py": "56d123ad876085a6959a1b4226f1da9d16398f13af9655904177e989f3949f8e",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/data_v2.py": "eb11fe47b874defe2e413913b7a005fee59d7cf4f63a816108e0ae2a5424a58a",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/replay_v3.py": "01733635af651b62302904e82c691e0d7b6394c67d668584bc701397b85f0af3",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4",
+    "research/run_annual_baselines.py": "9bad4383e8ee17356e95903f09990f5f337d09bc5a1bae88c671bf2cb4d2203b"
+  },
+  "config_sha256": "5c20db66f5c1e54dbf62ad13dacef3700b2bb9b615b320170997aae560a41cfc",
+  "python": "3.14.0",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.16.3",
+    "pyarrow": "22.0.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "training": {
+    "nist": {
+      "quantile_counts": {
+        "1": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.13311291094221986,
+            0.08361134896472196,
+            0.22463426059750494,
+            0.25086547343623106,
+            0.2641299339762692,
+            0.27053184153510473,
+            0.26740415203809187
+          ],
+          "training_crossing_fraction": 0.9120751802265705,
+          "training_target_zero_fraction": 0.13851699279093718
+        },
+        "2": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.005776292950375478,
+            0.10980743228832739,
+            0.20159298064756362,
+            0.24465937174482777,
+            0.2618619161565593,
+            0.2613416810539692,
+            0.25124362869050143
+          ],
+          "training_crossing_fraction": 0.44972966014418125,
+          "training_target_zero_fraction": 0.13851699279093718
+        },
+        "3": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.06527819256456868,
+            0.11595415317541663,
+            0.18166739317452055,
+            0.23879581327370195,
+            0.25847520533506324,
+            0.2582294464280817,
+            0.2557151080937295
+          ],
+          "training_crossing_fraction": 0.6999871266735325,
+          "training_target_zero_fraction": 0.13851699279093718
+        },
+        "4": {
+          "rows": 15536,
+          "unique_targets": 3884,
+          "quantile_prediction_std": [
+            0.046939143518876264,
+            0.05199627270272895,
+            0.16633688264785165,
+            0.23030023081233436,
+            0.2583525389094769,
+            0.26030207185377124,
+            0.25978335181499684
+          ],
+          "training_crossing_fraction": 0.9076982492276005,
+          "training_target_zero_fraction": 0.13851699279093718
+        }
+      },
+      "imputation_donors": 7319,
+      "latest_donor_end": "2016-01-01T00:00:00+00:00"
+    },
+    "colorado": {
+      "quantile_counts": {
+        "1": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.1328734836309596,
+            0.19881055574277992,
+            0.2489163414887905,
+            0.2702231041336317,
+            0.28183069611493533,
+            0.27977734314877695,
+            0.2570524270943581
+          ],
+          "training_crossing_fraction": 0.44247888609906416,
+          "training_target_zero_fraction": 0.0025108422734535494
+        },
+        "2": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.07746772592489654,
+            0.14111190757230338,
+            0.23036665516226462,
+            0.2633234722818784,
+            0.2776010624534462,
+            0.273160670862235,
+            0.25776213577747864
+          ],
+          "training_crossing_fraction": 0.38621319333485504,
+          "training_target_zero_fraction": 0.0025108422734535494
+        },
+        "3": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.06867690679767169,
+            0.12573787272175893,
+            0.21343712739630943,
+            0.2592965162962452,
+            0.2757306512143059,
+            0.2767150330935669,
+            0.2528432539938953
+          ],
+          "training_crossing_fraction": 0.38256105911892263,
+          "training_target_zero_fraction": 0.0025108422734535494
+        },
+        "4": {
+          "rows": 17524,
+          "unique_targets": 4381,
+          "quantile_prediction_std": [
+            0.06425060049680242,
+            0.11884607642273276,
+            0.20563967171929465,
+            0.25529699835480124,
+            0.2729030827851226,
+            0.27828976708000464,
+            0.25313024248830956
+          ],
+          "training_crossing_fraction": 0.4095526135585483,
+          "training_target_zero_fraction": 0.0025108422734535494
+        }
+      },
+      "imputation_donors": 8753,
+      "latest_donor_end": "2016-01-01T00:00:00+00:00"
+    }
+  },
+  "inputs": {
+    "data/processed/nist_ac_2015": {
+      "hourly_sha256": "ce1607623c5e8b5ace0b9aa4782638b6a7860594743c190932968fd55b77f003",
+      "contract_sha256": "38d1c5b85f078d6dc00bdf55b4fb2d190b0559c6cf372a0e08589c88905f4306"
+    },
+    "data/processed/nist_ac_2016": {
+      "hourly_sha256": "93861343809dc4854ba10c354a633666bfc710c995e96b8d47d306032f8b6a6e",
+      "contract_sha256": "6133e89784b18e0848e2e6f1029dc0167d8a418d465fa43ca8b0beadee347efa"
+    },
+    "data/processed/colorado_ac_2015": {
+      "hourly_sha256": "6977fa62d71d65479a3b13e8e4eeb956900cda17fe794fc726a2d76d6409d2d4",
+      "contract_sha256": "11ddbb58f0e138d85ebb2c51c5428d824e0f4f394f02206d168ee44ae266c3e6"
+    },
+    "data/processed/colorado_ac_2016": {
+      "hourly_sha256": "d5829c8337869fb61ab682adf8e8a8d4dc55f3dbfa86233c59248d0f6b6fd2f1",
+      "contract_sha256": "9b26f30c1b296b4c6bc368ad7e8949cc6ae46be5ff185c317e4c9869f67ba6ef"
+    }
+  },
+  "total_forecasts": 4497408,
+  "reused_training": {
+    "run": "runs/annual_ac_daylight_baselines_v3",
+    "manifest_sha256": "1e5cf6388a760a62fb751a8318d5cc19f9bb9fcbef50d635c85e387586698c14",
+    "model_sha256": {
+      "nist": "e6e53ae9ff431963c65047cf3679cdf7036133cea18635534f508f9990e1fa26",
+      "colorado": "541b37a0d775dfa9f5bdb6819e6f0a983f7286eb2e509a152096c3afa769e662"
+    },
+    "reason": "Reuse identical fitted trees and donor bank; stochastic prediction now uses origin-keyed draws. Training used deterministic mean imputation and is unchanged."
+  },
+  "elapsed_seconds": 291.9825122920156,
+  "limitations": [
+    "Two geographic sites, one evaluation schedule seed, fixed 12-hour interruptions",
+    "MI Setup-2 adaptation: observed targets, joint-channel donor extension, HGB and extra causal features",
+    "MI training residual variance can underestimate uncertainty; no normal coverage guarantee",
+    "Geometric persistence is an explicit engineering approximation, not an irradiance forecast",
+    "Colorado fixed UTC offset and one-minute timestamp-bin interpretation remain assumptions",
+    "Forecasts issue HH:01 for targets ending HH+h:00: actual endpoint lead h hours minus one minute",
+    "2016 is development, including July-December diagnostics; no confirmatory significance"
+  ]
+}

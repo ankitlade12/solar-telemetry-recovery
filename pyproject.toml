@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-recovery"
+version = "0.1.0"
+description = "Causal telemetry replay and probabilistic solar forecasting research pilot"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "pandas>=2.2", "scipy>=1.13", "scikit-learn>=1.5", "pyarrow>=16", "matplotlib>=3.8", "requests>=2.32"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+research = ["openpyxl>=3.1", "python-docx>=1.1"]
+
+[tool.setuptools.packages.find]
+include = ["solar_recovery*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

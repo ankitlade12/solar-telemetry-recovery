@@ -1,0 +1,7 @@
+{
+  "forecast_sha256": "4ecbfbff402e15ea80f52118bcc0f73aad5be2818598f145d59202e535abcbcf",
+  "clean_forecast_sha256": "401b058d22d66f644cc6ac1d571b9c17831f54c943e4ebcefe714f909a909406",
+  "analysis_code_sha256": "99c18fe0d68412f2fdbf3c6cd33e6f08b015634052cffdcf27f94852305688d9",
+  "joined_forecast_count": 11900,
+  "status": "post-run exploratory diagnostics"
+}

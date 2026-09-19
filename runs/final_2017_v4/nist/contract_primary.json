@@ -1,0 +1,45 @@
+{
+  "system_id": 4902,
+  "year": 2016,
+  "name": "NIST_Ground_1",
+  "latitude": 39.1319,
+  "longitude": -77.2141,
+  "capacity_kw_dc": 270.7,
+  "specification": {
+    "pv": 82633,
+    "irradiance": 82595,
+    "pv_unit": "kW",
+    "pv_to_kw": 1.0,
+    "utc_add_hours": 5,
+    "alignment": "left aligned according to meter and reference-cell metadata"
+  },
+  "target": "nonnegative component of the hourly mean of recorded AC real-power samples, kW",
+  "target_transform": "max(mean(valid minute AC measurements), 0); missing means remain missing",
+  "irradiance": "mean recorded POA irradiance; small negative sensor readings retained, not treated as delivery failure",
+  "hour_definition": "60 valid distinct source minute records in left-closed timestamp bins, labelled at the next hour",
+  "quality_bounds": {
+    "ac_min_kw": -13.535,
+    "ac_max_kw": 406.04999999999995,
+    "poa_min_w_m2": -20.0,
+    "poa_max_w_m2": 2000.0
+  },
+  "timestamp_source": "source UTC, cross-checked against native fixed-offset timestamps",
+  "alignment": "left aligned according to meter and reference-cell metadata",
+  "receipt_assumption": "Operational receipts unavailable. For alignment sensitivity, impose at least one-minute release margin; current artifact is data only.",
+  "status": "2016 final-training candidate",
+  "source_manifest_sha256": "cf4e935bfd6c64433f8d6db982ff86684efef9b96b5112b3fb38c1b24f2db4de",
+  "hourly_sha256": "93861343809dc4854ba10c354a633666bfc710c995e96b8d47d306032f8b6a6e",
+  "adapter_sha256": "2f143ad98b1b96b837a8f54f35e25696c9687c96016674914a2e3c0f500b499b",
+  "license": "CC-BY-4.0",
+  "doi": "10.25984/1846021",
+  "limitations": [
+    "quality bounds are explicit engineering choices requiring sensitivity analysis",
+    "AC sensor and nonnegative-component target differ from the original inverter-DC pilot",
+    "catalog QA flags remain applicable; high completeness alone is not metrological validation",
+    "no forecast performance or untouched evaluation result is reported by this adapter"
+  ],
+  "timestamp_shift_minutes": 0,
+  "parent_contract_sha256": "6133e89784b18e0848e2e6f1029dc0167d8a418d465fa43ca8b0beadee347efa",
+  "variant": "primary",
+  "alignment_sensitivity": "Original timestamp-bin definition"
+}

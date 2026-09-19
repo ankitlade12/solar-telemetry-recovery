@@ -1,0 +1,25 @@
+{
+  "system_id": 4902,
+  "name": "NIST_Ground_1",
+  "latitude": 39.1319,
+  "longitude": -77.2141,
+  "capacity_kw_dc": 270.7,
+  "target": "hourly mean measured inverter DC power, kW",
+  "pv_metric_id": 82610,
+  "irradiance": "measured plane-of-array reference-cell irradiance, W/m^2",
+  "irradiance_metric_id": 82595,
+  "timestamps": "source utc_measured_on interpreted as UTC; documented left-aligned minute averages",
+  "receipt_assumption": "No actual receipts available; normal receipt at completed hour boundary is a pilot assumption",
+  "quality_policy": "Retain real zeros; exclude negative/nonfinite readings; require 60 distinct valid minutes per stream per hour; no imputation",
+  "daylight": "NOAA approximate solar elevation > 0 at target interval midpoint",
+  "license": "CC-BY-4.0",
+  "doi": "10.25984/1846021",
+  "source_manifest_sha256": "0b80d4c75b6b688b9af1ae47aebc0ef77ba41c5620be03345de18533100ef102",
+  "hourly_sha256": "64674f757bdc60cf857f40df2209b30a2bbd58ad49f0a03c2b8ec50ccf4de78d",
+  "limitations": [
+    "One site and one historical year; not a cross-site benchmark",
+    "Source catalog QA flags require domain review before publication",
+    "Instrument calibration certificates and upstream cleaning history not independently verified",
+    "Missing targets stay unscorable; synthetic delivery outages do not change physical truth"
+  ]
+}

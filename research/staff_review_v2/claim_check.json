@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_claims": 159,
+  "posthoc_claims": 19,
+  "original_ledger_unchanged": true,
+  "ledgers_sha256": {
+    "paper/claim_evidence.json": "9872f0ced7126d95d7453f2b7473fa24fa4c576c41aa42dd75d21f190bdc4567",
+    "paper/claim_evidence_posthoc_v2.json": "ed9a08099c5d74d5e115ed0147da0be9b3a4cca4f4573a83953b28b929439d8d"
+  }
+}

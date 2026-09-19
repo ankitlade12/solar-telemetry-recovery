@@ -1,0 +1,243 @@
+{
+  "version": 4,
+  "sites": [
+    "reserve10"
+  ],
+  "input_root": "data/processed/producing_extension_v1",
+  "training_start": "2016-01-03T00:00Z",
+  "train_end": "2017-01-01T00:00Z",
+  "forecast_start": "2017-01-03T00:00Z",
+  "evaluation_start": "2017-02-01T04:00Z",
+  "evaluation_end": "2018-01-01T00:00Z",
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "model_seed": 20260911,
+  "quantile_profile": "flexible",
+  "imputation_profile": "compact",
+  "imputation_neighbors": 50,
+  "imputation_rounds": 10,
+  "old_models": "runs/annual_ac_daylight_causal_v3",
+  "calibration": {
+    "daylight_only": true,
+    "window_hours": 720,
+    "tau_hours": 336,
+    "shrinkage": 50.0,
+    "bandwidth": 1.0,
+    "min_scores": 30,
+    "gamma": 0.001
+  },
+  "primary_methods": [
+    "raw",
+    "rolling",
+    "recency",
+    "physical",
+    "physical_availability",
+    "physical_recovery",
+    "mask50",
+    "aci_bounded"
+  ],
+  "sensitivity_methods": [
+    "raw",
+    "recency",
+    "physical",
+    "physical_availability",
+    "physical_recovery"
+  ],
+  "cases": [
+    {
+      "id": "clean",
+      "group": "primary",
+      "scenario": "joint",
+      "mode": "immediate",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "pv_only",
+      "group": "primary",
+      "scenario": "pv_only",
+      "mode": "immediate",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "irradiance_only",
+      "group": "primary",
+      "scenario": "irradiance_only",
+      "mode": "immediate",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "joint_immediate",
+      "group": "primary",
+      "scenario": "joint",
+      "mode": "immediate",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "joint_gradual",
+      "group": "primary",
+      "scenario": "joint",
+      "mode": "gradual",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "joint_none",
+      "group": "primary",
+      "scenario": "joint",
+      "mode": "none",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "irradiance_first",
+      "group": "primary",
+      "scenario": "irradiance_first",
+      "mode": "gradual",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "pv_first",
+      "group": "primary",
+      "scenario": "pv_first",
+      "mode": "gradual",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1
+    },
+    {
+      "id": "right_aligned",
+      "group": "sensitivity",
+      "scenario": "joint",
+      "mode": "gradual",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "right_aligned",
+      "training_source": "2016",
+      "receipt_minutes": 1,
+      "sites": [
+        "reserve10"
+      ]
+    },
+    {
+      "id": "receipt_5min",
+      "group": "sensitivity",
+      "scenario": "joint",
+      "mode": "gradual",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 5
+    },
+    {
+      "id": "privileged_labels",
+      "group": "diagnostic",
+      "scenario": "joint",
+      "mode": "gradual",
+      "duration_hours": 12,
+      "gap_hours": 3,
+      "backfill_spacing_minutes": 15,
+      "seed": 20261012,
+      "data_variant": "primary",
+      "training_source": "2016",
+      "receipt_minutes": 1,
+      "privileged_labels": true
+    }
+  ],
+  "inference": {
+    "primary_contrast": [
+      "physical_recovery",
+      "physical_availability"
+    ],
+    "secondary_contrasts": [
+      [
+        "physical_recovery",
+        "physical"
+      ],
+      [
+        "physical",
+        "recency"
+      ]
+    ],
+    "primary_phases": [
+      "recovery_0_6",
+      "recovery_6_24"
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260912,
+    "calendar_block_days": [
+      7,
+      14,
+      28
+    ],
+    "scope": "Fixed-site paired calendar-block bootstrap; cluster scenarios/seeds sharing weather; no population site generalization or formal coverage guarantee",
+    "multiplicity": "Exploratory unadjusted sensitivity intervals; main phase/site contrasts reported together, no selected-significance claim",
+    "project_signal_threshold": "At least 5% lower failure/recovery NWIS against the development-selected physical-context baseline; a proposed target, not an acceptance criterion. Report failure to meet it.",
+    "clean_tradeoff_gate": {
+      "relative_nwis_increase_max": 0.02,
+      "absolute_nwis_floor": 0.0001,
+      "formula": "P NWIS - physical NWIS <= max(0.02 * physical NWIS, 0.0001); per site, equal horizon means"
+    },
+    "zero_ambiguity_sensitivity": "Repeat fixed scoring summaries and paired contrasts excluding observed AC=0 with observed target POA>200 W/m2. Do not retrain or classify these records as errors. Main endpoint remains recorded hourly AC, not latent available production."
+  },
+  "warmup_end": "2017-02-01T00:00Z",
+  "extension": {
+    "identity": "producing-system replication v1",
+    "protocol": "research/PRODUCING_SYSTEM_EXTENSION_PROTOCOL.md",
+    "parent_lock_sha256": "b01f5fa92907e3967e61628d70a664ada8114398132aa32cea95e875e2151960",
+    "exposure": "Original 2017 results already inspected; no extension forecasts inspected at freeze",
+    "scope": "Additional recorded-AC system at nearby Colorado location; not an independent climate"
+  }
+}

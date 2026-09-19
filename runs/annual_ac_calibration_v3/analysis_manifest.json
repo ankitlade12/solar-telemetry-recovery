@@ -1,0 +1,7 @@
+{
+  "analyzer_sha256": "1d6228f7bda937ffac4af8467e4beb53eb4f65d743cf48b57900192e5bc7a77f",
+  "helper_sha256": "a6337a854dc3d00a62e2a3cd2a0d8cd692640284adfdaadca7b5c26aace3aa12",
+  "run_manifest_sha256": "0d27589b42bfe12d982b5a2e7f2343487d1daf76eb93f9c1d257a5e6ffb6fa5f",
+  "bootstrap_replicates": 10000,
+  "seed": 20260912
+}

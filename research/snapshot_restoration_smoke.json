@@ -1,0 +1,55 @@
+{
+  "status": "passed actual public-object restore and cache verification",
+  "scope": "One archived public object only; not a full snapshot or full-data reproduction",
+  "manifest": {
+    "dataset": "PVDAQ",
+    "doi": "10.25984/1846021",
+    "license": "CC-BY-4.0",
+    "license_source": "https://catalog.data.gov/dataset/photovoltaic-data-acquisition-pvdaq-public-datasets",
+    "downloaded_at": "2026-09-12T11:12:04.690313+00:00",
+    "system_id": 4902,
+    "year": 2017,
+    "files": [
+      {
+        "key": "pvdaq/parquet/pvdata/system_id=4902/year=2017/month=1/day=1/system_4902__date_2017_01_01.snappy.000.parquet",
+        "bytes": 345826,
+        "etag": "\"7181ca495f3b83875475eb1b4ab74101\"",
+        "sha256": "b24b0efd3dec4e9a670f606e709780951cd45bab103745954d9a0d927293fcd8"
+      }
+    ],
+    "scope": "One-object restoration transport smoke test, not the complete research snapshot"
+  },
+  "first_download": {
+    "status": "all listed public objects verified",
+    "manifest_sha256": "b7eb891e836850b720c697f47f7b6a9dfc09c090e4562d813cefdff938949025",
+    "verified_at_utc": "2026-09-12T16:08:21.852403+00:00",
+    "files": [
+      {
+        "key": "pvdaq/parquet/pvdata/system_id=4902/year=2017/month=1/day=1/system_4902__date_2017_01_01.snappy.000.parquet",
+        "status": "restored verified bytes",
+        "bytes": 345826
+      }
+    ],
+    "downloaded_bytes": 345826,
+    "code_sha256": "63a414e61b484622259d4544c739564753659edc85d35a28c04b75180dd8420b",
+    "scope": "The archived manifest is unchanged. A separate restoration receipt records this verification."
+  },
+  "second_cached_check": {
+    "status": "all listed public objects verified",
+    "manifest_sha256": "b7eb891e836850b720c697f47f7b6a9dfc09c090e4562d813cefdff938949025",
+    "verified_at_utc": "2026-09-12T16:09:50.156367+00:00",
+    "files": [
+      {
+        "key": "pvdaq/parquet/pvdata/system_id=4902/year=2017/month=1/day=1/system_4902__date_2017_01_01.snappy.000.parquet",
+        "status": "verified existing",
+        "bytes": 345826
+      }
+    ],
+    "downloaded_bytes": 0,
+    "code_sha256": "63a414e61b484622259d4544c739564753659edc85d35a28c04b75180dd8420b",
+    "scope": "The archived manifest is unchanged. A separate restoration receipt records this verification."
+  },
+  "original_object_sha256": "b24b0efd3dec4e9a670f606e709780951cd45bab103745954d9a0d927293fcd8",
+  "restored_object_sha256": "b24b0efd3dec4e9a670f606e709780951cd45bab103745954d9a0d927293fcd8",
+  "original_manifest_bytes_preserved": true
+}

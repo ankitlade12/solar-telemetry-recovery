@@ -1,0 +1,77 @@
+{
+  "data_kind": "Entirely synthetic demonstration, not paper performance evidence",
+  "seed": 1289,
+  "profile": {
+    "max_iter": 30,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 10,
+    "learning_rate": 0.1
+  },
+  "contract": {
+    "site": "explicitly_synthetic",
+    "capacity_kw_dc": 10.0,
+    "latitude": 39.0,
+    "longitude": -105.0
+  },
+  "cutoff": "2020-05-01T00:00:00+00:00",
+  "fault": {
+    "start": "2020-05-04T12:01:00+00:00",
+    "pv_return": "2020-05-05T00:01:00+00:00",
+    "irradiance_return": "2020-05-05T03:01:00+00:00",
+    "mode": "gradual",
+    "backfill_spacing_minutes": 15
+  },
+  "forecasts": 2664,
+  "calibration_updates": {
+    "recency": {
+      "updates": 382,
+      "alpha_clips": 0,
+      "pending_forecasts": 5
+    },
+    "physical_availability": {
+      "updates": 382,
+      "alpha_clips": 0,
+      "pending_forecasts": 5
+    },
+    "physical_recovery": {
+      "updates": 382,
+      "alpha_clips": 0,
+      "pending_forecasts": 5
+    }
+  },
+  "python": "3.14.0",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "22.0.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "code_sha256": {
+    "examples/synthetic_replay.py": "d1f3422dfe918741ee47c2c7a9c28665fa6bb21efa80a50e1b324ca6f1be25aa",
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/baselines_v3.py": "085b0bc745d255442a86e81fc882f875f2275c675697826873957299ca89fcc1",
+    "solar_recovery/baselines_v4.py": "b5b4b09269fe0d624045900aaa7e69af7fdb07791318b9f392076d41ed49e045",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/calibration_v2.py": "56d123ad876085a6959a1b4226f1da9d16398f13af9655904177e989f3949f8e",
+    "solar_recovery/calibration_v3.py": "c8c32355bc42e07e347ec62bbb571cf46a940b314265bc61dbcd94a7043b8176",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/data_v2.py": "2f143ad98b1b96b837a8f54f35e25696c9687c96016674914a2e3c0f500b499b",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/replay_v3.py": "01733635af651b62302904e82c691e0d7b6394c67d668584bc701397b85f0af3",
+    "solar_recovery/replay_v4.py": "a142ed60715c8c31e75a785eda8709890ac77687cd6fea0d424ffe2596f3f91f",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4",
+    "research/run_annual_calibration.py": "4f13cf83e218a60ab4925ac2ed92dcba11d9e1393d67d21b73f3bff43c958d0e"
+  },
+  "artifact_sha256": {
+    "visible_features.parquet": "4a2e3654f6dd9f640e36da79c606c93f5d23a3bccddbf848f471186ebb97f22d",
+    "metrics.csv": "81d89a7a135325f1765243c41ba67302346555801d5241b0c8995c005ce59b6c",
+    "diagnostics.parquet": "e15a4592dcec23276268c7e9753185a62bbef026e05de1e8fabe017bbed23c51",
+    "forecasts.parquet": "164c4974d25fa66ddccd4964f4ae8dc79bfe66efec05356df95352cc32331651",
+    "synthetic_measurements.parquet": "672042dfee7a726ecb7ed74b0514804185c423b2b1e6723aeaec4c0d74448661"
+  }
+}

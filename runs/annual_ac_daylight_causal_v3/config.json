@@ -1,0 +1,89 @@
+{
+  "seed": 20260911,
+  "release_margin_minutes": 1,
+  "train_end": "2016-01-01T00:00Z",
+  "validation_start": "2016-02-01T00:00Z",
+  "validation_end": "2016-07-01T00:00Z",
+  "evaluation_end": "2017-01-01T00:00Z",
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "profiles": {
+    "compact": {
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 40,
+      "learning_rate": 0.05
+    },
+    "flexible": {
+      "max_iter": 250,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 40,
+      "learning_rate": 0.05
+    }
+  },
+  "imputation_neighbors": 50,
+  "imputation_rounds": 10,
+  "sites": [
+    "nist",
+    "colorado"
+  ],
+  "outage_hours": 12,
+  "restoration_gap_hours": 3,
+  "scenarios": {
+    "clean": [
+      "joint",
+      "immediate"
+    ],
+    "pv_only": [
+      "pv_only",
+      "immediate"
+    ],
+    "irradiance_only": [
+      "irradiance_only",
+      "immediate"
+    ],
+    "joint_immediate": [
+      "joint",
+      "immediate"
+    ],
+    "joint_gradual": [
+      "joint",
+      "gradual"
+    ],
+    "joint_none": [
+      "joint",
+      "none"
+    ],
+    "irradiance_first": [
+      "irradiance_first",
+      "gradual"
+    ],
+    "pv_first": [
+      "pv_first",
+      "gradual"
+    ]
+  },
+  "training_augmentation": [
+    [
+      "joint",
+      "immediate",
+      12
+    ],
+    [
+      "pv_only",
+      "none",
+      24
+    ],
+    [
+      "irradiance_first",
+      "gradual",
+      24
+    ]
+  ],
+  "selection": "Per site and method family: lowest equal-scenario, equal-horizon daylight normalized WIS in Feb-Jun 2016. SI and MI use their own validation-selected profile. All 2016 results are development.",
+  "daylight_training": true
+}

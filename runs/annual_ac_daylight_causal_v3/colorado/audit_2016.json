@@ -1,0 +1,14 @@
+{
+  "duplicate_rows_removed": 0,
+  "timestamp_source": "derived UTC: native timestamps plus seven hours; numeric catalog offset and uninterrupted local minute grid",
+  "excluded_minute_rows": 6,
+  "negative_hourly_ac_means_clipped": 7,
+  "system_id": 4,
+  "year": 2016,
+  "hours": 8784,
+  "valid_pv_hours": 8783,
+  "valid_irradiance_hours": 8782,
+  "daylight_hours": 4414,
+  "valid_daylight_pv_hours": 4413,
+  "valid_daylight_joint_hours": 4412
+}

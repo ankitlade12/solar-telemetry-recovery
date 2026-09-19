@@ -1,0 +1,14 @@
+{
+  "status": "all verifier function ASTs unchanged",
+  "parent_sha256": "77b4d4f12ada909c996bad8bfc720a92fa548c09252fdeb457b5e1316161b14a",
+  "public_verifier_sha256": "dca700d143fc4d67743baf3d39380e74dd72335e80f6e7c2735b2c32996882a9",
+  "unchanged_functions": [
+    "require",
+    "independently_score",
+    "expected_phases",
+    "expected_label_updates",
+    "verify"
+  ],
+  "changes": "Import explicit public extension protocol validator and default public-view CLI path; docstring provenance",
+  "scope": "No arithmetic, target, receipt or update-check change"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "terminal failed before output tables",
+  "reason": "Source manifest also contained a metric-catalog Parquet; first script version attempted to read it as measurements",
+  "correction": "Select only /pvdata/ objects; successful results in sibling colorado_channel_investigation_v2",
+  "scientific_outputs_used": false
+}

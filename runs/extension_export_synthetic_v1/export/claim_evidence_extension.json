@@ -1,0 +1,949 @@
+{
+  "status": "reviewed against cited artifacts",
+  "scope": "Automated unique-source-row checks; narrative and human review pending",
+  "claims": [
+    {
+      "id": "extension_001",
+      "statement": "System 10 failure/recovery summary for raw; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "raw"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_002",
+      "statement": "System 10 failure/recovery summary for rolling; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "rolling"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_003",
+      "statement": "System 10 failure/recovery summary for recency; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "recency"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_004",
+      "statement": "System 10 failure/recovery summary for physical; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "physical"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_005",
+      "statement": "System 10 failure/recovery summary for physical_availability; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "physical_availability"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_006",
+      "statement": "System 10 failure/recovery summary for physical_recovery; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "physical_recovery"
+      },
+      "values": {
+        "nwis": 0.094,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_007",
+      "statement": "System 10 failure/recovery summary for mask50; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "mask50"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_008",
+      "statement": "System 10 failure/recovery summary for aci_bounded; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "aci_bounded"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_009",
+      "statement": "System 10 failure/recovery summary for single_imputation; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "single_imputation"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_010",
+      "statement": "System 10 failure/recovery summary for multiple_imputation; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "multiple_imputation"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_011",
+      "statement": "System 10 failure/recovery summary for mi_recency; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "mi_recency"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_012",
+      "statement": "System 10 failure/recovery summary for persistence; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "persistence"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_013",
+      "statement": "System 10 failure/recovery summary for geometric_persistence; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "geometric_persistence"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_014",
+      "statement": "System 10 failure/recovery summary for previous_day; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "previous_day"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_015",
+      "statement": "System 10 failure/recovery summary for carry_forward; equal supported case/horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Summary.csv",
+      "source_sha256": "2d8c6744307106575520810208189e014819bdbc2cd4b1f6085fb0236f6daf6b",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "endpoint": "failure_recovery",
+        "method": "carry_forward"
+      },
+      "values": {
+        "nwis": 0.1,
+        "nmae": 0.05,
+        "coverage90": 0.9,
+        "nwidth90": 0.3,
+        "forecast_target_pairs": 2000,
+        "min_events_per_stratum": 29,
+        "min_cases_per_stratum": 124
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_016",
+      "statement": "System 10 recovery-minus-availability NWIS, recovery_0_6, 7-day blocks; positive is worse",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "faulted_primary",
+        "endpoint": "recovery_0_6",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 7
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "calendar_blocks": 12,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_017",
+      "statement": "System 10 recovery-minus-availability NWIS, recovery_0_6, 14-day blocks; positive is worse",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "faulted_primary",
+        "endpoint": "recovery_0_6",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 14
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "calendar_blocks": 12,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_018",
+      "statement": "System 10 recovery-minus-availability NWIS, recovery_0_6, 28-day blocks; positive is worse",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "faulted_primary",
+        "endpoint": "recovery_0_6",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 28
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "paired_rows": 500,
+        "calendar_blocks": 12,
+        "valid_replicates": 0,
+        "rejected_fraction": 1.0
+      },
+      "unavailable_source_columns": [
+        "ci_lower",
+        "ci_upper"
+      ]
+    },
+    {
+      "id": "extension_019",
+      "statement": "System 10 recovery-minus-availability NWIS, recovery_6_24, 7-day blocks; positive is worse",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "faulted_primary",
+        "endpoint": "recovery_6_24",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 7
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "calendar_blocks": 12,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_020",
+      "statement": "System 10 recovery-minus-availability NWIS, recovery_6_24, 14-day blocks; positive is worse",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "faulted_primary",
+        "endpoint": "recovery_6_24",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 14
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "calendar_blocks": 12,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_021",
+      "statement": "System 10 recovery-minus-availability NWIS, recovery_6_24, 28-day blocks; positive is worse",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "faulted_primary",
+        "endpoint": "recovery_6_24",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 28
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "paired_rows": 500,
+        "calendar_blocks": 12,
+        "valid_replicates": 0,
+        "rejected_fraction": 1.0
+      },
+      "unavailable_source_columns": [
+        "ci_lower",
+        "ci_upper"
+      ]
+    },
+    {
+      "id": "extension_022",
+      "statement": "Extension declared joint_gradual recovery contrast, 7-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "joint_gradual",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 7
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_023",
+      "statement": "Extension declared joint_gradual recovery contrast, 14-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "joint_gradual",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 14
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_024",
+      "statement": "Extension declared joint_gradual recovery contrast, 28-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "joint_gradual",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 28
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "paired_rows": 500,
+        "valid_replicates": 0,
+        "rejected_fraction": 1.0
+      },
+      "unavailable_source_columns": [
+        "ci_lower",
+        "ci_upper"
+      ]
+    },
+    {
+      "id": "extension_025",
+      "statement": "Extension declared right_aligned recovery contrast, 7-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "right_aligned",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 7
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_026",
+      "statement": "Extension declared right_aligned recovery contrast, 14-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "right_aligned",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 14
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_027",
+      "statement": "Extension declared right_aligned recovery contrast, 28-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "right_aligned",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 28
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "paired_rows": 500,
+        "valid_replicates": 0,
+        "rejected_fraction": 1.0
+      },
+      "unavailable_source_columns": [
+        "ci_lower",
+        "ci_upper"
+      ]
+    },
+    {
+      "id": "extension_028",
+      "statement": "Extension declared receipt_5min recovery contrast, 7-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "receipt_5min",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 7
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_029",
+      "statement": "Extension declared receipt_5min recovery contrast, 14-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "receipt_5min",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 14
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_030",
+      "statement": "Extension declared receipt_5min recovery contrast, 28-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "receipt_5min",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 28
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "paired_rows": 500,
+        "valid_replicates": 0,
+        "rejected_fraction": 1.0
+      },
+      "unavailable_source_columns": [
+        "ci_lower",
+        "ci_upper"
+      ]
+    },
+    {
+      "id": "extension_031",
+      "statement": "Extension declared privileged_labels recovery contrast, 7-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "privileged_labels",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 7
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_032",
+      "statement": "Extension declared privileged_labels recovery contrast, 14-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "privileged_labels",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 14
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "ci_lower": -0.002,
+        "ci_upper": 0.003,
+        "paired_rows": 500,
+        "valid_replicates": 100,
+        "rejected_fraction": 0.0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_033",
+      "statement": "Extension declared privileged_labels recovery contrast, 28-day blocks; privileged labels remain non-operational",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Contrasts.csv",
+      "source_sha256": "f757473fb47743c3480c501adc2419aa2051be6ed2a58bcd2aeabad16de8b7c6",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "pool": "privileged_labels",
+        "endpoint": "recovery",
+        "contrast": "physical_recovery_minus_physical_availability",
+        "block_days": 28
+      },
+      "values": {
+        "supported": true,
+        "difference": 0.001234,
+        "paired_rows": 500,
+        "valid_replicates": 0,
+        "rejected_fraction": 1.0
+      },
+      "unavailable_source_columns": [
+        "ci_lower",
+        "ci_upper"
+      ]
+    },
+    {
+      "id": "extension_034",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical",
+        "horizon": 1
+      },
+      "values": {
+        "nwis": 0.1,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_035",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical",
+        "horizon": 2
+      },
+      "values": {
+        "nwis": 0.1,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_036",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical",
+        "horizon": 3
+      },
+      "values": {
+        "nwis": 0.1,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_037",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical",
+        "horizon": 4
+      },
+      "values": {
+        "nwis": 0.1,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_038",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical_recovery",
+        "horizon": 1
+      },
+      "values": {
+        "nwis": 0.103,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_039",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical_recovery",
+        "horizon": 2
+      },
+      "values": {
+        "nwis": 0.103,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_040",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical_recovery",
+        "horizon": 3
+      },
+      "values": {
+        "nwis": 0.103,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    },
+    {
+      "id": "extension_041",
+      "statement": "Extension clean point gate uses equal horizon means",
+      "source_path": "runs/extension_export_synthetic_v1/synthetic/analysis/Cells.csv",
+      "source_sha256": "5d59e0d1f4ea22c7c1f6db8ee3104da79fa8836ff1adc7c68c2decec70d957d2",
+      "where": {
+        "site": "reserve10",
+        "population": "recorded_ac",
+        "case_id": "clean",
+        "endpoint": "all",
+        "method": "physical_recovery",
+        "horizon": 4
+      },
+      "values": {
+        "nwis": 0.103,
+        "n": 1000,
+        "events": 0
+      },
+      "unavailable_source_columns": []
+    }
+  ],
+  "derived_facts": {
+    "path": "runs/extension_export_synthetic_v1/export/engineering_gate_facts.csv",
+    "source_tables": [
+      "Summary",
+      "Cells"
+    ],
+    "formula": "5% relative point gate against physical; clean increase <= max(0.02*physical,0.0001); support min over raw primary cells",
+    "note": "Derived gate arithmetic is tested separately; unavailable relative effect at zero denominator is NaN, not zero"
+  }
+}

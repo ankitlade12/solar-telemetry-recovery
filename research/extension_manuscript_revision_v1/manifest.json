@@ -1,0 +1,57 @@
+{
+  "status": "whole manuscript and supporting guides integrated; review/public archives validated; documentation closure recorded separately",
+  "recorded_at_utc": "2026-09-14T00:01:17.860726+00:00",
+  "pdf_sha256": "7ccad94034c64bb9eb0b2bdbe5e23eabb92320678d1d3e0d7f53f8f39788da8f",
+  "claim_counts": {
+    "paper/claim_evidence.json": 159,
+    "paper/claim_evidence_posthoc_v2.json": 19,
+    "paper/claim_evidence_integrated.json": 304
+  },
+  "count_provenance": {
+    "runs/final_2017_v4/verification.json": "98e3913473821346969beb5d4e2da1c7a071f0ba70ceb6b2b49eec1938ad0665",
+    "runs/final_evidence_exports_v1/reproduced_tables/reproduction_comparison.json": "bbff9389b80eb752cd833a2581a9f69356806c3499912d3d4bfea2c23a15e3b8",
+    "runs/producing_extension_v1/verification.json": "1573842c56eb4348eb1ead0281a883e9186864116033d8571d0f132b9ce23a74",
+    "runs/producing_extension_reproduced_v1/reproduction_comparison.json": "b28c9effde2a9d6f677a1ff4e7be4636117f238960287ec3c660048d6f7dad32"
+  },
+  "changed_scope": [
+    "abstract",
+    "introduction",
+    "data contracts",
+    "separate experimental declaration",
+    "all four tables",
+    "both measured figures",
+    "results and sensitivities",
+    "limitations",
+    "conclusion",
+    "latency scope",
+    "submission metadata"
+  ],
+  "title_decision": "Retained receipt-time replay title; new evidence supports a controlled negative contribution, not forecasting superiority",
+  "layout_history": "First integrated draft had eight pages; concise prose and a separate plotting layout revision restored seven pages, with every numerical CSV unchanged",
+  "source_files_sha256": {
+    "paper/computational_cost.tex": "122251d8d4512b634c1957254d61b3baec02b00df42475074e8754a753d1512f",
+    "paper/conclusion.tex": "918851cfad1b85a115e8449eca10b98ab34d08908dc6a4d653e28116dfe73dce",
+    "paper/figures/receipt_timeline.pdf": "3f659f25800be628ebd3921bcea01d4faff3bb4e6e15bd9eaf83a270c48fb2d0",
+    "paper/integrated_evidence_v2/ablation_table.tex": "6d089e4965e2bc35685a01804f8ae3b78e6e64fe52b572b7305ff6a9dacb637f",
+    "paper/integrated_evidence_v2/clean_table.tex": "079e79dc7052aa7ca812a371b0fa9f88fd1f600afbaa743a908ff9fa36100b96",
+    "paper/integrated_evidence_v2/figures/failure_by_horizon.pdf": "ba40e5efd21bbfa24236c1712de28a2731b0ce0d9d349da5ed31fb086cbb70c8",
+    "paper/integrated_evidence_v2/figures/recovery_trajectory.pdf": "238ff9ea1086f596bf14575f1329bed7a283a06bd676396b3f3e7745c360c5d1",
+    "paper/integrated_evidence_v2/main_table.tex": "0167f55bef0bfaf321c7e3f37f88282fcc8538d6dc6e8af786ff2ecf36cb43a3",
+    "paper/integrated_evidence_v2/primary_table.tex": "f8b325a93599b21ad229a0be00de75ba7b7b5d4d5a3914d90014d94926a2def3",
+    "paper/manuscript.tex": "fa74061a85e9077c1413aef378c9e8e38fdaecf25c7216bde76e0c57c0375f03",
+    "paper/references.bib": "45ab07da88de1db031a6a98d8ee9ec0f92f26bb0596cefd5e835ddbe5b907ddf",
+    "paper/results.tex": "5667184dc9bd2d701b611f85182c80523c1a6ba33578176d55805339109a1a0e"
+  },
+  "remaining": [
+    "Applicable human author/release/submission decisions",
+    "Original PRD independent second-contributor reproduction not performed"
+  ],
+  "supporting_documents_sha256": {
+    "README.md": "18d867c206b240e35b7e14bbb541a3fa3293b4124478d6fd8d76992fc4920cad",
+    "ARTIFACT_GUIDE.md": "27e2763ea1e1d6c33a22e15d6312b616eb2e3c5c15a31819c94fa5f885af80b1",
+    "MODEL_CARD.md": "acc7adafc47a9e8bde8df5c86466183617af784a414636660c0145c945f0ec40",
+    "DATA_AVAILABILITY.md": "785785edb0c26dd50223088bd1717f7ce10df63bfeb6a901330dd33278429426",
+    "paper/AI_ASSISTANCE_LEDGER.md": "fc00494e5d6fa749ce74e73c2ee06c60fae07e4e49f4c147f3bd292908ca6307"
+  },
+  "documentation_closure": "research/documentation_closure_v1/manifest.json"
+}

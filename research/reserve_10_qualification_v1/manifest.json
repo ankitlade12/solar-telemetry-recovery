@@ -1,0 +1,26 @@
+{
+  "status": "diagnostics complete; admission pending interpretation",
+  "forecast_performance_inspected": false,
+  "code_sha256": "29e70e61acafdf8e65edb3e4f8fc8ef264074e61b259cd82812c8e168c97c86f",
+  "source_manifests_sha256": {
+    "data/raw/extension_v1/pvdaq_10_2016/manifest.json": "be970effce91a442cdc8742a38e805a63993c8fcf75a98ab3cb72d5972d3d7b4",
+    "data/raw/extension_v1/pvdaq_10_2017/manifest.json": "2e7cce7bbf764658bc54a1a0145c8156ef294d7b08e9508429a2da2748d22d6a"
+  },
+  "plan_sha256": "4b2ea822d7cb0fddc9df0cd72ea3ac010856c49d8478312af2627357a2c63748",
+  "clock": "fixed MST assumed for hourly diagnostics; alternative clocks checked; not operator-confirmed",
+  "excluded_units": "off-grid raw W or W/m2; bound-failures transformed kW or W/m2",
+  "outputs_sha256": {
+    "code_snapshot.py": "29e70e61acafdf8e65edb3e4f8fc8ef264074e61b259cd82812c8e168c97c86f",
+    "excluded_records.csv": "266a9f4d9a5b9b5a85a0deeb25c78b8d0fd06c90d04e2f2596e7f59c4e2503d5",
+    "hourly_diagnostic_2016_right.parquet": "5ef9ef3bdb3cde795ff6c65f6388676e652f55a3e7676dece0689b6fcae97b27",
+    "hourly_diagnostic_2016_left.parquet": "2d4b2af35570cd16776cffc52ce88c97617c95771e7e9561bb24ec5a2757cdfa",
+    "quality.csv": "85165b3c163f259d7b12631a075738ad075e9b5237874e1e56f5dc5caf1e8e00",
+    "hourly_diagnostic_2017_left.parquet": "a6ed971504bd11234ba67770beabcd01ffed6d4193695c6a2dbc8c16d4058b3f",
+    "grid_audit.csv": "972f4b84b886590d600d2678c5e97965d9b950443a05ebceedaae860841778d9",
+    "minute_2017.parquet": "a6e3ab34df3b12b28309a6ec70bd4e6236ae396537078f098e6a8148c61f464f",
+    "monthly_inventory.csv": "5eb8dbd250c31e98c17007a7b9131594021121d7040de78b206bebd9d1546451",
+    "minute_2016.parquet": "dcfb25171cd7ae2daf1035de679ca19b46b6616b4293228be608a9bb8a0e3500",
+    "clock_diagnostics.csv": "37e32abf41ed352b310dc253d1b28a5f0de2de4c6826aa7d66263d7cf8f8072a",
+    "hourly_diagnostic_2017_right.parquet": "d86bad98bb6dbc5a1df8c564181b492635f00d02087a012c0c0a9a28318eb3a5"
+  }
+}

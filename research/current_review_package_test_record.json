@@ -1,0 +1,17 @@
+{
+  "status": "three focused review-boundary tests passed; full assembly pending completed extension",
+  "recorded_at_utc": "2026-09-13T22:29:45.352557+00:00",
+  "command": "python3 -m pytest -q tests/test_current_review_package.py",
+  "result": "3 passed in 2.12s",
+  "scope": [
+    "two-human-author placeholders and private metadata exclusion",
+    "current PDF/page-image/visual-review binding with duplicate and changed page rejection",
+    "all current claim ledgers required and changed source rejection"
+  ],
+  "additional_real_check": "Current two-author seven-page visual evidence verified against all eight render artifacts; original 83 and extension 139 dependencies unchanged",
+  "limits": "No current archive assembled; no simulation or claim of completed extension scientific evidence; removal of unused re import followed the test run",
+  "files_sha256": {
+    "research/package_current_review.py": "0d46c566fab1245694b4c733218d5b0b1734f88b96b8d98f4ab4b60e06b11d32",
+    "tests/test_current_review_package.py": "c8f7385cce41f2e53edbda30a757559c3ffb6ab017f69710d1773d04a3b00e3d"
+  }
+}

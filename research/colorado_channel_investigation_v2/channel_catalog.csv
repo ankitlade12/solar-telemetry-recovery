@@ -1,0 +1,10 @@
+system_id,metric_id,sensor_name,common_name,raw_units,units,calc_scale,calc_offset,calc_details,aggregation_type,source_type,source_id,comments,standard_name
+4,314,dc_power,DC power,W,W,1.0,0.0,,avg,,,,dc_power__314
+4,315,ac_power,AC power,W,W,1.0,0.0,,avg,,,,ac_power__315
+4,319,ac_current,AC current,A,A,1.0,0.0,,avg,,,,ac_current__319
+4,327,power_factor,AC other,na,na,1.0,0.0,,avg,,,,power_factor__327
+4,318,ac_voltage,AC voltage,V,V,1.0,0.0,,avg,,,,ac_voltage__318
+4,317,dc_pos_current,DC current,A,A,1.0,0.0,,avg,,,,dc_pos_current__317
+4,313,poa_irradiance,Irradiance POA,W/m^2,W/m^2,1.0,0.0,,avg,,,,poa_irradiance__313
+4,321,module_temp_1,Temperature module,C,C,1.0,0.0,,avg,,,,module_temp_1__321
+4,316,dc_pos_voltage,DC voltage,V,V,1.0,0.0,,avg,,,,dc_pos_voltage__316

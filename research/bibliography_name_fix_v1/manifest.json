@@ -1,0 +1,31 @@
+{
+  "status": "bibliographic correction complete; no scientific results changed",
+  "source": "https://link.springer.com/article/10.1007/s00521-026-12335-1",
+  "evidence": "Publisher Cite this article formats family name Storti Gajani, given-name initial G.",
+  "change": "Correct BibTeX name boundary; IEEE text changes from G. S. Gajani to G. Storti Gajani",
+  "pages": 7,
+  "embedded_fonts": 20,
+  "layout_reference_issues": 0,
+  "claim_ledgers_checked": [
+    159,
+    19
+  ],
+  "outputs_sha256": {
+    "paper/references.bib": "45ab07da88de1db031a6a98d8ee9ec0f92f26bb0596cefd5e835ddbe5b907ddf",
+    "paper/reference_verification.json": "5f55de7092df38304ae86a7736ac85c25319bf301b3b143ca62c06f9912a9489",
+    "paper/submission_metadata.json": "a2823434a72ad67bc0f3251c9162838cba73167bc1ba565e0480c9bacf9d27dd",
+    "paper/build/manuscript.pdf": "a6afe225486ec1c40762000f76c98a4a3f759cb5c7e3687ee7f3029523fd626c",
+    "paper/build/visual_review.json": "f921a50868178fe2943a5c8dd8abed93486458a9130504382422f8fda7080b50",
+    "paper/build/final_audit.json": "faa387835f3b12c3ef4e0a0c50cde546359f6b30b1395336043696f7a8950d0b",
+    "paper/build/compilation.json": "5aba541a7f385f06d993f10cd1f57d7bae90dd83d85fc130777c45b910ce17a1"
+  },
+  "prior_files_sha256": {
+    "before/paper/references.bib": "b64895868caa83816a6738b1435beefe0bfe8bcc3975cd8a8cd76978f55d3f5c",
+    "before/paper/submission_metadata.json": "5e167c848d1b0d97fea93ff04456276638018638c513c30aed844f0c49d5d5c9",
+    "before/paper/reference_verification.json": "3a948c1d8cd4b28b7ff6cb4971e3c528d712f71e7d8db9cdb69b275a697f1ca5",
+    "before/paper/build/visual_review.json": "48b9a07cb5b6e2b6a9e75950654b6f286323e68899e1b1dbe9ca69e63cf89ce0",
+    "before/paper/build/compilation.json": "5aba541a7f385f06d993f10cd1f57d7bae90dd83d85fc130777c45b910ce17a1",
+    "before/paper/build/final_audit.json": "12194b538f0c366542c4da2fb0cd411688ccb32c11a9b0084d02b43341642106",
+    "before/paper/build/manuscript.pdf": "9f7f5f3b506dce2c6d9a1c7991de896e7d76d8c57687f541b908da133c064a9c"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "system_id": 10,
+  "year": 2016,
+  "name": "[10] NREL CIS -1",
+  "latitude": 39.7404,
+  "longitude": -105.1774,
+  "capacity_kw_dc": 1.12,
+  "specification": {
+    "pv": 423,
+    "irradiance": 421,
+    "pv_unit": "W",
+    "pv_to_kw": 0.001,
+    "utc_add_hours": 7,
+    "alignment": "unspecified instrument alignment; declared minute timestamp bins and full -1 minute sensitivity"
+  },
+  "target": "nonnegative mean of 60 recorded minute AC values in a declared timestamp bin, kW; not verified physical energy",
+  "target_transform": "max(mean(signed valid minute AC), 0); incomplete hours remain missing",
+  "hour_definition": "left-closed timestamp bins, labelled at next hour; all 60 valid distinct minutes required per channel",
+  "timestamp_source": "UTC = native +7 hours, inferred fixed MST from source qualification; not operator-confirmed",
+  "timestamp_shift_minutes": 0,
+  "variant": "primary",
+  "quality_bounds": {
+    "ac_min_kw": -0.05600000000000001,
+    "ac_max_kw": 1.6800000000000002,
+    "poa_min_w_m2": -20.0,
+    "poa_max_w_m2": 2000.0
+  },
+  "receipt_assumption": "simulated release at bin end plus at least one minute; five-minute sensitivity; no measured arrival logs",
+  "status": "separate extension input; original experiment results already exposed; no extension forecast performance inspected",
+  "source_manifest_sha256": "be970effce91a442cdc8742a38e805a63993c8fcf75a98ab3cb72d5972d3d7b4",
+  "qualification_decision_sha256": "f8e0167aace549d5d08c5b7aa9f8f53b5a2ad894efc9df4ec34294018aa6c8b3",
+  "adapter_sha256": "7bf6b30274718886b5119503c7d258946c1731c9861b1575c7786c36b96d02bb",
+  "normalizer_sha256": "2f143ad98b1b96b837a8f54f35e25696c9687c96016674914a2e3c0f500b499b",
+  "hourly_sha256": "ce229fe7ac05909d10f8c9e132f12746088525065175237ae2cb91f55d03a92d",
+  "license": "CC-BY-4.0",
+  "doi": "10.25984/1846021",
+  "limitations": [
+    "Fixed-site recorded-sample estimand; no meter certification",
+    "Nearby original Colorado site; no independent climate",
+    "Unspecified physical interval alignment retained through sensitivity; no arbitrary clock-drift bound",
+    "All seasons and low-output values retained under stated bounds; no label imputation"
+  ]
+}

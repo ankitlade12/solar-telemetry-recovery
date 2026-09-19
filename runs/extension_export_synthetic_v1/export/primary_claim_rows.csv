@@ -1,0 +1,7 @@
+site,population,pool,endpoint,contrast,block_days,supported,difference,ci_lower,ci_upper,paired_rows,calendar_blocks,valid_replicates,rejected_fraction
+reserve10,recorded_ac,faulted_primary,recovery_0_6,physical_recovery_minus_physical_availability,7,True,0.001234,-0.002,0.003,500,12,100,0.0
+reserve10,recorded_ac,faulted_primary,recovery_0_6,physical_recovery_minus_physical_availability,14,True,0.001234,-0.002,0.003,500,12,100,0.0
+reserve10,recorded_ac,faulted_primary,recovery_0_6,physical_recovery_minus_physical_availability,28,True,0.001234,,,500,12,0,1.0
+reserve10,recorded_ac,faulted_primary,recovery_6_24,physical_recovery_minus_physical_availability,7,True,0.001234,-0.002,0.003,500,12,100,0.0
+reserve10,recorded_ac,faulted_primary,recovery_6_24,physical_recovery_minus_physical_availability,14,True,0.001234,-0.002,0.003,500,12,100,0.0
+reserve10,recorded_ac,faulted_primary,recovery_6_24,physical_recovery_minus_physical_availability,28,True,0.001234,,,500,12,0,1.0

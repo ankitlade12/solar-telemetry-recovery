@@ -1,0 +1,5 @@
+system_id,year,capacity_kw_dc,selected_channel_conflicts,utc_populated_rows,selected_rows,status
+1367,2016,277.16,0,0,725547,not yet qualified: native-clock screening only; scaling/cadence/physical plausibility need review
+1367,2017,277.16,0,0,758303,not yet qualified: native-clock screening only; scaling/cadence/physical plausibility need review
+1239,2016,20.16,0,0,70331,not yet qualified: native-clock screening only; scaling/cadence/physical plausibility need review
+1239,2017,20.16,0,0,70217,not yet qualified: native-clock screening only; scaling/cadence/physical plausibility need review

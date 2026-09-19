@@ -1,0 +1,112 @@
+{
+  "hourly_sha256": "64674f757bdc60cf857f40df2209b30a2bbd58ad49f0a03c2b8ec50ccf4de78d",
+  "normalization_audit": {
+    "raw_selected_rows": 951147,
+    "conflicting_timestamp_metric_pairs": 0,
+    "identical_duplicate_rows_removed": 38,
+    "hourly_rows": 8760,
+    "valid_pv_hours": 6272,
+    "valid_irradiance_hours": 7332,
+    "valid_joint_hours": 6270,
+    "first_interval_end": "2015-01-01T06:00:00+00:00",
+    "last_interval_end": "2016-01-01T05:00:00+00:00",
+    "negative_or_nonfinite_measurements": 98227
+  },
+  "strata": {
+    "all": {
+      "hours": 8760,
+      "valid_pv_hours": 6272,
+      "valid_irradiance_hours": 7332,
+      "valid_joint_hours": 6270,
+      "pv_max_kw": 282.18,
+      "irradiance_max_w_m2": 1073.97
+    },
+    "daylight": {
+      "hours": 4404,
+      "valid_pv_hours": 3077,
+      "valid_irradiance_hours": 3675,
+      "valid_joint_hours": 3075,
+      "pv_max_kw": 282.18,
+      "irradiance_max_w_m2": 1073.97
+    },
+    "night": {
+      "hours": 4356,
+      "valid_pv_hours": 3195,
+      "valid_irradiance_hours": 3657,
+      "valid_joint_hours": 3195,
+      "pv_max_kw": 10.714116666666666,
+      "irradiance_max_w_m2": 26.729633333333332
+    }
+  },
+  "utc_months": {
+    "2015-01": {
+      "hours": 738,
+      "valid_pv_hours": 738,
+      "valid_irradiance_hours": 738
+    },
+    "2015-02": {
+      "hours": 672,
+      "valid_pv_hours": 669,
+      "valid_irradiance_hours": 669
+    },
+    "2015-03": {
+      "hours": 744,
+      "valid_pv_hours": 741,
+      "valid_irradiance_hours": 741
+    },
+    "2015-04": {
+      "hours": 720,
+      "valid_pv_hours": 635,
+      "valid_irradiance_hours": 635
+    },
+    "2015-05": {
+      "hours": 744,
+      "valid_pv_hours": 143,
+      "valid_irradiance_hours": 143
+    },
+    "2015-06": {
+      "hours": 720,
+      "valid_pv_hours": 0,
+      "valid_irradiance_hours": 685
+    },
+    "2015-07": {
+      "hours": 744,
+      "valid_pv_hours": 719,
+      "valid_irradiance_hours": 741
+    },
+    "2015-08": {
+      "hours": 744,
+      "valid_pv_hours": 612,
+      "valid_irradiance_hours": 718
+    },
+    "2015-09": {
+      "hours": 720,
+      "valid_pv_hours": 642,
+      "valid_irradiance_hours": 689
+    },
+    "2015-10": {
+      "hours": 744,
+      "valid_pv_hours": 673,
+      "valid_irradiance_hours": 683
+    },
+    "2015-11": {
+      "hours": 720,
+      "valid_pv_hours": 42,
+      "valid_irradiance_hours": 147
+    },
+    "2015-12": {
+      "hours": 744,
+      "valid_pv_hours": 652,
+      "valid_irradiance_hours": 737
+    },
+    "2016-01": {
+      "hours": 6,
+      "valid_pv_hours": 6,
+      "valid_irradiance_hours": 6
+    }
+  },
+  "negative_or_nonfinite_by_metric": {
+    "82595": 33235,
+    "82610": 64992
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "three public selection boundary tests passed; actual revised assembly pending",
+  "recorded_at_utc": "2026-09-13T22:31:41.202464+00:00",
+  "command": "python3 -m pytest -q tests/test_current_public_package.py",
+  "result": "3 passed",
+  "scope": [
+    "exact reviewed artifact and archive hashes",
+    "private PRD and copied-paper exclusion even with matching hashes"
+  ],
+  "limits": "Tests use synthetic selection fixtures; full current candidate staging, dependency verification, test suite, synthetic reproduction and ZIP reopen must still execute after completed manuscript integration",
+  "files_sha256": {
+    "research/package_current_public.py": "5874baf1a6e451ed15aaa7bff9b8987f5b7f78c05c93dbb03dc3a63a3058444b",
+    "tests/test_current_public_package.py": "9439ac53387dc1e2c3b569a5651d5ec065f6c57e064e308ffc9e9bc488da0817"
+  }
+}

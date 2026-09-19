@@ -1,0 +1,103 @@
+{
+  "status": "complete development comparison; no 2017 performance accessed",
+  "code_sha256": {
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/baselines_v3.py": "f21dd337c3c52ea00b1dbf7a61b906e931a0b4358e2b0ac400724bbaebed423d",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/calibration_v2.py": "56d123ad876085a6959a1b4226f1da9d16398f13af9655904177e989f3949f8e",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/data_v2.py": "eb11fe47b874defe2e413913b7a005fee59d7cf4f63a816108e0ae2a5424a58a",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/replay_v3.py": "01733635af651b62302904e82c691e0d7b6394c67d668584bc701397b85f0af3",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4",
+    "research/run_annual_baselines.py": "2a72886c3c3e03951971e1b3484e609f4c01321a7671ebded1607a7d3e4bbc78"
+  },
+  "config_sha256": "a0fb5e3a016e2ca2c92d8f4717385b4c7223aaced693503dcfb7320e2640652b",
+  "python": "3.14.0",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.16.3",
+    "pyarrow": "22.0.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "training": {
+    "nist": {
+      "quantile_counts": {
+        "1": {
+          "rows": 31324,
+          "unique_targets": 7831
+        },
+        "2": {
+          "rows": 31320,
+          "unique_targets": 7830
+        },
+        "3": {
+          "rows": 31316,
+          "unique_targets": 7829
+        },
+        "4": {
+          "rows": 31312,
+          "unique_targets": 7828
+        }
+      },
+      "imputation_donors": 7319,
+      "latest_donor_end": "2016-01-01T00:00:00+00:00"
+    },
+    "colorado": {
+      "quantile_counts": {
+        "1": {
+          "rows": 34848,
+          "unique_targets": 8712
+        },
+        "2": {
+          "rows": 34844,
+          "unique_targets": 8711
+        },
+        "3": {
+          "rows": 34840,
+          "unique_targets": 8710
+        },
+        "4": {
+          "rows": 34836,
+          "unique_targets": 8709
+        }
+      },
+      "imputation_donors": 8753,
+      "latest_donor_end": "2016-01-01T00:00:00+00:00"
+    }
+  },
+  "inputs": {
+    "data/processed/nist_ac_2015": {
+      "hourly_sha256": "ce1607623c5e8b5ace0b9aa4782638b6a7860594743c190932968fd55b77f003",
+      "contract_sha256": "38d1c5b85f078d6dc00bdf55b4fb2d190b0559c6cf372a0e08589c88905f4306"
+    },
+    "data/processed/nist_ac_2016": {
+      "hourly_sha256": "93861343809dc4854ba10c354a633666bfc710c995e96b8d47d306032f8b6a6e",
+      "contract_sha256": "6133e89784b18e0848e2e6f1029dc0167d8a418d465fa43ca8b0beadee347efa"
+    },
+    "data/processed/colorado_ac_2015": {
+      "hourly_sha256": "6977fa62d71d65479a3b13e8e4eeb956900cda17fe794fc726a2d76d6409d2d4",
+      "contract_sha256": "11ddbb58f0e138d85ebb2c51c5428d824e0f4f394f02206d168ee44ae266c3e6"
+    },
+    "data/processed/colorado_ac_2016": {
+      "hourly_sha256": "d5829c8337869fb61ab682adf8e8a8d4dc55f3dbfa86233c59248d0f6b6fd2f1",
+      "contract_sha256": "9b26f30c1b296b4c6bc368ad7e8949cc6ae46be5ff185c317e4c9869f67ba6ef"
+    }
+  },
+  "total_forecasts": 4497408,
+  "elapsed_seconds": 673.9869793330145,
+  "limitations": [
+    "Two geographic sites, one evaluation schedule seed, fixed 12-hour interruptions",
+    "MI Setup-2 adaptation: observed targets, joint-channel donor extension, HGB and extra causal features",
+    "MI training residual variance can underestimate uncertainty; no normal coverage guarantee",
+    "Geometric persistence is an explicit engineering approximation, not an irradiance forecast",
+    "Colorado fixed UTC offset and one-minute timestamp-bin interpretation remain assumptions",
+    "Forecasts issue HH:01 for targets ending HH+h:00: actual endpoint lead h hours minus one minute",
+    "2016 is development, including July-December diagnostics; no confirmatory significance"
+  ]
+}

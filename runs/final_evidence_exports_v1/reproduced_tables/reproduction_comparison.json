@@ -1,0 +1,64 @@
+{
+  "status": "all principal tables reproduced from verified archived forecasts",
+  "original_analysis_manifest_sha256": "70ef692dad097663e7d0f6109378779426f1df9b1e34b446ca62e684aa7e3865",
+  "comparisons": {
+    "Summary": {
+      "rows": 420,
+      "columns": 16,
+      "matched": true,
+      "original_sha256": "caa444310ff1864265b8e8dbb3e7e5c79e145637773715ef215fd40d335116b6",
+      "reproduced_sha256": "caa444310ff1864265b8e8dbb3e7e5c79e145637773715ef215fd40d335116b6"
+    },
+    "Cells": {
+      "rows": 18800,
+      "columns": 16,
+      "matched": true,
+      "original_sha256": "f3ea918732acd0d770a0bb2623132c799d26a3cd02b228fabe7b23ba14bd85cc",
+      "reproduced_sha256": "f3ea918732acd0d770a0bb2623132c799d26a3cd02b228fabe7b23ba14bd85cc"
+    },
+    "Contrasts": {
+      "rows": 1026,
+      "columns": 25,
+      "matched": true,
+      "original_sha256": "ebade96fa3288e8b4a7acd18742f58eaa0df4e7282cef7076a5ebd31bc722dc5",
+      "reproduced_sha256": "ebade96fa3288e8b4a7acd18742f58eaa0df4e7282cef7076a5ebd31bc722dc5"
+    },
+    "Support": {
+      "rows": 2320,
+      "columns": 11,
+      "matched": true,
+      "original_sha256": "b9db6a278aa36eb823c042aa1ea1e25aafc38f6b28fc41d3cefb13d456a2facb",
+      "reproduced_sha256": "b9db6a278aa36eb823c042aa1ea1e25aafc38f6b28fc41d3cefb13d456a2facb"
+    },
+    "Diagnostics": {
+      "rows": 1032,
+      "columns": 12,
+      "matched": true,
+      "original_sha256": "ab125f0d3b8f82ecd6a72cd9f358394cdf699f82df44732263e5a6390ec9a9ff",
+      "reproduced_sha256": "ab125f0d3b8f82ecd6a72cd9f358394cdf699f82df44732263e5a6390ec9a9ff"
+    },
+    "Recovery": {
+      "rows": 20160,
+      "columns": 9,
+      "matched": true,
+      "original_sha256": "7e5ecbb19003c4d72abb6d34e5c5dcbc2bcbf03f6e9dfbdad85d40d986d9941e",
+      "reproduced_sha256": "7e5ecbb19003c4d72abb6d34e5c5dcbc2bcbf03f6e9dfbdad85d40d986d9941e"
+    },
+    "UpdateActivity": {
+      "rows": 260,
+      "columns": 9,
+      "matched": true,
+      "original_sha256": "9ce304da17d3f363d6d18a78af4d80cdfc2c1a53c58c55c878004c7cbbd3fa06",
+      "reproduced_sha256": "9ce304da17d3f363d6d18a78af4d80cdfc2c1a53c58c55c878004c7cbbd3fa06"
+    },
+    "InterruptionComparison": {
+      "rows": 80,
+      "columns": 15,
+      "matched": true,
+      "original_sha256": "51c6aadc7cea411a1d399f1678373a156a1cd918487d38dc06c571fad5f6d57f",
+      "reproduced_sha256": "51c6aadc7cea411a1d399f1678373a156a1cd918487d38dc06c571fad5f6d57f"
+    }
+  },
+  "tolerance": "DataFrame structure and values; floating comparisons rtol=1e-12, atol=1e-12",
+  "scope": "Recomputes scores aggregated from archived issued forecasts and declared bootstrap; no model refitting and no claim of independent human reproduction"
+}

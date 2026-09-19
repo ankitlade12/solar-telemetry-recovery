@@ -1,0 +1,11 @@
+{
+  "paper/manuscript.tex": "ba1490a7d9e84a7f77b4c14d516ad918787e73fafabb7e779b70b6bacc45951f",
+  "paper/results.tex": "de83e6b1a2a951647507c22892eedd599aff36041d6e50f2fe169ae849b2675b",
+  "paper/references.bib": "ee7b458827df95edf1712261b6ce0bd472cb9f8bd76d725344552e42168e0349",
+  "paper/submission_metadata.json": "94349ba066ffd79d32688d507b1e20e1994c6d16c443b9247b7f3d0ac898cc32",
+  "paper/reference_verification.json": "2bbd0eae35cac8ed4eb35351afcbfff8f835cc6802ed875b72626566850a13a3",
+  "paper/build/manuscript.pdf": "06ae5c8e15fbea903fd8956ef5331d93f796a589efc14efd3fb55919cb13c8a5",
+  "paper/build/final_audit.json": "3367754780ad3cc2ff21a6dc91f92874d2c6aac565a508eb55c165531e2a9b4e",
+  "paper/build/visual_review.json": "a95859b5604bc728a71ccb99df34763e8690648dde848e85af69f6c390f8aff1",
+  "paper/build/compilation.json": "5aba541a7f385f06d993f10cd1f57d7bae90dd83d85fc130777c45b910ce17a1"
+}

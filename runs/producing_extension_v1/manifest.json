@@ -1,0 +1,767 @@
+{
+  "status": "complete frozen evaluation",
+  "freeze_sha256": "436d6fb991c1f3365c724d6b7ac17b058ddf22430096c06f16109dd697049464",
+  "config_sha256": "6abbdc278d30ed6a436bb7d4a67673ddb52793359ceff6b35263c91c652f1371",
+  "code_sha256": {
+    "solar_recovery/__init__.py": "c9ebdc235a273f400921ae3c696d09df256b1c2e1a987aed52bf3dc5061fcd83",
+    "solar_recovery/acquire.py": "3e38a5fae7f67eaa88cbae48da0c5444ed1afb2c506379724893777c28859d5a",
+    "solar_recovery/baselines_v3.py": "085b0bc745d255442a86e81fc882f875f2275c675697826873957299ca89fcc1",
+    "solar_recovery/baselines_v4.py": "b5b4b09269fe0d624045900aaa7e69af7fdb07791318b9f392076d41ed49e045",
+    "solar_recovery/calibration.py": "55f789e2af6643051dfde4ad7ef3e69a72794171c39ea6ca91c0e2f2f89098e6",
+    "solar_recovery/calibration_v2.py": "56d123ad876085a6959a1b4226f1da9d16398f13af9655904177e989f3949f8e",
+    "solar_recovery/calibration_v3.py": "c8c32355bc42e07e347ec62bbb571cf46a940b314265bc61dbcd94a7043b8176",
+    "solar_recovery/data.py": "43c0322ebf7e5c6cf285854fa4f669707ba6ec1c7e9d7885b0c2884fc589d50e",
+    "solar_recovery/data_v2.py": "2f143ad98b1b96b837a8f54f35e25696c9687c96016674914a2e3c0f500b499b",
+    "solar_recovery/metrics.py": "82cec6752878bb842b190d580d58df77c5fb1cab00e4737d14cb97ea640779ca",
+    "solar_recovery/pilot.py": "f72c51b90f3ba07d39a1efd13d7ffe5ab5f841f2f1cb045e48cec7ec59b43ab7",
+    "solar_recovery/replay.py": "16b2e53c153fb9135afb75db3796c89f16be995cefc1ea537fcd42f436de66ae",
+    "solar_recovery/replay_v3.py": "01733635af651b62302904e82c691e0d7b6394c67d668584bc701397b85f0af3",
+    "solar_recovery/replay_v4.py": "a142ed60715c8c31e75a785eda8709890ac77687cd6fea0d424ffe2596f3f91f",
+    "solar_recovery/report.py": "d374d783fda397351631ed4ade81d1f08f77526aaf4171bb9504ccc5f4673ff4",
+    "research/run_annual_baselines.py": "9bad4383e8ee17356e95903f09990f5f337d09bc5a1bae88c671bf2cb4d2203b",
+    "research/run_annual_calibration.py": "4f13cf83e218a60ab4925ac2ed92dcba11d9e1393d67d21b73f3bff43c958d0e",
+    "research/final_evaluation.py": "237316b2bc3c3d6b270ba82a198374c3c071aa25b8df5e7067e675013adaa338"
+  },
+  "python": "3.14.0",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "22.0.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "training": {
+    "reserve10/2016/primary/none": {
+      "model_sha256": "edd9efd3ac4b3c3f5db07bc5c216aa8ce4b88cb5845cb227a1dc0b20104b4e1d",
+      "quantile_counts": {
+        "1": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.1632816527808401,
+            0.22291799566358905,
+            0.26626671183925493,
+            0.2785267901267119,
+            0.28532717432266996,
+            0.2850811942822041,
+            0.28168286328664216
+          ],
+          "training_crossing_fraction": 0.4866164542294322,
+          "training_target_zero_fraction": 0.05237543453070684
+        },
+        "2": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.0966707827224504,
+            0.1674542167228033,
+            0.24808053514120998,
+            0.27280823365759815,
+            0.28136724603057806,
+            0.28640368722692006,
+            0.28636133563394234
+          ],
+          "training_crossing_fraction": 0.423117033603708,
+          "training_target_zero_fraction": 0.05237543453070684
+        },
+        "3": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.07827762288790834,
+            0.15129538122812483,
+            0.2380386268991534,
+            0.26992581389897674,
+            0.27994590407090014,
+            0.2873005675882218,
+            0.2860641639592978
+          ],
+          "training_crossing_fraction": 0.4198146002317497,
+          "training_target_zero_fraction": 0.05237543453070684
+        },
+        "4": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.0795508900859505,
+            0.14342455379230684,
+            0.22991976367154338,
+            0.2668623777890136,
+            0.27949725142761017,
+            0.28933420518962655,
+            0.2869341504717634
+          ],
+          "training_crossing_fraction": 0.41320973348783313,
+          "training_target_zero_fraction": 0.05237543453070684
+        }
+      },
+      "donor_count": 8636,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T08:00:00+00:00"
+    },
+    "reserve10/2016/right_aligned/none": {
+      "model_sha256": "fe5002fedb0ccf967fda07196526899578b1d14dc6d0d6c412b086c90c8af458",
+      "quantile_counts": {
+        "1": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.16114019887833494,
+            0.22336913610104436,
+            0.2662112142577985,
+            0.2786396256004906,
+            0.28545130833774346,
+            0.285531634856343,
+            0.28136357425072
+          ],
+          "training_crossing_fraction": 0.4802433371958285,
+          "training_target_zero_fraction": 0.05168018539976825
+        },
+        "2": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.09470084995171749,
+            0.17338580329680733,
+            0.2467158644951878,
+            0.2727530974077819,
+            0.2810497302541964,
+            0.28593049160764333,
+            0.28588530374447424
+          ],
+          "training_crossing_fraction": 0.4124565469293163,
+          "training_target_zero_fraction": 0.05168018539976825
+        },
+        "3": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.07758560118876892,
+            0.1445967843073462,
+            0.24038313890270027,
+            0.2695373788311387,
+            0.2802150992542645,
+            0.28765256747935014,
+            0.2866359251456208
+          ],
+          "training_crossing_fraction": 0.4253765932792584,
+          "training_target_zero_fraction": 0.05168018539976825
+        },
+        "4": {
+          "rows": 17260,
+          "unique_targets": 4315,
+          "quantile_prediction_std": [
+            0.07502283662100497,
+            0.13872736929762558,
+            0.22860158984537118,
+            0.2671881072975378,
+            0.2801567587140944,
+            0.28917358326488557,
+            0.2878121007353327
+          ],
+          "training_crossing_fraction": 0.39658169177288527,
+          "training_target_zero_fraction": 0.05168018539976825
+        }
+      },
+      "donor_count": 8636,
+      "latest_donor_end": "2017-01-01T00:00:00+00:00",
+      "earliest_donor_end": "2016-01-01T08:00:00+00:00"
+    }
+  },
+  "cases": {
+    "reserve10/clean": {
+      "site": "reserve10",
+      "case_id": "clean",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 731.832714832999,
+      "forecasts_sha256": "a61d3ab13e39620a4164b2de95b829c9361e7a62ace25f4be9fb7a2efa5ee7b0",
+      "features_sha256": "33cb8e0736f5f244df7f82867cfc595e4a5f1f0d93825c79faa17a90d1348c5d",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mask50": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "aci_bounded": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mi_recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/pv_only": {
+      "site": "reserve10",
+      "case_id": "pv_only",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 404.17318645800697,
+      "forecasts_sha256": "51acbf63c479fc7d2ec8507fb5b831fd5801f8552a79ae903f82482975061a63",
+      "features_sha256": "a480c78592483b41110a17029f4888db79a397d7dabe387d985939a8a0b21763",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mask50": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "aci_bounded": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mi_recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/irradiance_only": {
+      "site": "reserve10",
+      "case_id": "irradiance_only",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 128.08690516700153,
+      "forecasts_sha256": "144ffb13e7758ff29c31f2ceb15905a4e0c557aefb6843aa0d9b8d2c4325ce5a",
+      "features_sha256": "6eba82854b44788e0ceeb29d9762ab23264e24f87c23d2bf2b1d736889e1525b",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mask50": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "aci_bounded": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mi_recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/joint_immediate": {
+      "site": "reserve10",
+      "case_id": "joint_immediate",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 148.17738504198496,
+      "forecasts_sha256": "66e06b3b57a654de7cd3b0232aa64c6c209a3e6685d3cf447b89f2541b4ca6ec",
+      "features_sha256": "30f556fdbd4f9ffea6eea20c231c17cbbf4731922687a3d6237c5675d8f0a5fa",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mask50": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "aci_bounded": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mi_recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/joint_gradual": {
+      "site": "reserve10",
+      "case_id": "joint_gradual",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 199.95544266700745,
+      "forecasts_sha256": "2a28ffccfcdbd1a4d965294a8e122e356f50f34a07f1d89cb9ef598228d5cd87",
+      "features_sha256": "81bef1bab3d63690bdfc14bede4a38ad6ab5dec58a27544fe03c540bdcd174b7",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mask50": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "aci_bounded": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mi_recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/joint_none": {
+      "site": "reserve10",
+      "case_id": "joint_none",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 192.43794674999663,
+      "forecasts_sha256": "c980e747ceb6d3e9bec468bc87d2c855feebc60643d2bd569a159ccedd2537b6",
+      "features_sha256": "5869e82e5548b223e17cc5b00c0413f8fc683fb9ec1863e10216f753ab279e89",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        },
+        "recency": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        },
+        "physical": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        },
+        "physical_availability": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        },
+        "physical_recovery": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        },
+        "mask50": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        },
+        "aci_bounded": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        },
+        "mi_recency": {
+          "updates": 15648,
+          "alpha_clips": 0,
+          "pending_forecasts": 1876
+        }
+      }
+    },
+    "reserve10/irradiance_first": {
+      "site": "reserve10",
+      "case_id": "irradiance_first",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 249.29159400000935,
+      "forecasts_sha256": "92cb1adead540f3b6e9454bdb0f6c9ebedc9363de4f68b4566eb10820a3cf469",
+      "features_sha256": "579ff860dbd67516678f0947981877057b5a8f3ccfae77baa812a1b3efcc477a",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mask50": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "aci_bounded": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mi_recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/pv_first": {
+      "site": "reserve10",
+      "case_id": "pv_first",
+      "case_group": "primary",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 522480,
+      "invalid_targets": 15120,
+      "outside_period_targets": 90,
+      "elapsed_seconds": 397.11320754198823,
+      "forecasts_sha256": "2598e1f5eb6f588d94104dbca816f8e9dc84fc08859c8bcc20b3634edb5cf91e",
+      "features_sha256": "dcaa7e77e54c7cfb73c97a650d53352c6a034bd926dc2ac3c75a91c7f1538c86",
+      "calibration_updates": {
+        "rolling": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mask50": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "aci_bounded": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "mi_recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/right_aligned": {
+      "site": "reserve10",
+      "case_id": "right_aligned",
+      "case_group": "sensitivity",
+      "data_variant": "right_aligned",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": false,
+      "forecasts": 174160,
+      "invalid_targets": 5020,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 608.3023681659834,
+      "forecasts_sha256": "560dd9cf417e2f62f34bc0bf4e39a5a833d0db23f2a33d0eac0775f911c50686",
+      "features_sha256": "0bd01fb2bf3dfe8ba8c282087c2100436ec0dfb67de0039cd0eb2f06b3289649",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16980,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical": {
+          "updates": 16980,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_availability": {
+          "updates": 16980,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        },
+        "physical_recovery": {
+          "updates": 16980,
+          "alpha_clips": 0,
+          "pending_forecasts": 544
+        }
+      }
+    },
+    "reserve10/receipt_5min": {
+      "site": "reserve10",
+      "case_id": "receipt_5min",
+      "case_group": "sensitivity",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": false,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 5040,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 220.00285258400254,
+      "forecasts_sha256": "8f62e0e686c0f16582c55561c797f120a7206adb84bc0d060a1fd11a99ea22cf",
+      "features_sha256": "63b976a53b3d95ce6c8d271cb19c958d958f6a66740479a05063d758202800e8",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    },
+    "reserve10/privileged_labels": {
+      "site": "reserve10",
+      "case_id": "privileged_labels",
+      "case_group": "diagnostic",
+      "data_variant": "primary",
+      "model_training_source": "2016",
+      "model_site": "reserve10",
+      "model_ablation": "none",
+      "privileged_labels": true,
+      "inputs_equal_primary": true,
+      "forecasts": 174160,
+      "invalid_targets": 5040,
+      "outside_period_targets": 30,
+      "elapsed_seconds": 169.909664582985,
+      "forecasts_sha256": "1a2ab35f638310afd4fa324fd28c9acaa4af6dcb591a4d6b702402f354f8dd16",
+      "features_sha256": "81bef1bab3d63690bdfc14bede4a38ad6ab5dec58a27544fe03c540bdcd174b7",
+      "calibration_updates": {
+        "recency": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_availability": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        },
+        "physical_recovery": {
+          "updates": 16976,
+          "alpha_clips": 0,
+          "pending_forecasts": 548
+        }
+      }
+    }
+  },
+  "total_forecasts": 4702320,
+  "elapsed_seconds": 3450.2708211249846,
+  "interpretation": "Predeclared fixed-site evaluation and sensitivities; no distribution-free guarantee or population generalization. Wall time is shared-machine end-to-end time, not a latency benchmark."
+}

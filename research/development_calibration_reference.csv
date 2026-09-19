@@ -1,0 +1,15 @@
+site,method,nwis,eligible_reference,eligible_rank,fixed_reference
+colorado,aci_bounded,0.050177367004959464,True,2.0,False
+colorado,mask50,0.05018479794543197,True,4.0,False
+colorado,physical,0.04998233352769017,True,1.0,True
+colorado,physical_recovery,0.0499774417814441,False,,False
+colorado,raw,0.050866794573236424,True,6.0,False
+colorado,recency,0.05019560669206005,True,5.0,False
+colorado,rolling,0.05018200714796803,True,3.0,False
+nist,aci_bounded,0.05142796724014442,True,5.0,False
+nist,mask50,0.05138011491358254,True,3.0,False
+nist,physical,0.051066222837937436,True,1.0,True
+nist,physical_recovery,0.05107517494613255,False,,False
+nist,raw,0.05248686007240045,True,6.0,False
+nist,recency,0.051347220853335075,True,2.0,False
+nist,rolling,0.05140918769483145,True,4.0,False

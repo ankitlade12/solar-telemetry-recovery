@@ -1,0 +1,11 @@
+{
+  "observed_date": "2026-09-12",
+  "cpu": "Apple M4",
+  "hardware_model": "Mac16,12",
+  "logical_cpu_count": 10,
+  "physical_cpu_count": 10,
+  "installed_memory_bytes": 17179869184,
+  "installed_memory_gib": 16,
+  "source_command": "/usr/sbin/sysctl hw.model hw.ncpu hw.physicalcpu hw.memsize machdep.cpu.brand_string",
+  "scope": "Host hardware observed through read-only system queries; no claim that all cores or installed RAM were used by a run. Forecasting constrains supported thread pools to one thread."
+}

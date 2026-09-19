@@ -1,0 +1,376 @@
+[
+  {
+    "system_id": 4,
+    "year": 2016,
+    "source_manifest_sha256": "6b98512e9409d0cd73c6a7966f6a1d16250d9e06c2ad0a67a6fb822f857b3cb4",
+    "channels": {
+      "313": {
+        "sensor_name": "poa_irradiance",
+        "units": "W/m^2",
+        "rows": 527039,
+        "utc_timestamp_missing": 527039,
+        "unique_native_timestamps": 527039,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 251077,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -7999.0,
+          "0.01": -5.04399248,
+          "0.5": 2.52054,
+          "0.99": 1129.60998,
+          "1": 1494.379
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "60.0": 527037,
+          "120.0": 1
+        },
+        "rows_by_native_month": {
+          "2016-01": 44640,
+          "2016-02": 41760,
+          "2016-03": 44640,
+          "2016-04": 43200,
+          "2016-05": 44640,
+          "2016-06": 43200,
+          "2016-07": 44640,
+          "2016-08": 44640,
+          "2016-09": 43200,
+          "2016-10": 44640,
+          "2016-11": 43200,
+          "2016-12": 44639
+        }
+      },
+      "314": {
+        "sensor_name": "dc_power",
+        "units": "W",
+        "rows": 527039,
+        "utc_timestamp_missing": 527039,
+        "unique_native_timestamps": 527039,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 96266,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -5.077773,
+          "0.01": -0.047183517,
+          "0.5": 0.1272071,
+          "0.99": 951.753706,
+          "1": 1251.693
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "60.0": 527037,
+          "120.0": 1
+        },
+        "rows_by_native_month": {
+          "2016-01": 44640,
+          "2016-02": 41760,
+          "2016-03": 44640,
+          "2016-04": 43200,
+          "2016-05": 44640,
+          "2016-06": 43200,
+          "2016-07": 44640,
+          "2016-08": 44640,
+          "2016-09": 43200,
+          "2016-10": 44640,
+          "2016-11": 43200,
+          "2016-12": 44639
+        }
+      },
+      "315": {
+        "sensor_name": "ac_power",
+        "units": "W",
+        "rows": 527039,
+        "utc_timestamp_missing": 527039,
+        "unique_native_timestamps": 527039,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 4002,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -1.742258,
+          "0.01": 0.523031278,
+          "0.5": 2.978263,
+          "0.99": 880.725608,
+          "1": 1158.808
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "60.0": 527037,
+          "120.0": 1
+        },
+        "rows_by_native_month": {
+          "2016-01": 44640,
+          "2016-02": 41760,
+          "2016-03": 44640,
+          "2016-04": 43200,
+          "2016-05": 44640,
+          "2016-06": 43200,
+          "2016-07": 44640,
+          "2016-08": 44640,
+          "2016-09": 43200,
+          "2016-10": 44640,
+          "2016-11": 43200,
+          "2016-12": 44639
+        }
+      }
+    }
+  },
+  {
+    "system_id": 1200,
+    "year": 2016,
+    "source_manifest_sha256": "51c4e5bbc914c863e4042bb78127b0b1269685b07470aba7dd6f1cc69a1216f9",
+    "channels": {
+      "2751": {
+        "sensor_name": "ac_power",
+        "units": "W",
+        "rows": 110139,
+        "utc_timestamp_missing": 110139,
+        "unique_native_timestamps": 110139,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 34,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -40.0,
+          "0.01": 20.0,
+          "0.5": 20.0,
+          "0.99": 42420.0,
+          "1": 48080.0
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "300.0": 98269,
+          "180.0": 11865,
+          "125.0": 2,
+          "175.0": 1
+        },
+        "rows_by_native_month": {
+          "2016-01": 13674,
+          "2016-02": 8352,
+          "2016-03": 8928,
+          "2016-04": 8641,
+          "2016-05": 8928,
+          "2016-06": 8624,
+          "2016-07": 8928,
+          "2016-08": 8928,
+          "2016-09": 8640,
+          "2016-10": 8928,
+          "2016-11": 8640,
+          "2016-12": 8928
+        }
+      },
+      "2752": {
+        "sensor_name": "dc_power",
+        "units": "W",
+        "rows": 0,
+        "utc_timestamp_missing": 0,
+        "unique_native_timestamps": 0,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 0,
+        "nonfinite_values": 0,
+        "value_quantiles": {},
+        "dominant_unique_timestamp_steps_seconds": {},
+        "rows_by_native_month": {}
+      },
+      "2753": {
+        "sensor_name": "poa_irradiance",
+        "units": "W/m^2",
+        "rows": 0,
+        "utc_timestamp_missing": 0,
+        "unique_native_timestamps": 0,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 0,
+        "nonfinite_values": 0,
+        "value_quantiles": {},
+        "dominant_unique_timestamp_steps_seconds": {},
+        "rows_by_native_month": {}
+      },
+      "4197": {
+        "sensor_name": "ac_power_metered_kW",
+        "units": "W",
+        "rows": 110139,
+        "utc_timestamp_missing": 110139,
+        "unique_native_timestamps": 110139,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 34,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -0.04,
+          "0.01": 0.02,
+          "0.5": 0.02,
+          "0.99": 42.42,
+          "1": 48.08
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "300.0": 98269,
+          "180.0": 11865,
+          "125.0": 2,
+          "175.0": 1
+        },
+        "rows_by_native_month": {
+          "2016-01": 13674,
+          "2016-02": 8352,
+          "2016-03": 8928,
+          "2016-04": 8641,
+          "2016-05": 8928,
+          "2016-06": 8624,
+          "2016-07": 8928,
+          "2016-08": 8928,
+          "2016-09": 8640,
+          "2016-10": 8928,
+          "2016-11": 8640,
+          "2016-12": 8928
+        }
+      }
+    }
+  },
+  {
+    "system_id": 4902,
+    "year": 2016,
+    "source_manifest_sha256": "cf4e935bfd6c64433f8d6db982ff86684efef9b96b5112b3fb38c1b24f2db4de",
+    "channels": {
+      "82595": {
+        "sensor_name": "RefCell1_Wm2_Avg",
+        "units": "W/m^2",
+        "rows": 525859,
+        "utc_timestamp_missing": 0,
+        "unique_native_timestamps": 525847,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 0,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": 0.077,
+          "0.01": 0.114,
+          "0.5": 4.48,
+          "0.99": 1044.0,
+          "1": 1373.0
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "60.0": 525361,
+          "120.0": 219,
+          "180.0": 117,
+          "240.0": 57
+        },
+        "rows_by_native_month": {
+          "2016-01": 44645,
+          "2016-02": 41760,
+          "2016-03": 44612,
+          "2016-04": 42886,
+          "2016-05": 44574,
+          "2016-06": 43177,
+          "2016-07": 44638,
+          "2016-08": 44580,
+          "2016-09": 43148,
+          "2016-10": 44022,
+          "2016-11": 43177,
+          "2016-12": 44640
+        }
+      },
+      "82607": {
+        "sensor_name": "InvPAC_kW_Avg",
+        "units": "kW",
+        "rows": 474075,
+        "utc_timestamp_missing": 0,
+        "unique_native_timestamps": 474063,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 9626,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -999.0,
+          "0.01": -999.0,
+          "0.5": 0.0,
+          "0.99": 231.8,
+          "1": 258.7
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "60.0": 473574,
+          "120.0": 214,
+          "180.0": 117,
+          "240.0": 57
+        },
+        "rows_by_native_month": {
+          "2016-01": 44645,
+          "2016-02": 41760,
+          "2016-03": 44603,
+          "2016-04": 42886,
+          "2016-05": 44574,
+          "2016-06": 29615,
+          "2016-07": 6425,
+          "2016-08": 44580,
+          "2016-09": 43148,
+          "2016-10": 44022,
+          "2016-11": 43177,
+          "2016-12": 44640
+        }
+      },
+      "82610": {
+        "sensor_name": "InvPDC_kW_Avg",
+        "units": "kW",
+        "rows": 474075,
+        "utc_timestamp_missing": 0,
+        "unique_native_timestamps": 474063,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 9626,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -999.0,
+          "0.01": -999.0,
+          "0.5": 0.0,
+          "0.99": 255.5,
+          "1": 289.6
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "60.0": 473574,
+          "120.0": 214,
+          "180.0": 117,
+          "240.0": 57
+        },
+        "rows_by_native_month": {
+          "2016-01": 44645,
+          "2016-02": 41760,
+          "2016-03": 44603,
+          "2016-04": 42886,
+          "2016-05": 44574,
+          "2016-06": 29615,
+          "2016-07": 6425,
+          "2016-08": 44580,
+          "2016-09": 43148,
+          "2016-10": 44022,
+          "2016-11": 43177,
+          "2016-12": 44640
+        }
+      },
+      "82633": {
+        "sensor_name": "PwrMtrP_kW_Avg",
+        "units": "kW",
+        "rows": 525859,
+        "utc_timestamp_missing": 0,
+        "unique_native_timestamps": 525847,
+        "conflicting_native_timestamp_pairs": 0,
+        "negative_values": 14452,
+        "nonfinite_values": 0,
+        "value_quantiles": {
+          "0": -0.6779999999999999,
+          "0.01": -0.38,
+          "0.5": 0.0,
+          "0.99": 230.9,
+          "1": 258.3
+        },
+        "dominant_unique_timestamp_steps_seconds": {
+          "60.0": 525361,
+          "120.0": 219,
+          "180.0": 117,
+          "240.0": 57
+        },
+        "rows_by_native_month": {
+          "2016-01": 44645,
+          "2016-02": 41760,
+          "2016-03": 44612,
+          "2016-04": 42886,
+          "2016-05": 44574,
+          "2016-06": 43177,
+          "2016-07": 44638,
+          "2016-08": 44580,
+          "2016-09": 43148,
+          "2016-10": 44022,
+          "2016-11": 43177,
+          "2016-12": 44640
+        }
+      }
+    }
+  }
+]

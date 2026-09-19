@@ -1,0 +1,11 @@
+{
+  "status": "passed synthetic benchmark-workload and existing packaging tests",
+  "command": "MPLCONFIGDIR=/private/tmp/solar-final-test-mpl python3 -m pytest -q tests/test_inference_benchmark.py tests/test_package_submission.py",
+  "passed": 4,
+  "seconds": 3.96,
+  "test_sources_sha256": {
+    "tests/test_inference_benchmark.py": "eb9aec404ac4afbfa898f1fbead6793ba8c89a2ee2b088fe1cc8c413fe17404c",
+    "tests/test_package_submission.py": "10ad3e44485c54efe82342f33ff4507c2576f95260a115b2bdf4d873c8436be7"
+  },
+  "scope": "Exercises the four-horizon call and synthetic dense calibration pool; does not establish measured model latency. A subsequent docstring/scope wording correction changed no executed behavior."
+}

@@ -1,0 +1,41 @@
+{
+  "system_id": 4,
+  "year": 2016,
+  "name": "[4] NREL x-Si -1",
+  "latitude": 39.7406,
+  "longitude": -105.1774,
+  "capacity_kw_dc": 1.0,
+  "specification": {
+    "pv": 315,
+    "irradiance": 313,
+    "pv_unit": "W",
+    "pv_to_kw": 0.001,
+    "utc_add_hours": 7,
+    "alignment": "instrument alignment unspecified; timestamp-bin target definition, one-minute sensitivity required"
+  },
+  "target": "nonnegative component of the hourly mean of recorded AC real-power samples, kW",
+  "target_transform": "max(mean(valid minute AC measurements), 0); missing means remain missing",
+  "irradiance": "mean recorded POA irradiance; small negative sensor readings retained, not treated as delivery failure",
+  "hour_definition": "60 valid distinct source minute records in left-closed timestamp bins, labelled at the next hour",
+  "quality_bounds": {
+    "ac_min_kw": -0.05,
+    "ac_max_kw": 1.5,
+    "poa_min_w_m2": -20.0,
+    "poa_max_w_m2": 2000.0
+  },
+  "timestamp_source": "derived UTC: native timestamps plus seven hours; numeric catalog offset and uninterrupted local minute grid",
+  "alignment": "instrument alignment unspecified; timestamp-bin target definition, one-minute sensitivity required",
+  "receipt_assumption": "Operational receipts unavailable. For alignment sensitivity, impose at least one-minute release margin; current artifact is data only.",
+  "status": "development data; Colorado UTC/interval convention is a qualified assumption requiring sensitivity analysis",
+  "source_manifest_sha256": "6b98512e9409d0cd73c6a7966f6a1d16250d9e06c2ad0a67a6fb822f857b3cb4",
+  "hourly_sha256": "d5829c8337869fb61ab682adf8e8a8d4dc55f3dbfa86233c59248d0f6b6fd2f1",
+  "adapter_sha256": "eb11fe47b874defe2e413913b7a005fee59d7cf4f63a816108e0ae2a5424a58a",
+  "license": "CC-BY-4.0",
+  "doi": "10.25984/1846021",
+  "limitations": [
+    "quality bounds are explicit engineering choices requiring sensitivity analysis",
+    "AC sensor and nonnegative-component target differ from the original inverter-DC pilot",
+    "catalog QA flags remain applicable; high completeness alone is not metrological validation",
+    "no forecast performance or untouched evaluation result is reported by this adapter"
+  ]
+}

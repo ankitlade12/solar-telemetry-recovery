@@ -1,0 +1,9 @@
+{
+  "source_csv_sha256": "72d85f174e09aed40065fc5571b9386d2a328ef30f7a0e5303e67134ddf8fdd2",
+  "transform": "primary-variant monthly geometric-daylight mean PV divided by 270.7 kW (NIST) or 1 kW (Colorado); separate years; no fitted model",
+  "outputs": {
+    "recorded_power_regime.pdf": "dbee3b0dfa54906154387a9f5506b2d220b5a77ded94beea402736738e3bc79e",
+    "recorded_power_regime.png": "c18ed8f42ad144b8f1e8ce926dbc05c75696bdac13f48b609abe6078891bafb9",
+    "Staff_Review_Diagnostics.xlsx": "4ae4a32d2bcd80662e43bceaf2e96ba3bc3850d9de6d20a3a1c22cff125786f9"
+  }
+}

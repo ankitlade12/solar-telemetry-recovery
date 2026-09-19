@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-09-13T15:27:46.617145+00:00",
+  "event": "First assistant inspection of completed verified final forecasting-performance tables in this session",
+  "tables_inspected": [
+    "Contrasts.csv: four primary seven-day contrasts",
+    "Summary.csv: failure_recovery recorded_ac means"
+  ],
+  "analysis_manifest_sha256": "70ef692dad097663e7d0f6109378779426f1df9b1e34b446ca62e684aa7e3865",
+  "verification_sha256": "98e3913473821346969beb5d4e2da1c7a071f0ba70ceb6b2b49eec1938ad0665",
+  "interpretation": "No clear recovery benefit in three main intervals; small adverse later-recovery difference at Colorado. Full findings review remains ongoing.",
+  "rules": "No silent changes to models, frozen protocol, estimands or analysis after this exposure."
+}

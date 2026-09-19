@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-09-12T18:02:45.717095+00:00",
+  "scope": "Ten completed primary cases; phase/clock metadata only. No predictions, actual target values or score columns read. Full final verification still pending.",
+  "checks": [
+    {
+      "site": "nist",
+      "case": "pv_only",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "nist",
+      "case": "irradiance_only",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "nist",
+      "case": "joint_gradual",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "nist",
+      "case": "pv_first",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "nist",
+      "case": "irradiance_first",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "colorado",
+      "case": "pv_only",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "colorado",
+      "case": "irradiance_only",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "colorado",
+      "case": "joint_gradual",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "colorado",
+      "case": "pv_first",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    },
+    {
+      "site": "colorado",
+      "case": "irradiance_first",
+      "rows": 522480,
+      "status": "all scheduled phases and time eligibility matched"
+    }
+  ],
+  "verifier_sha256": "77b4d4f12ada909c996bad8bfc720a92fa548c09252fdeb457b5e1316161b14a"
+}

@@ -1,0 +1,7 @@
+site,phase,minimum_pairs,maximum_pairs,minimum_events,maximum_events
+nist,recovery_0_6,127,150,29,35
+nist,recovery_6_24,427,449,47,47
+colorado,recovery_0_6,124,138,30,34
+colorado,recovery_6_24,430,444,46,46
+reserve10,recovery_0_6,120,135,27,33
+reserve10,recovery_6_24,412,429,45,45

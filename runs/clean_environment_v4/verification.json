@@ -1,0 +1,75 @@
+{
+  "status": "passed clean-environment tests and exact synthetic reproduction",
+  "commands": [
+    {
+      "command": [
+        "/private/tmp/solar-recovery-repro-v4/bin/python",
+        "-m",
+        "pip",
+        "freeze"
+      ],
+      "returncode": 0,
+      "log_sha256": "0a3d832ff0316fb0a0b6e0891ed15b39e20efb3991fbb66d011ffb88e172c23b"
+    },
+    {
+      "command": [
+        "/private/tmp/solar-recovery-repro-v4/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0,
+      "log_sha256": "153d577748394773909634b700304c4cf950af33552cf54ed54b6dd5c9e0a2be"
+    },
+    {
+      "command": [
+        "/private/tmp/solar-recovery-repro-v4/bin/python",
+        "-m",
+        "examples.synthetic_replay",
+        "--output",
+        "runs/clean_environment_v4/clean_example"
+      ],
+      "returncode": 0,
+      "log_sha256": "d5c25650762ab287351cc7de1c96199fe982a99d02f381d9633d6fc31c241eee"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-m",
+        "examples.synthetic_replay",
+        "--output",
+        "runs/clean_environment_v4/reference_example"
+      ],
+      "returncode": 0,
+      "log_sha256": "e4b1ffcc33c9ba42b9f120da5b9031b7e96ea6d50edce1cc76e28b8f99b646f7"
+    }
+  ],
+  "comparisons": {
+    "synthetic_measurements.parquet": {
+      "rows": 1081,
+      "exact_dataframe_equality": true,
+      "clean_sha256": "672042dfee7a726ecb7ed74b0514804185c423b2b1e6723aeaec4c0d74448661",
+      "reference_sha256": "672042dfee7a726ecb7ed74b0514804185c423b2b1e6723aeaec4c0d74448661"
+    },
+    "visible_features.parquet": {
+      "rows": 333,
+      "exact_dataframe_equality": true,
+      "clean_sha256": "4a2e3654f6dd9f640e36da79c606c93f5d23a3bccddbf848f471186ebb97f22d",
+      "reference_sha256": "4a2e3654f6dd9f640e36da79c606c93f5d23a3bccddbf848f471186ebb97f22d"
+    },
+    "forecasts.parquet": {
+      "rows": 2664,
+      "exact_dataframe_equality": true,
+      "clean_sha256": "164c4974d25fa66ddccd4964f4ae8dc79bfe66efec05356df95352cc32331651",
+      "reference_sha256": "164c4974d25fa66ddccd4964f4ae8dc79bfe66efec05356df95352cc32331651"
+    },
+    "diagnostics.parquet": {
+      "rows": 1998,
+      "exact_dataframe_equality": true,
+      "clean_sha256": "e15a4592dcec23276268c7e9753185a62bbef026e05de1e8fabe017bbed23c51",
+      "reference_sha256": "e15a4592dcec23276268c7e9753185a62bbef026e05de1e8fabe017bbed23c51"
+    }
+  },
+  "verifier_sha256": "a17c97e719737e06623214d3f5bbbc80fd471af8294786c9c7ac094128ad806b",
+  "limitations": "Automated fresh dependency installation on the same machine and Python version; not a second human or full-data reproduction"
+}
