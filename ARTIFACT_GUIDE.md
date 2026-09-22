@@ -1,8 +1,8 @@
 # Reproducing the solar telemetry recovery study
 
-Run all commands from the repository root in the environment described in the [README](README.md). Use fresh output directories: experiment and analysis commands intentionally refuse to overwrite recorded results. The [paper](paper/build/manuscript.pdf) reports the original study and the later producing-system replication separately.
+Run all commands from the repository root in the environment described in the [README](README.md). Use fresh output directories: experiment and analysis commands intentionally refuse to overwrite recorded results. The locally retained paper (`paper/build/manuscript.pdf`) reports the original study and the later producing-system replication separately.
 
-The Git repository includes code, the manuscript, analysis tables, and provenance records. Raw and normalized data, fitted models (`.pkl`), and per-origin arrays (`.parquet`) remain local. The saved-forecast verification and reproduction commands below require those artifacts; they cannot run from a source-only checkout without restoring the required inputs or recreating the runs. The synthetic example does not require measured-data artifacts.
+The Git repository includes code, analysis tables, and provenance records. The entire `paper/` directory (PDF, LaTeX source, presentation exports, and preparation records) is retained locally and intentionally excluded from GitHub. Manuscript commands and historical links into that directory require the local author workspace. Raw and normalized data, fitted models (`.pkl`), and per-origin arrays (`.parquet`) remain local. The saved-forecast verification and reproduction commands below require those artifacts; they cannot run from a source-only checkout without restoring the required inputs or recreating the runs. The synthetic example does not require measured-data artifacts.
 
 ## Evidence map
 

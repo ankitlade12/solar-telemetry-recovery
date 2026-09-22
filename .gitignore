@@ -8,10 +8,10 @@ data/samples/
 data/processed/
 data/metadata/
 
-# Generated distribution copies and manuscript build output.
+# Generated distribution copies and local-only manuscript.
 dist/
-paper/build/*
-!paper/build/manuscript.pdf
+/paper/
+/runs/staff_review_20260921_evidence/
 
 # Large local research artifacts; retain their manifests and analysis tables.
 *.parquet

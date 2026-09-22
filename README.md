@@ -1,8 +1,8 @@
 # Receipt-Time Replay for Probabilistic Solar Forecasting During Telemetry Recovery
 
-Research code, manuscript, and experimental evidence for probabilistic photovoltaic forecasting when measurements and calibration labels arrive late.
+Research code and experimental evidence for probabilistic photovoltaic forecasting when measurements and calibration labels arrive late.
 
-[Read the paper](paper/build/manuscript.pdf) · [Reproduce the experiments](ARTIFACT_GUIDE.md) · [Data and attribution](DATA_AVAILABILITY.md)
+[Reproduce the experiments](ARTIFACT_GUIDE.md) · [Data and attribution](DATA_AVAILABILITY.md)
 
 ## Research question
 
@@ -29,7 +29,7 @@ Detailed results: [original study](research/FINAL_FINDINGS.md), [replication](re
 
 | Path | Contents |
 | --- | --- |
-| [`paper/`](paper/README.md) | LaTeX manuscript, bibliography, tables, figures, and claim-to-evidence mappings |
+| `paper/` (local only, excluded from Git) | Author manuscript, bibliography, presentation exports, and claim-to-evidence mappings |
 | `solar_recovery/` | Data processing, receipt-time replay, forecasting, calibration, and scoring |
 | `configs/` | Experiment configurations |
 | [`research/`](research/README.md) | Frozen protocols, analysis commands, source qualification, and findings |
@@ -56,7 +56,9 @@ python -m examples.synthetic_replay --output runs/my_synthetic_example
 
 The example uses entirely synthetic measurements and is not evidence for the paper's findings. Use a new output directory for each run.
 
-## Reproducing the paper
+## Reproducing the paper locally
+
+The manuscript PDF, LaTeX source, and preparation files are intentionally excluded from GitHub. These commands require the separately retained local `paper/` directory as well as the run artifacts. Historical documentation may reference local manuscript paths that are absent from a Git checkout.
 
 With the verified local run artifacts available, regenerate the four tables and two measured figures without refitting:
 
@@ -71,10 +73,10 @@ To build the manuscript, install a TeX distribution providing `pdflatex` and `bi
 ```sh
 python -m pip install -r paper/requirements-paper.txt
 python paper/build.py
-python paper/audit.py --final
+python paper/audit.py --final --named
 ```
 
-The output is [`paper/build/manuscript.pdf`](paper/build/manuscript.pdf). After manuscript changes, follow the [paper instructions](paper/README.md) to inspect the rendered pages and refresh the matching review records.
+The local output is `paper/build/manuscript.pdf`. After manuscript changes, follow the locally retained `paper/README.md` to inspect the rendered pages and refresh the matching review records.
 
 ## Data and licensing
 
