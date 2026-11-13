@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "status": "declared before new-year forecast performance",
+  "selection": "C10 2018/2019 failed qualification; 2021 and 2022 selected for near-complete public daily-file availability before inspecting measurements or forecast errors",
+  "training_year": 2021,
+  "evaluation_year": 2022,
+  "quality_rule": "Both years: every month >=70% complete paired daylight hours and <=10% near-idle bright fraction; source UTC must be present and nonconflicting; preserve rejected sources",
+  "model": "Same fixed flexible HGB hyperparameters and three training augmentations; no evaluation-based tuning",
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "evaluation": "February-December after January calibration warmup and four-hour boundary purge",
+  "cases": [
+    "clean",
+    "joint_gradual",
+    "joint_immediate",
+    "joint_none",
+    "pv_only",
+    "irradiance_only",
+    "pv_first",
+    "irradiance_first"
+  ],
+  "methods": [
+    "raw",
+    "physical_availability",
+    "physical_recovery"
+  ],
+  "shrinkage": 50,
+  "alignment_sensitivity": "Repeat joint_gradual with minute-end alignment including refit",
+  "inference": "Same equal case/horizon paired calendar-block bootstrap 7/14/28 days; fixed-site new-year extension, no independent climate claim",
+  "scope": "Prospectively declared internal extension after original-study exposure; not public preregistration"
+}

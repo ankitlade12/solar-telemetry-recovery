@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-15",
+  "status": "post-review exploratory protocol; public prospective registration not claimed",
+  "known_exposure": "All original 2017 results and C10 joint-gradual shrinkage 50/10/1 are already inspected. No 2018 forecast performance inspected.",
+  "primary_systems": [
+    "nist",
+    "reserve10"
+  ],
+  "shrinkage_constants": [
+    50,
+    10,
+    1
+  ],
+  "primary_cases": [
+    "clean",
+    "pv_only",
+    "irradiance_only",
+    "joint_immediate",
+    "joint_gradual",
+    "joint_none",
+    "irradiance_first",
+    "pv_first"
+  ],
+  "statistical_plan": {
+    "estimand": "equal scenario/horizon mean NWIS; paired original row eligibility",
+    "blocks_days": [
+      7,
+      14,
+      28
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 20261015,
+    "equivalence": "Post-hoc symmetric availability-relative margins 5%, 1%, 0.5%; confidence-interval inclusion with 95% intervals is conservative versus usual 90% TOST; 5% original physical gate is not treated as prespecified equivalence",
+    "multiplicity": "Simultaneous Bonferroni 98.75% intervals for four producing-site/phase contrasts; block-length sensitivity; no selected significance claims"
+  },
+  "feature_plan": {
+    "families": [
+      "observed recovery age continuous",
+      "visible history restoration",
+      "receipt dynamics",
+      "calibration-label availability"
+    ],
+    "entry_points": [
+      "calibration matching",
+      "base quantile forecasts"
+    ],
+    "selection": "fixed ablation matrix; no test-based feature selection"
+  },
+  "fault_plan": {
+    "types": [
+      "weather-correlated duration-variable",
+      "weather-independent duration-variable matched event count"
+    ],
+    "duration_hours": "lognormal median12 sigma0.9 clipped2..96",
+    "receipt_jitter_minutes": "exponential mean5 clipped60",
+    "packet_loss_probability": 0.03,
+    "duplicates_probability": 0.02,
+    "reconnect_probability": 0.25,
+    "weather_proxy": "observed POA / max(100,1000*solar_sine) in fault generator only; not a claim of a physical storm mechanism",
+    "seed": 20261015
+  },
+  "decision_plan": {
+    "loss": "cost_under*max(y-q,0)+cost_over*max(q-y,0), divided by DC capacity",
+    "ratios_under_over": [
+      1,
+      4,
+      9
+    ],
+    "quantiles": [
+      0.5,
+      0.8,
+      0.9
+    ],
+    "q80": "linear interpolation between issued q75 and q90, labeled interpolation",
+    "scope": "illustrative one-hour energy commitment; no realized market prices, storage or joint-trajectory claim"
+  },
+  "additional_sources": {
+    "NIST_2018": "attempt acquisition; require each month >=70% paired daylight and near-idle diagnostics before forecasts; retain failed screen",
+    "independent_sites": "public AC and POA data, metadata and cadence qualification before any forecasting; preserve failures"
+  },
+  "public_data_requirement": "Archived NWP must identify initialization and publication latency. Reanalysis is not a forecast. Receipt/backfill logs require measurement and reception timestamps; do not infer them from gaps."
+}

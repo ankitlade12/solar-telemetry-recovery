@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "forecast_performance_inspected": false,
+  "amendment": "Before any 2021/2022 model fitting, exclude all observations at a UTC/channel key when raw values conflict. Require complete 60-sample hours after exclusion and unchanged monthly admission thresholds. Preserve excluded source rows. Original failed qualification remains retained.",
+  "rationale": "No defensible choice between conflicting measurements; missing-data treatment preserves uncertainty instead of selecting favorable values."
+}

@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-15",
+  "reason": "A positive jitter on every packet makes currentness identically false at HH:01; unsuitable for a recovery-state mechanism test. Verified empirically before examining variant score improvements.",
+  "correction": "Apply exponential jitter to 30% of delivered packets, retain 70% timely. Keep 3% packet loss, 2% duplicates and other declared parameters.",
+  "old_runs": "Preserved as an always-stale stress diagnostic; excluded from the primary revision stress comparison. Original joint-gradual feature experiments remain usable.",
+  "status": "post-review design correction; exploratory"
+}

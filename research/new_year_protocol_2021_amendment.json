@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-15",
+  "status": "declared before any new-year forecast performance",
+  "selection": "2021 passes all-month source qualification; 2022 fails May-July and remains excluded. Earlier 2018 and 2019 failures retained.",
+  "training": "Reuse unchanged archived 2016 quantile models; no refit or new hyperparameter selection",
+  "evaluation_year": 2021,
+  "warmup": "January 2021; evaluation February-December, with four-hour purge",
+  "cases": "All eight original primary cases plus full minute-end joint-gradual alignment sensitivity using archived corresponding 2016 model",
+  "interpretation": "New evaluation year at same C10 system under model aging, not a new location or climate; prospective internal declaration after original 2017 exposure; public preregistration not claimed",
+  "inputs": "data/processed/review_revision_20261015/reserve10_2021; original 2016 model archives"
+}
